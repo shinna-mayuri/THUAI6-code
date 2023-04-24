@@ -2,4 +2,7 @@
 CAPI/cpp/
 CAPI/proto/
 CAPI/python/proto/
+CAPI/python/PyAPI/__pycache__/
+CAPI/python/logs/
 win64/
+video.thuaipb
