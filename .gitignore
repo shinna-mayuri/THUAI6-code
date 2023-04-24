@@ -1,0 +1,5 @@
+!/CAPI/python/PyAPI/AI.py
+CAPI/cpp/
+CAPI/proto/
+CAPI/python/proto/
+win64/

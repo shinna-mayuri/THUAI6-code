@@ -1,0 +1,1044 @@
+[api 1] [21:35:45.116] [INFO] === AI.play() ===
+[api 1] [21:35:45.116] [INFO] StartTimer: 21:35:45.116598
+[api 1] [21:35:45.117] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 1.005ms
+[api 1] [21:35:45.117] [INFO] Time elapsed: 1.005ms
+[api 1] [21:35:45.163] [INFO] === AI.play() ===
+[api 1] [21:35:45.163] [INFO] StartTimer: 21:35:45.163268
+[api 1] [21:35:45.163] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 0.0ms
+[api 1] [21:35:45.164] [INFO] Time elapsed: 0.0ms
+[api 1] [21:35:45.210] [INFO] === AI.play() ===
+[api 1] [21:35:45.211] [INFO] StartTimer: 21:35:45.210884
+[api 1] [21:35:45.213] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 2.679ms
+[api 1] [21:35:45.213] [INFO] Time elapsed: 2.679ms
+[api 1] [21:35:45.256] [INFO] === AI.play() ===
+[api 1] [21:35:45.262] [INFO] StartTimer: 21:35:45.256434
+[api 1] [21:35:45.269] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 12.87ms
+[api 1] [21:35:45.285] [INFO] Time elapsed: 28.876ms
+[api 1] [21:35:45.333] [INFO] === AI.play() ===
+[api 1] [21:35:45.349] [INFO] StartTimer: 21:35:45.333998
+[api 1] [21:35:45.380] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 46.567ms
+[api 1] [21:35:45.382] [INFO] Time elapsed: 48.568ms
+[api 1] [21:35:45.419] [INFO] === AI.play() ===
+[api 1] [21:35:45.424] [INFO] StartTimer: 21:35:45.419854
+[api 1] [21:35:45.438] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 18.288ms
+[api 1] [21:35:45.463] [INFO] Time elapsed: 43.512ms
+[api 1] [21:35:45.510] [INFO] === AI.play() ===
+[api 1] [21:35:45.517] [INFO] StartTimer: 21:35:45.510501
+[api 1] [21:35:45.521] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 10.593ms
+[api 1] [21:35:45.540] [INFO] Time elapsed: 30.132ms
+[api 1] [21:35:45.587] [INFO] === AI.play() ===
+[api 1] [21:35:45.605] [INFO] StartTimer: 21:35:45.585999
+[api 1] [21:35:45.616] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 30.019ms
+[api 1] [21:35:45.636] [INFO] Time elapsed: 50.836ms
+[api 1] [21:35:45.666] [INFO] === AI.play() ===
+[api 1] [21:35:45.670] [INFO] StartTimer: 21:35:45.666527
+[api 1] [21:35:45.674] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 7.999ms
+[api 1] [21:35:45.691] [INFO] Time elapsed: 24.005ms
+[api 1] [21:35:45.741] [INFO] === AI.play() ===
+[api 1] [21:35:45.766] [INFO] StartTimer: 21:35:45.741106
+[api 1] [21:35:45.772] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 31.001ms
+[api 1] [21:35:45.792] [INFO] Time elapsed: 50.907ms
+[api 1] [21:35:45.823] [INFO] === AI.play() ===
+[api 1] [21:35:45.840] [INFO] StartTimer: 21:35:45.823946
+[api 1] [21:35:45.865] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 41.105ms
+[api 1] [21:35:45.889] [INFO] Time elapsed: 65.873ms
+[api 1] [21:35:45.921] [INFO] === AI.play() ===
+[api 1] [21:35:45.929] [INFO] StartTimer: 21:35:45.921010
+[api 1] [21:35:45.930] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 9.021ms
+[api 1] [21:35:45.930] [INFO] Time elapsed: 9.021ms
+[api 1] [21:35:45.957] [INFO] === AI.play() ===
+[api 1] [21:35:45.983] [INFO] StartTimer: 21:35:45.957062
+[api 1] [21:35:46.010] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 53.496ms
+[api 1] [21:35:46.029] [INFO] Time elapsed: 72.823ms
+[api 1] [21:35:46.088] [INFO] === AI.play() ===
+[api 1] [21:35:46.100] [INFO] StartTimer: 21:35:46.088980
+[api 1] [21:35:46.124] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 35.928ms
+[api 1] [21:35:46.129] [INFO] Time elapsed: 40.93ms
+[api 1] [21:35:46.175] [INFO] === AI.play() ===
+[api 1] [21:35:46.178] [INFO] StartTimer: 21:35:46.175671
+[api 1] [21:35:46.209] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 34.221ms
+[api 1] [21:35:46.239] [INFO] Time elapsed: 63.113ms
+[api 1] [21:35:46.293] [INFO] === AI.play() ===
+[api 1] [21:35:46.299] [INFO] StartTimer: 21:35:46.293637
+[api 1] [21:35:46.303] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 9.999ms
+[api 1] [21:35:46.319] [INFO] Time elapsed: 25.411ms
+[api 1] [21:35:46.356] [INFO] === AI.play() ===
+[api 1] [21:35:46.383] [INFO] StartTimer: 21:35:46.356140
+[api 1] [21:35:46.438] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 82.66ms
+[api 1] [21:35:46.454] [INFO] Time elapsed: 97.953ms
+[api 1] [21:35:46.482] [INFO] === AI.play() ===
+[api 1] [21:35:46.489] [INFO] StartTimer: 21:35:46.482278
+[api 1] [21:35:46.494] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 12.278ms
+[api 1] [21:35:46.520] [INFO] Time elapsed: 38.255ms
+[api 1] [21:35:46.541] [INFO] === AI.play() ===
+[api 1] [21:35:46.548] [INFO] StartTimer: 21:35:46.541102
+[api 1] [21:35:46.552] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 11.008ms
+[api 1] [21:35:46.568] [INFO] Time elapsed: 27.554ms
+[api 1] [21:35:46.599] [INFO] === AI.play() ===
+[api 1] [21:35:46.607] [INFO] StartTimer: 21:35:46.599335
+[api 1] [21:35:46.628] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 29.22ms
+[api 1] [21:35:46.633] [INFO] Time elapsed: 34.202ms
+[api 1] [21:35:46.648] [INFO] === AI.play() ===
+[api 1] [21:35:46.667] [INFO] StartTimer: 21:35:46.648047
+[api 1] [21:35:46.671] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 23.08ms
+[api 1] [21:35:46.676] [INFO] Time elapsed: 27.079ms
+[api 1] [21:35:46.688] [INFO] === AI.play() ===
+[api 1] [21:35:46.698] [INFO] StartTimer: 21:35:46.688129
+[api 1] [21:35:46.706] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 17.95ms
+[api 1] [21:35:46.713] [INFO] Time elapsed: 24.961ms
+[api 1] [21:35:46.755] [INFO] === AI.play() ===
+[api 1] [21:35:46.766] [INFO] StartTimer: 21:35:46.755265
+[api 1] [21:35:46.793] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 38.211ms
+[api 1] [21:35:46.827] [INFO] Time elapsed: 72.35ms
+[api 1] [21:35:46.877] [INFO] === AI.play() ===
+[api 1] [21:35:46.884] [INFO] StartTimer: 21:35:46.877953
+[api 1] [21:35:46.914] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 36.087ms
+[api 1] [21:35:46.932] [INFO] Time elapsed: 54.092ms
+[api 1] [21:35:46.979] [INFO] === AI.play() ===
+[api 1] [21:35:46.993] [INFO] StartTimer: 21:35:46.979970
+[api 1] [21:35:46.995] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 15.88ms
+[api 1] [21:35:47.006] [INFO] Time elapsed: 26.089ms
+[api 1] [21:35:47.041] [INFO] === AI.play() ===
+[api 1] [21:35:47.052] [INFO] StartTimer: 21:35:47.040860
+[api 1] [21:35:47.054] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 14.0ms
+[api 1] [21:35:47.084] [INFO] Time elapsed: 44.077ms
+[api 1] [21:35:47.134] [INFO] === AI.play() ===
+[api 1] [21:35:47.151] [INFO] StartTimer: 21:35:47.134775
+[api 1] [21:35:47.166] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 31.59ms
+[api 1] [21:35:47.171] [INFO] Time elapsed: 36.588ms
+[api 1] [21:35:47.198] [INFO] === AI.play() ===
+[api 1] [21:35:47.203] [INFO] StartTimer: 21:35:47.198128
+[api 1] [21:35:47.210] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 12.28ms
+[api 1] [21:35:47.214] [INFO] Time elapsed: 16.254ms
+[api 1] [21:35:47.269] [INFO] === AI.play() ===
+[api 1] [21:35:47.275] [INFO] StartTimer: 21:35:47.269391
+[api 1] [21:35:47.283] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 13.998ms
+[api 1] [21:35:47.288] [INFO] Time elapsed: 18.808ms
+[api 1] [21:35:47.334] [INFO] === AI.play() ===
+[api 1] [21:35:47.375] [INFO] StartTimer: 21:35:47.334858
+[api 1] [21:35:47.386] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 51.697ms
+[api 1] [21:35:47.423] [INFO] Time elapsed: 88.874ms
+[api 1] [21:35:47.460] [INFO] === AI.play() ===
+[api 1] [21:35:47.497] [INFO] StartTimer: 21:35:47.460150
+[api 1] [21:35:47.517] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 57.626ms
+[api 1] [21:35:47.528] [INFO] Time elapsed: 68.644ms
+[api 1] [21:35:47.586] [INFO] === AI.play() ===
+[api 1] [21:35:47.594] [INFO] StartTimer: 21:35:47.586984
+[api 1] [21:35:47.605] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 18.996ms
+[api 1] [21:35:47.623] [INFO] Time elapsed: 35.998ms
+[api 1] [21:35:47.645] [INFO] === AI.play() ===
+[api 1] [21:35:47.664] [INFO] StartTimer: 21:35:47.645589
+[api 1] [21:35:47.674] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 29.001ms
+[api 1] [21:35:47.682] [INFO] Time elapsed: 36.772ms
+[api 1] [21:35:47.746] [INFO] === AI.play() ===
+[api 1] [21:35:47.759] [INFO] StartTimer: 21:35:47.746781
+[api 1] [21:35:47.814] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 67.742ms
+[api 1] [21:35:47.844] [INFO] Time elapsed: 97.278ms
+[api 1] [21:35:47.905] [INFO] === AI.play() ===
+[api 1] [21:35:47.931] [INFO] StartTimer: 21:35:47.905954
+[api 1] [21:35:48.000] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 94.235ms
+[api 1] [21:35:48.048] [INFO] Time elapsed: 142.537ms
+[api 1] [21:35:48.062] [INFO] === AI.play() ===
+[api 1] [21:35:48.088] [INFO] StartTimer: 21:35:48.062482
+[api 1] [21:35:48.133] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 71.018ms
+[api 1] [21:35:48.145] [INFO] Time elapsed: 83.418ms
+[api 1] [21:35:48.192] [INFO] === AI.play() ===
+[api 1] [21:35:48.217] [INFO] StartTimer: 21:35:48.192567
+[api 1] [21:35:48.234] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 41.638ms
+[api 1] [21:35:48.238] [INFO] Time elapsed: 46.168ms
+[api 1] [21:35:48.271] [INFO] === AI.play() ===
+[api 1] [21:35:48.303] [INFO] StartTimer: 21:35:48.271645
+[api 1] [21:35:48.317] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 45.898ms
+[api 1] [21:35:48.319] [INFO] Time elapsed: 47.897ms
+[api 1] [21:35:48.362] [INFO] === AI.play() ===
+[api 1] [21:35:48.384] [INFO] StartTimer: 21:35:48.362889
+[api 1] [21:35:48.407] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 44.65ms
+[api 1] [21:35:48.418] [INFO] Time elapsed: 56.099ms
+[api 1] [21:35:48.469] [INFO] === AI.play() ===
+[api 1] [21:35:48.472] [INFO] StartTimer: 21:35:48.469763
+[api 1] [21:35:48.489] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 19.996ms
+[api 1] [21:35:48.505] [INFO] Time elapsed: 35.856ms
+[api 1] [21:35:48.544] [INFO] === AI.play() ===
+[api 1] [21:35:48.553] [INFO] StartTimer: 21:35:48.544050
+[api 1] [21:35:48.563] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 18.995ms
+[api 1] [21:35:48.574] [INFO] Time elapsed: 30.903ms
+[api 1] [21:35:48.597] [INFO] === AI.play() ===
+[api 1] [21:35:48.607] [INFO] StartTimer: 21:35:48.597492
+[api 1] [21:35:48.614] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 16.847ms
+[api 1] [21:35:48.623] [INFO] Time elapsed: 26.45ms
+[api 1] [21:35:48.651] [INFO] === AI.play() ===
+[api 1] [21:35:48.676] [INFO] StartTimer: 21:35:48.651433
+[api 1] [21:35:48.704] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 53.523ms
+[api 1] [21:35:48.715] [INFO] Time elapsed: 63.522ms
+[api 1] [21:35:48.746] [INFO] === AI.play() ===
+[api 1] [21:35:48.768] [INFO] StartTimer: 21:35:48.746538
+[api 1] [21:35:48.773] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 27.057ms
+[api 1] [21:35:48.795] [INFO] Time elapsed: 48.699ms
+[api 1] [21:35:48.861] [INFO] === AI.play() ===
+[api 1] [21:35:48.866] [INFO] StartTimer: 21:35:48.861210
+[api 1] [21:35:48.884] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 22.82ms
+[api 1] [21:35:48.910] [INFO] Time elapsed: 49.387ms
+[api 1] [21:35:48.936] [INFO] === AI.play() ===
+[api 1] [21:35:48.950] [INFO] StartTimer: 21:35:48.936151
+[api 1] [21:35:48.964] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 27.934ms
+[api 1] [21:35:48.988] [INFO] Time elapsed: 52.706ms
+[api 1] [21:35:49.012] [INFO] === AI.play() ===
+[api 1] [21:35:49.023] [INFO] StartTimer: 21:35:49.011868
+[api 1] [21:35:49.038] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 25.984ms
+[api 1] [21:35:49.054] [INFO] Time elapsed: 42.656ms
+[api 1] [21:35:49.095] [INFO] === AI.play() ===
+[api 1] [21:35:49.098] [INFO] StartTimer: 21:35:49.095978
+[api 1] [21:35:49.104] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 9.016ms
+[api 1] [21:35:49.140] [INFO] Time elapsed: 44.063ms
+[api 1] [21:35:49.198] [INFO] === AI.play() ===
+[api 1] [21:35:49.215] [INFO] StartTimer: 21:35:49.198048
+[api 1] [21:35:49.220] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 22.005ms
+[api 1] [21:35:49.254] [INFO] Time elapsed: 56.052ms
+[api 1] [21:35:49.298] [INFO] === AI.play() ===
+[api 1] [21:35:49.315] [INFO] StartTimer: 21:35:49.298232
+[api 1] [21:35:49.334] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 36.664ms
+[api 1] [21:35:49.339] [INFO] Time elapsed: 41.665ms
+[api 1] [21:35:49.387] [INFO] === AI.play() ===
+[api 1] [21:35:49.405] [INFO] StartTimer: 21:35:49.387932
+[api 1] [21:35:49.426] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 39.027ms
+[api 1] [21:35:49.429] [INFO] Time elapsed: 42.036ms
+[api 1] [21:35:49.455] [INFO] === AI.play() ===
+[api 1] [21:35:49.464] [INFO] StartTimer: 21:35:49.455012
+[api 1] [21:35:49.467] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 12.914ms
+[api 1] [21:35:49.471] [INFO] Time elapsed: 16.916ms
+[api 1] [21:35:49.493] [INFO] === AI.play() ===
+[api 1] [21:35:49.512] [INFO] StartTimer: 21:35:49.493232
+[api 1] [21:35:49.522] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 29.722ms
+[api 1] [21:35:49.543] [INFO] Time elapsed: 48.911ms
+[api 1] [21:35:49.581] [INFO] === AI.play() ===
+[api 1] [21:35:49.593] [INFO] StartTimer: 21:35:49.581224
+[api 1] [21:35:49.603] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 22.72ms
+[api 1] [21:35:49.645] [INFO] Time elapsed: 64.634ms
+[api 1] [21:35:49.684] [INFO] === AI.play() ===
+[api 1] [21:35:49.699] [INFO] StartTimer: 21:35:49.684861
+[api 1] [21:35:49.719] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 34.455ms
+[api 1] [21:35:49.727] [INFO] Time elapsed: 42.469ms
+[api 1] [21:35:49.765] [INFO] === AI.play() ===
+[api 1] [21:35:49.781] [INFO] StartTimer: 21:35:49.765902
+[api 1] [21:35:49.814] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 49.005ms
+[api 1] [21:35:49.818] [INFO] Time elapsed: 53.004ms
+[api 1] [21:35:49.873] [INFO] === AI.play() ===
+[api 1] [21:35:49.938] [INFO] StartTimer: 21:35:49.873042
+[api 1] [21:35:49.965] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 92.69ms
+[api 1] [21:35:49.988] [INFO] Time elapsed: 115.108ms
+[api 1] [21:35:50.031] [INFO] === AI.play() ===
+[api 1] [21:35:50.040] [INFO] StartTimer: 21:35:50.031239
+[api 1] [21:35:50.049] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 17.337ms
+[api 1] [21:35:50.072] [INFO] Time elapsed: 40.793ms
+[api 1] [21:35:50.109] [INFO] === AI.play() ===
+[api 1] [21:35:50.110] [INFO] StartTimer: 21:35:50.109820
+[api 1] [21:35:50.110] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 1.0ms
+[api 1] [21:35:50.111] [INFO] Time elapsed: 2.013ms
+[api 1] [21:35:50.187] [INFO] === AI.play() ===
+[api 1] [21:35:50.187] [INFO] StartTimer: 21:35:50.187908
+[api 1] [21:35:50.188] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 0.999ms
+[api 1] [21:35:50.202] [INFO] Time elapsed: 14.54ms
+[api 1] [21:35:50.241] [INFO] === AI.play() ===
+[api 1] [21:35:50.254] [INFO] StartTimer: 21:35:50.241496
+[api 1] [21:35:50.261] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 19.634ms
+[api 1] [21:35:50.290] [INFO] Time elapsed: 49.046ms
+[api 1] [21:35:50.339] [INFO] === AI.play() ===
+[api 1] [21:35:50.349] [INFO] StartTimer: 21:35:50.339223
+[api 1] [21:35:50.380] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 40.897ms
+[api 1] [21:35:50.398] [INFO] Time elapsed: 58.875ms
+[api 1] [21:35:50.436] [INFO] === AI.play() ===
+[api 1] [21:35:50.453] [INFO] StartTimer: 21:35:50.436016
+[api 1] [21:35:50.463] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 27.533ms
+[api 1] [21:35:50.474] [INFO] Time elapsed: 38.536ms
+[api 1] [21:35:50.516] [INFO] === AI.play() ===
+[api 1] [21:35:50.532] [INFO] StartTimer: 21:35:50.516695
+[api 1] [21:35:50.535] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 19.03ms
+[api 1] [21:35:50.541] [INFO] Time elapsed: 25.048ms
+[api 1] [21:35:50.572] [INFO] === AI.play() ===
+[api 1] [21:35:50.595] [INFO] StartTimer: 21:35:50.572092
+[api 1] [21:35:50.610] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 38.007ms
+[api 1] [21:35:50.654] [INFO] Time elapsed: 82.349ms
+[api 1] [21:35:50.676] [INFO] === AI.play() ===
+[api 1] [21:35:50.690] [INFO] StartTimer: 21:35:50.676440
+[api 1] [21:35:50.696] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 19.73ms
+[api 1] [21:35:50.709] [INFO] Time elapsed: 32.728ms
+[api 1] [21:35:50.737] [INFO] === AI.play() ===
+[api 1] [21:35:50.753] [INFO] StartTimer: 21:35:50.737847
+[api 1] [21:35:50.778] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 40.949ms
+[api 1] [21:35:50.807] [INFO] Time elapsed: 69.359ms
+[api 1] [21:35:50.826] [INFO] === AI.play() ===
+[api 1] [21:35:50.844] [INFO] StartTimer: 21:35:50.825527
+[api 1] [21:35:50.872] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 46.199ms
+[api 1] [21:35:50.896] [INFO] Time elapsed: 70.975ms
+[api 1] [21:35:50.923] [INFO] === AI.play() ===
+[api 1] [21:35:50.933] [INFO] StartTimer: 21:35:50.923721
+[api 1] [21:35:50.935] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 10.592ms
+[api 1] [21:35:50.954] [INFO] Time elapsed: 30.32ms
+[api 1] [21:35:50.986] [INFO] === AI.play() ===
+[api 1] [21:35:51.004] [INFO] StartTimer: 21:35:50.986987
+[api 1] [21:35:51.048] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 61.847ms
+[api 1] [21:35:51.051] [INFO] Time elapsed: 64.825ms
+[api 1] [21:35:51.078] [INFO] === AI.play() ===
+[api 1] [21:35:51.083] [INFO] StartTimer: 21:35:51.078483
+[api 1] [21:35:51.103] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 24.616ms
+[api 1] [21:35:51.122] [INFO] Time elapsed: 43.856ms
+[api 1] [21:35:51.166] [INFO] === AI.play() ===
+[api 1] [21:35:51.181] [INFO] StartTimer: 21:35:51.166630
+[api 1] [21:35:51.206] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 40.203ms
+[api 1] [21:35:51.211] [INFO] Time elapsed: 45.208ms
+[api 1] [21:35:51.246] [INFO] === AI.play() ===
+[api 1] [21:35:51.260] [INFO] StartTimer: 21:35:51.246998
+[api 1] [21:35:51.275] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 28.796ms
+[api 1] [21:35:51.287] [INFO] Time elapsed: 40.796ms
+[api 1] [21:35:51.298] [INFO] === AI.play() ===
+[api 1] [21:35:51.315] [INFO] StartTimer: 21:35:51.298793
+[api 1] [21:35:51.342] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 44.005ms
+[api 1] [21:35:51.375] [INFO] Time elapsed: 76.839ms
+[api 1] [21:35:51.398] [INFO] === AI.play() ===
+[api 1] [21:35:51.431] [INFO] StartTimer: 21:35:51.398633
+[api 1] [21:35:51.441] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 43.094ms
+[api 1] [21:35:51.448] [INFO] Time elapsed: 49.653ms
+[api 1] [21:35:51.486] [INFO] === AI.play() ===
+[api 1] [21:35:51.490] [INFO] StartTimer: 21:35:51.486986
+[api 1] [21:35:51.495] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 9.002ms
+[api 1] [21:35:51.514] [INFO] Time elapsed: 26.886ms
+[api 1] [21:35:51.565] [INFO] === AI.play() ===
+[api 1] [21:35:51.571] [INFO] StartTimer: 21:35:51.565608
+[api 1] [21:35:51.578] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 12.997ms
+[api 1] [21:35:51.585] [INFO] Time elapsed: 19.997ms
+[api 1] [21:35:51.599] [INFO] === AI.play() ===
+[api 1] [21:35:51.615] [INFO] StartTimer: 21:35:51.599329
+[api 1] [21:35:51.620] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 21.066ms
+[api 1] [21:35:51.667] [INFO] Time elapsed: 67.712ms
+[api 1] [21:35:51.710] [INFO] === AI.play() ===
+[api 1] [21:35:51.722] [INFO] StartTimer: 21:35:51.710651
+[api 1] [21:35:51.727] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 16.413ms
+[api 1] [21:35:51.740] [INFO] Time elapsed: 29.437ms
+[api 1] [21:35:51.797] [INFO] === AI.play() ===
+[api 1] [21:35:51.797] [INFO] StartTimer: 21:35:51.797956
+[api 1] [21:35:51.797] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 0.0ms
+[api 1] [21:35:51.813] [INFO] Time elapsed: 15.3ms
+[api 1] [21:35:51.845] [INFO] === AI.play() ===
+[api 1] [21:35:51.857] [INFO] StartTimer: 21:35:51.845728
+[api 1] [21:35:51.869] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 23.843ms
+[api 1] [21:35:51.883] [INFO] Time elapsed: 37.912ms
+[api 1] [21:35:51.917] [INFO] === AI.play() ===
+[api 1] [21:35:51.938] [INFO] StartTimer: 21:35:51.917020
+[api 1] [21:35:51.961] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 44.608ms
+[api 1] [21:35:51.984] [INFO] Time elapsed: 67.401ms
+[api 1] [21:35:52.009] [INFO] === AI.play() ===
+[api 1] [21:35:52.022] [INFO] StartTimer: 21:35:52.009864
+[api 1] [21:35:52.032] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 22.513ms
+[api 1] [21:35:52.054] [INFO] Time elapsed: 44.611ms
+[api 1] [21:35:52.098] [INFO] === AI.play() ===
+[api 1] [21:35:52.116] [INFO] StartTimer: 21:35:52.098934
+[api 1] [21:35:52.118] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 19.762ms
+[api 1] [21:35:52.135] [INFO] Time elapsed: 35.778ms
+[api 1] [21:35:52.210] [INFO] === AI.play() ===
+[api 1] [21:35:52.253] [INFO] StartTimer: 21:35:52.210279
+[api 1] [21:35:52.301] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 91.414ms
+[api 1] [21:35:52.308] [INFO] Time elapsed: 98.429ms
+[api 1] [21:35:52.366] [INFO] === AI.play() ===
+[api 1] [21:35:52.382] [INFO] StartTimer: 21:35:52.366617
+[api 1] [21:35:52.412] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 45.72ms
+[api 1] [21:35:52.441] [INFO] Time elapsed: 75.319ms
+[api 1] [21:35:52.474] [INFO] === AI.play() ===
+[api 1] [21:35:52.483] [INFO] StartTimer: 21:35:52.474494
+[api 1] [21:35:52.491] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 17.002ms
+[api 1] [21:35:52.523] [INFO] Time elapsed: 48.997ms
+[api 1] [21:35:52.549] [INFO] === AI.play() ===
+[api 1] [21:35:52.554] [INFO] StartTimer: 21:35:52.549027
+[api 1] [21:35:52.559] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 10.002ms
+[api 1] [21:35:52.578] [INFO] Time elapsed: 27.999ms
+[api 1] [21:35:52.625] [INFO] === AI.play() ===
+[api 1] [21:35:52.635] [INFO] StartTimer: 21:35:52.625028
+[api 1] [21:35:52.645] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 20.545ms
+[api 1] [21:35:52.671] [INFO] Time elapsed: 46.235ms
+[api 1] [21:35:52.696] [INFO] === AI.play() ===
+[api 1] [21:35:52.709] [INFO] StartTimer: 21:35:52.696382
+[api 1] [21:35:52.722] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 26.063ms
+[api 1] [21:35:52.725] [INFO] Time elapsed: 29.042ms
+[api 1] [21:35:52.758] [INFO] === AI.play() ===
+[api 1] [21:35:52.768] [INFO] StartTimer: 21:35:52.758612
+[api 1] [21:35:52.789] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 30.69ms
+[api 1] [21:35:52.802] [INFO] Time elapsed: 43.699ms
+[api 1] [21:35:52.846] [INFO] === AI.play() ===
+[api 1] [21:35:52.870] [INFO] StartTimer: 21:35:52.846832
+[api 1] [21:35:52.893] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 46.709ms
+[api 1] [21:35:52.897] [INFO] Time elapsed: 50.708ms
+[api 1] [21:35:52.917] [INFO] === AI.play() ===
+[api 1] [21:35:52.924] [INFO] StartTimer: 21:35:52.917594
+[api 1] [21:35:52.932] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 15.008ms
+[api 1] [21:35:52.958] [INFO] Time elapsed: 40.539ms
+[api 1] [21:35:53.019] [INFO] === AI.play() ===
+[api 1] [21:35:53.026] [INFO] StartTimer: 21:35:53.019676
+[api 1] [21:35:53.039] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 19.344ms
+[api 1] [21:35:53.044] [INFO] Time elapsed: 24.341ms
+[api 1] [21:35:53.099] [INFO] === AI.play() ===
+[api 1] [21:35:53.105] [INFO] StartTimer: 21:35:53.099842
+[api 1] [21:35:53.127] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 28.014ms
+[api 1] [21:35:53.155] [INFO] Time elapsed: 55.172ms
+[api 1] [21:35:53.172] [INFO] === AI.play() ===
+[api 1] [21:35:53.192] [INFO] StartTimer: 21:35:53.172896
+[api 1] [21:35:53.202] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 29.276ms
+[api 1] [21:35:53.215] [INFO] Time elapsed: 42.945ms
+[api 1] [21:35:53.265] [INFO] === AI.play() ===
+[api 1] [21:35:53.271] [INFO] StartTimer: 21:35:53.265861
+[api 1] [21:35:53.286] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 21.132ms
+[api 1] [21:35:53.291] [INFO] Time elapsed: 25.142ms
+[api 1] [21:35:53.322] [INFO] === AI.play() ===
+[api 1] [21:35:53.340] [INFO] StartTimer: 21:35:53.322811
+[api 1] [21:35:53.347] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 24.546ms
+[api 1] [21:35:53.371] [INFO] Time elapsed: 47.541ms
+[api 1] [21:35:53.434] [INFO] === AI.play() ===
+[api 1] [21:35:53.435] [INFO] StartTimer: 21:35:53.434938
+[api 1] [21:35:53.435] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 1.005ms
+[api 1] [21:35:53.435] [INFO] Time elapsed: 1.005ms
+[api 1] [21:35:53.499] [INFO] === AI.play() ===
+[api 1] [21:35:53.518] [INFO] StartTimer: 21:35:53.499116
+[api 1] [21:35:53.541] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 41.995ms
+[api 1] [21:35:53.564] [INFO] Time elapsed: 64.968ms
+[api 1] [21:35:53.607] [INFO] === AI.play() ===
+[api 1] [21:35:53.613] [INFO] StartTimer: 21:35:53.607899
+[api 1] [21:35:53.622] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 15.025ms
+[api 1] [21:35:53.639] [INFO] Time elapsed: 31.849ms
+[api 1] [21:35:53.700] [INFO] === AI.play() ===
+[api 1] [21:35:53.714] [INFO] StartTimer: 21:35:53.700284
+[api 1] [21:35:53.743] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 43.041ms
+[api 1] [21:35:53.775] [INFO] Time elapsed: 75.095ms
+[api 1] [21:35:53.808] [INFO] === AI.play() ===
+[api 1] [21:35:53.836] [INFO] StartTimer: 21:35:53.808610
+[api 1] [21:35:53.858] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 49.499ms
+[api 1] [21:35:53.866] [INFO] Time elapsed: 57.502ms
+[api 1] [21:35:53.932] [INFO] === AI.play() ===
+[api 1] [21:35:53.932] [INFO] StartTimer: 21:35:53.931684
+[api 1] [21:35:53.932] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 1.013ms
+[api 1] [21:35:53.938] [INFO] Time elapsed: 7.011ms
+[api 1] [21:35:53.983] [INFO] === AI.play() ===
+[api 1] [21:35:53.992] [INFO] StartTimer: 21:35:53.983255
+[api 1] [21:35:54.006] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 23.667ms
+[api 1] [21:35:54.036] [INFO] Time elapsed: 53.168ms
+[api 1] [21:35:54.052] [INFO] === AI.play() ===
+[api 1] [21:35:54.078] [INFO] StartTimer: 21:35:54.052969
+[api 1] [21:35:54.095] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 42.924ms
+[api 1] [21:35:54.100] [INFO] Time elapsed: 47.923ms
+[api 1] [21:35:54.138] [INFO] === AI.play() ===
+[api 1] [21:35:54.145] [INFO] StartTimer: 21:35:54.138651
+[api 1] [21:35:54.149] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 10.508ms
+[api 1] [21:35:54.160] [INFO] Time elapsed: 22.168ms
+[api 1] [21:35:54.200] [INFO] === AI.play() ===
+[api 1] [21:35:54.206] [INFO] StartTimer: 21:35:54.200817
+[api 1] [21:35:54.223] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 22.326ms
+[api 1] [21:35:54.238] [INFO] Time elapsed: 37.372ms
+[api 1] [21:35:54.265] [INFO] === AI.play() ===
+[api 1] [21:35:54.279] [INFO] StartTimer: 21:35:54.265667
+[api 1] [21:35:54.285] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 20.197ms
+[api 1] [21:35:54.297] [INFO] Time elapsed: 31.948ms
+[api 1] [21:35:54.311] [INFO] === AI.play() ===
+[api 1] [21:35:54.317] [INFO] StartTimer: 21:35:54.311933
+[api 1] [21:35:54.326] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 15.058ms
+[api 1] [21:35:54.341] [INFO] Time elapsed: 30.039ms
+[api 1] [21:35:54.352] [INFO] === AI.play() ===
+[api 1] [21:35:54.371] [INFO] StartTimer: 21:35:54.352483
+[api 1] [21:35:54.398] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 45.605ms
+[api 1] [21:35:54.426] [INFO] Time elapsed: 74.388ms
+[api 1] [21:35:54.451] [INFO] === AI.play() ===
+[api 1] [21:35:54.457] [INFO] StartTimer: 21:35:54.451140
+[api 1] [21:35:54.461] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 10.11ms
+[api 1] [21:35:54.477] [INFO] Time elapsed: 26.33ms
+[api 1] [21:35:54.521] [INFO] === AI.play() ===
+[api 1] [21:35:54.549] [INFO] StartTimer: 21:35:54.521499
+[api 1] [21:35:54.565] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 44.034ms
+[api 1] [21:35:54.567] [INFO] Time elapsed: 46.031ms
+[api 1] [21:35:54.604] [INFO] === AI.play() ===
+[api 1] [21:35:54.637] [INFO] StartTimer: 21:35:54.604006
+[api 1] [21:35:54.666] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 62.705ms
+[api 1] [21:35:54.693] [INFO] Time elapsed: 88.151ms
+[api 1] [21:35:54.728] [INFO] === AI.play() ===
+[api 1] [21:35:54.739] [INFO] StartTimer: 21:35:54.728009
+[api 1] [21:35:54.752] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 24.071ms
+[api 1] [21:35:54.779] [INFO] Time elapsed: 51.892ms
+[api 1] [21:35:54.820] [INFO] === AI.play() ===
+[api 1] [21:35:54.826] [INFO] StartTimer: 21:35:54.820444
+[api 1] [21:35:54.833] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 13.009ms
+[api 1] [21:35:54.833] [INFO] Time elapsed: 13.009ms
+[api 1] [21:35:54.860] [INFO] === AI.play() ===
+[api 1] [21:35:54.887] [INFO] StartTimer: 21:35:54.860007
+[api 1] [21:35:54.927] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 66.998ms
+[api 1] [21:35:54.985] [INFO] Time elapsed: 125.17ms
+[api 1] [21:35:55.012] [INFO] === AI.play() ===
+[api 1] [21:35:55.020] [INFO] StartTimer: 21:35:55.012507
+[api 1] [21:35:55.039] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 27.148ms
+[api 1] [21:35:55.081] [INFO] Time elapsed: 68.974ms
+[api 1] [21:35:55.133] [INFO] === AI.play() ===
+[api 1] [21:35:55.159] [INFO] StartTimer: 21:35:55.133455
+[api 1] [21:35:55.159] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 26.142ms
+[api 1] [21:35:55.188] [INFO] Time elapsed: 54.468ms
+[api 1] [21:35:55.221] [INFO] === AI.play() ===
+[api 1] [21:35:55.221] [INFO] StartTimer: 21:35:55.221937
+[api 1] [21:35:55.244] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 22.722ms
+[api 1] [21:35:55.267] [INFO] Time elapsed: 45.929ms
+[api 1] [21:35:55.278] [INFO] === AI.play() ===
+[api 1] [21:35:55.313] [INFO] StartTimer: 21:35:55.278924
+[api 1] [21:35:55.361] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 82.74ms
+[api 1] [21:35:55.396] [INFO] Time elapsed: 117.777ms
+[api 1] [21:35:55.434] [INFO] === AI.play() ===
+[api 1] [21:35:55.457] [INFO] StartTimer: 21:35:55.434422
+[api 1] [21:35:55.493] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 59.118ms
+[api 1] [21:35:55.524] [INFO] Time elapsed: 89.606ms
+[api 1] [21:35:55.573] [INFO] === AI.play() ===
+[api 1] [21:35:55.601] [INFO] StartTimer: 21:35:55.573682
+[api 1] [21:35:55.631] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 57.545ms
+[api 1] [21:35:55.673] [INFO] Time elapsed: 99.706ms
+[api 1] [21:35:55.702] [INFO] === AI.play() ===
+[api 1] [21:35:55.734] [INFO] StartTimer: 21:35:55.702987
+[api 1] [21:35:55.784] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 81.069ms
+[api 1] [21:35:55.817] [INFO] Time elapsed: 114.119ms
+[api 1] [21:35:55.867] [INFO] === AI.play() ===
+[api 1] [21:35:55.876] [INFO] StartTimer: 21:35:55.867177
+[api 1] [21:35:55.888] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 21.351ms
+[api 1] [21:35:55.907] [INFO] Time elapsed: 40.636ms
+[api 1] [21:35:55.917] [INFO] === AI.play() ===
+[api 1] [21:35:55.921] [INFO] StartTimer: 21:35:55.917775
+[api 1] [21:35:55.936] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 18.95ms
+[api 1] [21:35:55.968] [INFO] Time elapsed: 51.069ms
+[api 1] [21:35:56.006] [INFO] === AI.play() ===
+[api 1] [21:35:56.025] [INFO] StartTimer: 21:35:56.006817
+[api 1] [21:35:56.042] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 35.198ms
+[api 1] [21:35:56.058] [INFO] Time elapsed: 50.619ms
+[api 1] [21:35:56.090] [INFO] === AI.play() ===
+[api 1] [21:35:56.098] [INFO] StartTimer: 21:35:56.090847
+[api 1] [21:35:56.107] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 16.298ms
+[api 1] [21:35:56.114] [INFO] Time elapsed: 22.302ms
+[api 1] [21:35:56.144] [INFO] === AI.play() ===
+[api 1] [21:35:56.163] [INFO] StartTimer: 21:35:56.144984
+[api 1] [21:35:56.183] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 38.199ms
+[api 1] [21:35:56.206] [INFO] Time elapsed: 61.698ms
+[api 1] [21:35:56.234] [INFO] === AI.play() ===
+[api 1] [21:35:56.248] [INFO] StartTimer: 21:35:56.234464
+[api 1] [21:35:56.288] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 54.131ms
+[api 1] [21:35:56.295] [INFO] Time elapsed: 61.133ms
+[api 1] [21:35:56.320] [INFO] === AI.play() ===
+[api 1] [21:35:56.326] [INFO] StartTimer: 21:35:56.320430
+[api 1] [21:35:56.330] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 9.705ms
+[api 1] [21:35:56.336] [INFO] Time elapsed: 16.24ms
+[api 1] [21:35:56.361] [INFO] === AI.play() ===
+[api 1] [21:35:56.380] [INFO] StartTimer: 21:35:56.361536
+[api 1] [21:35:56.381] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 18.732ms
+[api 1] [21:35:56.403] [INFO] Time elapsed: 42.139ms
+[api 1] [21:35:56.434] [INFO] === AI.play() ===
+[api 1] [21:35:56.457] [INFO] StartTimer: 21:35:56.434395
+[api 1] [21:35:56.495] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 60.833ms
+[api 1] [21:35:56.505] [INFO] Time elapsed: 70.834ms
+[api 1] [21:35:56.556] [INFO] === AI.play() ===
+[api 1] [21:35:56.576] [INFO] StartTimer: 21:35:56.556001
+[api 1] [21:35:56.598] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 42.52ms
+[api 1] [21:35:56.672] [INFO] Time elapsed: 116.752ms
+[api 1] [21:35:56.724] [INFO] === AI.play() ===
+[api 1] [21:35:56.764] [INFO] StartTimer: 21:35:56.724711
+[api 1] [21:35:56.797] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 72.327ms
+[api 1] [21:35:56.803] [INFO] Time elapsed: 78.327ms
+[api 1] [21:35:56.866] [INFO] === AI.play() ===
+[api 1] [21:35:56.882] [INFO] StartTimer: 21:35:56.866268
+[api 1] [21:35:56.910] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 43.786ms
+[api 1] [21:35:56.920] [INFO] Time elapsed: 53.787ms
+[api 1] [21:35:56.959] [INFO] === AI.play() ===
+[api 1] [21:35:56.979] [INFO] StartTimer: 21:35:56.959453
+[api 1] [21:35:56.995] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 36.363ms
+[api 1] [21:35:57.007] [INFO] Time elapsed: 48.359ms
+[api 1] [21:35:57.060] [INFO] === AI.play() ===
+[api 1] [21:35:57.070] [INFO] StartTimer: 21:35:57.060514
+[api 1] [21:35:57.090] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 29.579ms
+[api 1] [21:35:57.094] [INFO] Time elapsed: 33.585ms
+[api 1] [21:35:57.133] [INFO] === AI.play() ===
+[api 1] [21:35:57.159] [INFO] StartTimer: 21:35:57.133222
+[api 1] [21:35:57.216] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 83.664ms
+[api 1] [21:35:57.222] [INFO] Time elapsed: 89.662ms
+[api 1] [21:35:57.302] [INFO] === AI.play() ===
+[api 1] [21:35:57.315] [INFO] StartTimer: 21:35:57.302084
+[api 1] [21:35:57.331] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 28.004ms
+[api 1] [21:35:57.349] [INFO] Time elapsed: 47.717ms
+[api 1] [21:35:57.387] [INFO] === AI.play() ===
+[api 1] [21:35:57.398] [INFO] StartTimer: 21:35:57.387927
+[api 1] [21:35:57.434] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 46.952ms
+[api 1] [21:35:57.455] [INFO] Time elapsed: 67.107ms
+[api 1] [21:35:57.491] [INFO] === AI.play() ===
+[api 1] [21:35:57.507] [INFO] StartTimer: 21:35:57.491038
+[api 1] [21:35:57.541] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 50.029ms
+[api 1] [21:35:57.582] [INFO] Time elapsed: 91.581ms
+[api 1] [21:35:57.638] [INFO] === AI.play() ===
+[api 1] [21:35:57.663] [INFO] StartTimer: 21:35:57.638649
+[api 1] [21:35:57.688] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 49.512ms
+[api 1] [21:35:57.697] [INFO] Time elapsed: 58.511ms
+[api 1] [21:35:57.721] [INFO] === AI.play() ===
+[api 1] [21:35:57.729] [INFO] StartTimer: 21:35:57.721167
+[api 1] [21:35:57.754] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 33.068ms
+[api 1] [21:35:57.764] [INFO] Time elapsed: 43.591ms
+[api 1] [21:35:57.786] [INFO] === AI.play() ===
+[api 1] [21:35:57.809] [INFO] StartTimer: 21:35:57.786130
+[api 1] [21:35:57.819] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 33.48ms
+[api 1] [21:35:57.842] [INFO] Time elapsed: 55.604ms
+[api 1] [21:35:57.873] [INFO] === AI.play() ===
+[api 1] [21:35:57.880] [INFO] StartTimer: 21:35:57.873937
+[api 1] [21:35:57.900] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 26.926ms
+[api 1] [21:35:57.923] [INFO] Time elapsed: 49.269ms
+[api 1] [21:35:58.005] [INFO] === AI.play() ===
+[api 1] [21:35:58.023] [INFO] StartTimer: 21:35:58.005920
+[api 1] [21:35:58.053] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 48.002ms
+[api 1] [21:35:58.091] [INFO] Time elapsed: 85.998ms
+[api 1] [21:35:58.120] [INFO] === AI.play() ===
+[api 1] [21:35:58.150] [INFO] StartTimer: 21:35:58.120928
+[api 1] [21:35:58.168] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 47.336ms
+[api 1] [21:35:58.173] [INFO] Time elapsed: 52.333ms
+[api 1] [21:35:58.209] [INFO] === AI.play() ===
+[api 1] [21:35:58.223] [INFO] StartTimer: 21:35:58.209933
+[api 1] [21:35:58.247] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 37.2ms
+[api 1] [21:35:58.264] [INFO] Time elapsed: 54.737ms
+[api 1] [21:35:58.319] [INFO] === AI.play() ===
+[api 1] [21:35:58.350] [INFO] StartTimer: 21:35:58.319815
+[api 1] [21:35:58.376] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 56.499ms
+[api 1] [21:35:58.394] [INFO] Time elapsed: 74.505ms
+[api 1] [21:35:58.434] [INFO] === AI.play() ===
+[api 1] [21:35:58.450] [INFO] StartTimer: 21:35:58.434032
+[api 1] [21:35:58.452] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 18.787ms
+[api 1] [21:35:58.501] [INFO] Time elapsed: 67.878ms
+[api 1] [21:35:58.531] [INFO] === AI.play() ===
+[api 1] [21:35:58.538] [INFO] StartTimer: 21:35:58.531615
+[api 1] [21:35:58.539] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 8.006ms
+[api 1] [21:35:58.560] [INFO] Time elapsed: 28.978ms
+[api 1] [21:35:58.582] [INFO] === AI.play() ===
+[api 1] [21:35:58.592] [INFO] StartTimer: 21:35:58.582572
+[api 1] [21:35:58.619] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 37.236ms
+[api 1] [21:35:58.648] [INFO] Time elapsed: 65.485ms
+[api 1] [21:35:58.683] [INFO] === AI.play() ===
+[api 1] [21:35:58.698] [INFO] StartTimer: 21:35:58.683002
+[api 1] [21:35:58.751] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 68.415ms
+[api 1] [21:35:58.758] [INFO] Time elapsed: 74.707ms
+[api 1] [21:35:58.784] [INFO] === AI.play() ===
+[api 1] [21:35:58.811] [INFO] StartTimer: 21:35:58.784857
+[api 1] [21:35:58.835] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 50.146ms
+[api 1] [21:35:58.887] [INFO] Time elapsed: 102.508ms
+[api 1] [21:35:58.936] [INFO] === AI.play() ===
+[api 1] [21:35:58.940] [INFO] StartTimer: 21:35:58.936490
+[api 1] [21:35:58.954] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 18.177ms
+[api 1] [21:35:58.975] [INFO] Time elapsed: 38.635ms
+[api 1] [21:35:58.995] [INFO] === AI.play() ===
+[api 1] [21:35:59.002] [INFO] StartTimer: 21:35:58.995599
+[api 1] [21:35:59.021] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 25.999ms
+[api 1] [21:35:59.039] [INFO] Time elapsed: 44.197ms
+[api 1] [21:35:59.075] [INFO] === AI.play() ===
+[api 1] [21:35:59.089] [INFO] StartTimer: 21:35:59.075315
+[api 1] [21:35:59.124] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 49.423ms
+[api 1] [21:35:59.148] [INFO] Time elapsed: 73.439ms
+[api 1] [21:35:59.183] [INFO] === AI.play() ===
+[api 1] [21:35:59.215] [INFO] StartTimer: 21:35:59.183286
+[api 1] [21:35:59.227] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 43.992ms
+[api 1] [21:35:59.328] [INFO] Time elapsed: 144.61ms
+[api 1] [21:35:59.355] [INFO] === AI.play() ===
+[api 1] [21:35:59.358] [INFO] StartTimer: 21:35:59.355416
+[api 1] [21:35:59.376] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 20.007ms
+[api 1] [21:35:59.390] [INFO] Time elapsed: 34.612ms
+[api 1] [21:35:59.424] [INFO] === AI.play() ===
+[api 1] [21:35:59.440] [INFO] StartTimer: 21:35:59.424169
+[api 1] [21:35:59.440] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 16.657ms
+[api 1] [21:35:59.441] [INFO] Time elapsed: 17.658ms
+[api 1] [21:35:59.486] [INFO] === AI.play() ===
+[api 1] [21:35:59.491] [INFO] StartTimer: 21:35:59.486342
+[api 1] [21:35:59.509] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 22.153ms
+[api 1] [21:35:59.548] [INFO] Time elapsed: 62.191ms
+[api 1] [21:35:59.584] [INFO] === AI.play() ===
+[api 1] [21:35:59.594] [INFO] StartTimer: 21:35:59.584138
+[api 1] [21:35:59.609] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 25.112ms
+[api 1] [21:35:59.619] [INFO] Time elapsed: 35.116ms
+[api 1] [21:35:59.662] [INFO] === AI.play() ===
+[api 1] [21:35:59.675] [INFO] StartTimer: 21:35:59.662529
+[api 1] [21:35:59.690] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 28.023ms
+[api 1] [21:35:59.695] [INFO] Time elapsed: 33.026ms
+[api 1] [21:35:59.725] [INFO] === AI.play() ===
+[api 1] [21:35:59.731] [INFO] StartTimer: 21:35:59.725005
+[api 1] [21:35:59.738] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 13.843ms
+[api 1] [21:35:59.768] [INFO] Time elapsed: 43.442ms
+[api 1] [21:35:59.795] [INFO] === AI.play() ===
+[api 1] [21:35:59.813] [INFO] StartTimer: 21:35:59.795835
+[api 1] [21:35:59.834] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 38.397ms
+[api 1] [21:35:59.849] [INFO] Time elapsed: 53.36ms
+[api 1] [21:35:59.903] [INFO] === AI.play() ===
+[api 1] [21:35:59.915] [INFO] StartTimer: 21:35:59.903525
+[api 1] [21:35:59.922] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 18.538ms
+[api 1] [21:35:59.941] [INFO] Time elapsed: 37.996ms
+[api 1] [21:35:59.973] [INFO] === AI.play() ===
+[api 1] [21:35:59.983] [INFO] StartTimer: 21:35:59.973950
+[api 1] [21:36:00.039] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 66.009ms
+[api 1] [21:36:00.101] [INFO] Time elapsed: 127.077ms
+[api 1] [21:36:00.138] [INFO] === AI.play() ===
+[api 1] [21:36:00.156] [INFO] StartTimer: 21:36:00.138191
+[api 1] [21:36:00.169] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 31.11ms
+[api 1] [21:36:00.190] [INFO] Time elapsed: 52.123ms
+[api 1] [21:36:00.220] [INFO] === AI.play() ===
+[api 1] [21:36:00.223] [INFO] StartTimer: 21:36:00.220397
+[api 1] [21:36:00.252] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 32.334ms
+[api 1] [21:36:00.298] [INFO] Time elapsed: 78.595ms
+[api 1] [21:36:00.332] [INFO] === AI.play() ===
+[api 1] [21:36:00.351] [INFO] StartTimer: 21:36:00.332951
+[api 1] [21:36:00.376] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 43.535ms
+[api 1] [21:36:00.390] [INFO] Time elapsed: 57.793ms
+[api 1] [21:36:00.426] [INFO] === AI.play() ===
+[api 1] [21:36:00.454] [INFO] StartTimer: 21:36:00.426158
+[api 1] [21:36:00.496] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 70.429ms
+[api 1] [21:36:00.505] [INFO] Time elapsed: 79.423ms
+[api 1] [21:36:00.528] [INFO] === AI.play() ===
+[api 1] [21:36:00.528] [INFO] StartTimer: 21:36:00.528501
+[api 1] [21:36:00.528] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 0.0ms
+[api 1] [21:36:00.543] [INFO] Time elapsed: 15.127ms
+[api 1] [21:36:00.579] [INFO] === AI.play() ===
+[api 1] [21:36:00.589] [INFO] StartTimer: 21:36:00.579117
+[api 1] [21:36:00.598] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 19.878ms
+[api 1] [21:36:00.616] [INFO] Time elapsed: 37.659ms
+[api 1] [21:36:00.625] [INFO] === AI.play() ===
+[api 1] [21:36:00.658] [INFO] StartTimer: 21:36:00.625784
+[api 1] [21:36:00.687] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 61.631ms
+[api 1] [21:36:00.690] [INFO] Time elapsed: 64.33ms
+[api 1] [21:36:00.751] [INFO] === AI.play() ===
+[api 1] [21:36:00.757] [INFO] StartTimer: 21:36:00.751417
+[api 1] [21:36:00.764] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 12.74ms
+[api 1] [21:36:00.783] [INFO] Time elapsed: 31.767ms
+[api 1] [21:36:00.798] [INFO] === AI.play() ===
+[api 1] [21:36:00.818] [INFO] StartTimer: 21:36:00.798352
+[api 1] [21:36:00.846] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 48.301ms
+[api 1] [21:36:00.851] [INFO] Time elapsed: 53.284ms
+[api 1] [21:36:00.873] [INFO] === AI.play() ===
+[api 1] [21:36:00.889] [INFO] StartTimer: 21:36:00.873788
+[api 1] [21:36:00.895] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 21.898ms
+[api 1] [21:36:00.923] [INFO] Time elapsed: 49.395ms
+[api 1] [21:36:00.972] [INFO] === AI.play() ===
+[api 1] [21:36:00.977] [INFO] StartTimer: 21:36:00.972131
+[api 1] [21:36:00.987] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 15.515ms
+[api 1] [21:36:00.991] [INFO] Time elapsed: 19.515ms
+[api 1] [21:36:01.034] [INFO] === AI.play() ===
+[api 1] [21:36:01.040] [INFO] StartTimer: 21:36:01.034648
+[api 1] [21:36:01.049] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 15.147ms
+[api 1] [21:36:01.057] [INFO] Time elapsed: 22.657ms
+[api 1] [21:36:01.104] [INFO] === AI.play() ===
+[api 1] [21:36:01.117] [INFO] StartTimer: 21:36:01.104993
+[api 1] [21:36:01.126] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 21.166ms
+[api 1] [21:36:01.144] [INFO] Time elapsed: 39.326ms
+[api 1] [21:36:01.186] [INFO] === AI.play() ===
+[api 1] [21:36:01.188] [INFO] StartTimer: 21:36:01.186495
+[api 1] [21:36:01.204] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 18.036ms
+[api 1] [21:36:01.223] [INFO] Time elapsed: 37.389ms
+[api 1] [21:36:01.269] [INFO] === AI.play() ===
+[api 1] [21:36:01.274] [INFO] StartTimer: 21:36:01.269570
+[api 1] [21:36:01.291] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 21.817ms
+[api 1] [21:36:01.317] [INFO] Time elapsed: 48.325ms
+[api 1] [21:36:01.357] [INFO] === AI.play() ===
+[api 1] [21:36:01.363] [INFO] StartTimer: 21:36:01.357035
+[api 1] [21:36:01.365] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 7.996ms
+[api 1] [21:36:01.367] [INFO] Time elapsed: 10.002ms
+[api 1] [21:36:01.432] [INFO] === AI.play() ===
+[api 1] [21:36:01.437] [INFO] StartTimer: 21:36:01.432297
+[api 1] [21:36:01.442] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 9.592ms
+[api 1] [21:36:01.448] [INFO] Time elapsed: 16.158ms
+[api 1] [21:36:01.496] [INFO] === AI.play() ===
+[api 1] [21:36:01.505] [INFO] StartTimer: 21:36:01.496487
+[api 1] [21:36:01.511] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 13.586ms
+[api 1] [21:36:01.528] [INFO] Time elapsed: 32.424ms
+[api 1] [21:36:01.537] [INFO] === AI.play() ===
+[api 1] [21:36:01.546] [INFO] StartTimer: 21:36:01.537327
+[api 1] [21:36:01.557] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 19.754ms
+[api 1] [21:36:01.566] [INFO] Time elapsed: 28.756ms
+[api 1] [21:36:01.580] [INFO] === AI.play() ===
+[api 1] [21:36:01.590] [INFO] StartTimer: 21:36:01.580686
+[api 1] [21:36:01.597] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 16.437ms
+[api 1] [21:36:01.600] [INFO] Time elapsed: 19.402ms
+[api 1] [21:36:01.655] [INFO] === AI.play() ===
+[api 1] [21:36:01.662] [INFO] StartTimer: 21:36:01.655949
+[api 1] [21:36:01.695] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 38.275ms
+[api 1] [21:36:01.721] [INFO] Time elapsed: 65.98ms
+[api 1] [21:36:01.784] [INFO] === AI.play() ===
+[api 1] [21:36:01.798] [INFO] StartTimer: 21:36:01.784928
+[api 1] [21:36:01.811] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 26.469ms
+[api 1] [21:36:01.819] [INFO] Time elapsed: 34.72ms
+[api 1] [21:36:01.862] [INFO] === AI.play() ===
+[api 1] [21:36:01.879] [INFO] StartTimer: 21:36:01.862595
+[api 1] [21:36:01.903] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 40.504ms
+[api 1] [21:36:01.907] [INFO] Time elapsed: 44.505ms
+[api 1] [21:36:01.941] [INFO] === AI.play() ===
+[api 1] [21:36:01.952] [INFO] StartTimer: 21:36:01.941120
+[api 1] [21:36:01.970] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 29.628ms
+[api 1] [21:36:01.976] [INFO] Time elapsed: 35.629ms
+[api 1] [21:36:02.018] [INFO] === AI.play() ===
+[api 1] [21:36:02.025] [INFO] StartTimer: 21:36:02.018688
+[api 1] [21:36:02.072] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 54.028ms
+[api 1] [21:36:02.087] [INFO] Time elapsed: 68.602ms
+[api 1] [21:36:02.141] [INFO] === AI.play() ===
+[api 1] [21:36:02.159] [INFO] StartTimer: 21:36:02.141977
+[api 1] [21:36:02.172] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 30.955ms
+[api 1] [21:36:02.184] [INFO] Time elapsed: 42.969ms
+[api 1] [21:36:02.216] [INFO] === AI.play() ===
+[api 1] [21:36:02.224] [INFO] StartTimer: 21:36:02.216891
+[api 1] [21:36:02.236] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 19.217ms
+[api 1] [21:36:02.251] [INFO] Time elapsed: 34.719ms
+[api 1] [21:36:02.273] [INFO] === AI.play() ===
+[api 1] [21:36:02.285] [INFO] StartTimer: 21:36:02.273731
+[api 1] [21:36:02.291] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 17.809ms
+[api 1] [21:36:02.317] [INFO] Time elapsed: 43.939ms
+[api 1] [21:36:02.378] [INFO] === AI.play() ===
+[api 1] [21:36:02.384] [INFO] StartTimer: 21:36:02.378139
+[api 1] [21:36:02.384] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 5.986ms
+[api 1] [21:36:02.403] [INFO] Time elapsed: 25.213ms
+[api 1] [21:36:02.449] [INFO] === AI.play() ===
+[api 1] [21:36:02.471] [INFO] StartTimer: 21:36:02.449973
+[api 1] [21:36:02.498] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 47.529ms
+[api 1] [21:36:02.503] [INFO] Time elapsed: 53.53ms
+[api 1] [21:36:02.540] [INFO] === AI.play() ===
+[api 1] [21:36:02.541] [INFO] StartTimer: 21:36:02.540517
+[api 1] [21:36:02.558] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 17.536ms
+[api 1] [21:36:02.587] [INFO] Time elapsed: 46.556ms
+[api 1] [21:36:02.669] [INFO] === AI.play() ===
+[api 1] [21:36:02.685] [INFO] StartTimer: 21:36:02.669321
+[api 1] [21:36:02.707] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 38.657ms
+[api 1] [21:36:02.716] [INFO] Time elapsed: 47.673ms
+[api 1] [21:36:02.759] [INFO] === AI.play() ===
+[api 1] [21:36:02.760] [INFO] StartTimer: 21:36:02.759491
+[api 1] [21:36:02.760] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 0.989ms
+[api 1] [21:36:02.772] [INFO] Time elapsed: 13.049ms
+[api 1] [21:36:02.867] [INFO] === AI.play() ===
+[api 1] [21:36:02.873] [INFO] StartTimer: 21:36:02.867399
+[api 1] [21:36:02.877] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 8.997ms
+[api 1] [21:36:02.881] [INFO] Time elapsed: 13.997ms
+[api 1] [21:36:02.925] [INFO] === AI.play() ===
+[api 1] [21:36:02.937] [INFO] StartTimer: 21:36:02.925017
+[api 1] [21:36:02.956] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 31.46ms
+[api 1] [21:36:02.976] [INFO] Time elapsed: 51.212ms
+[api 1] [21:36:03.034] [INFO] === AI.play() ===
+[api 1] [21:36:03.042] [INFO] StartTimer: 21:36:03.034239
+[api 1] [21:36:03.065] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 31.016ms
+[api 1] [21:36:03.068] [INFO] Time elapsed: 34.089ms
+[api 1] [21:36:03.110] [INFO] === AI.play() ===
+[api 1] [21:36:03.115] [INFO] StartTimer: 21:36:03.110017
+[api 1] [21:36:03.118] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 7.989ms
+[api 1] [21:36:03.153] [INFO] Time elapsed: 43.604ms
+[api 1] [21:36:03.182] [INFO] === AI.play() ===
+[api 1] [21:36:03.188] [INFO] StartTimer: 21:36:03.182640
+[api 1] [21:36:03.197] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 14.369ms
+[api 1] [21:36:03.202] [INFO] Time elapsed: 20.14ms
+[api 1] [21:36:03.229] [INFO] === AI.play() ===
+[api 1] [21:36:03.235] [INFO] StartTimer: 21:36:03.229849
+[api 1] [21:36:03.239] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 9.181ms
+[api 1] [21:36:03.257] [INFO] Time elapsed: 27.237ms
+[api 1] [21:36:03.283] [INFO] === AI.play() ===
+[api 1] [21:36:03.288] [INFO] StartTimer: 21:36:03.283842
+[api 1] [21:36:03.289] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 5.408ms
+[api 1] [21:36:03.303] [INFO] Time elapsed: 19.658ms
+[api 1] [21:36:03.325] [INFO] === AI.play() ===
+[api 1] [21:36:03.346] [INFO] StartTimer: 21:36:03.325350
+[api 1] [21:36:03.368] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 42.705ms
+[api 1] [21:36:03.397] [INFO] Time elapsed: 71.833ms
+[api 1] [21:36:03.438] [INFO] === AI.play() ===
+[api 1] [21:36:03.452] [INFO] StartTimer: 21:36:03.438079
+[api 1] [21:36:03.458] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 20.151ms
+[api 1] [21:36:03.468] [INFO] Time elapsed: 30.148ms
+[api 1] [21:36:03.513] [INFO] === AI.play() ===
+[api 1] [21:36:03.519] [INFO] StartTimer: 21:36:03.513878
+[api 1] [21:36:03.530] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 16.172ms
+[api 1] [21:36:03.539] [INFO] Time elapsed: 25.332ms
+[api 1] [21:36:03.589] [INFO] === AI.play() ===
+[api 1] [21:36:03.598] [INFO] StartTimer: 21:36:03.589060
+[api 1] [21:36:03.601] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 11.995ms
+[api 1] [21:36:03.609] [INFO] Time elapsed: 20.834ms
+[api 1] [21:36:03.676] [INFO] === AI.play() ===
+[api 1] [21:36:03.684] [INFO] StartTimer: 21:36:03.676397
+[api 1] [21:36:03.693] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 17.0ms
+[api 1] [21:36:03.719] [INFO] Time elapsed: 43.192ms
+[api 1] [21:36:03.758] [INFO] === AI.play() ===
+[api 1] [21:36:03.797] [INFO] StartTimer: 21:36:03.758865
+[api 1] [21:36:03.818] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 59.426ms
+[api 1] [21:36:03.864] [INFO] Time elapsed: 105.163ms
+[api 1] [21:36:03.923] [INFO] === AI.play() ===
+[api 1] [21:36:03.929] [INFO] StartTimer: 21:36:03.923729
+[api 1] [21:36:03.959] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 35.52ms
+[api 1] [21:36:03.976] [INFO] Time elapsed: 52.778ms
+[api 1] [21:36:04.008] [INFO] === AI.play() ===
+[api 1] [21:36:04.021] [INFO] StartTimer: 21:36:04.008382
+[api 1] [21:36:04.053] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 45.616ms
+[api 1] [21:36:04.056] [INFO] Time elapsed: 47.806ms
+[api 1] [21:36:04.128] [INFO] === AI.play() ===
+[api 1] [21:36:04.135] [INFO] StartTimer: 21:36:04.127010
+[api 1] [21:36:04.160] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 33.514ms
+[api 1] [21:36:04.163] [INFO] Time elapsed: 36.497ms
+[api 1] [21:36:04.232] [INFO] === AI.play() ===
+[api 1] [21:36:04.238] [INFO] StartTimer: 21:36:04.232569
+[api 1] [21:36:04.242] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 10.043ms
+[api 1] [21:36:04.249] [INFO] Time elapsed: 17.042ms
+[api 1] [21:36:04.285] [INFO] === AI.play() ===
+[api 1] [21:36:04.292] [INFO] StartTimer: 21:36:04.285701
+[api 1] [21:36:04.303] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 17.857ms
+[api 1] [21:36:04.328] [INFO] Time elapsed: 41.471ms
+[api 1] [21:36:04.409] [INFO] === AI.play() ===
+[api 1] [21:36:04.421] [INFO] StartTimer: 21:36:04.409912
+[api 1] [21:36:04.434] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 24.346ms
+[api 1] [21:36:04.454] [INFO] Time elapsed: 43.415ms
+[api 1] [21:36:04.513] [INFO] === AI.play() ===
+[api 1] [21:36:04.530] [INFO] StartTimer: 21:36:04.513998
+[api 1] [21:36:04.541] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 27.671ms
+[api 1] [21:36:04.564] [INFO] Time elapsed: 50.794ms
+[api 1] [21:36:04.592] [INFO] === AI.play() ===
+[api 1] [21:36:04.597] [INFO] StartTimer: 21:36:04.592466
+[api 1] [21:36:04.608] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 16.012ms
+[api 1] [21:36:04.616] [INFO] Time elapsed: 24.116ms
+[api 1] [21:36:04.646] [INFO] === AI.play() ===
+[api 1] [21:36:04.647] [INFO] StartTimer: 21:36:04.646629
+[api 1] [21:36:04.647] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 0.995ms
+[api 1] [21:36:04.666] [INFO] Time elapsed: 20.094ms
+[api 1] [21:36:04.731] [INFO] === AI.play() ===
+[api 1] [21:36:04.738] [INFO] StartTimer: 21:36:04.731993
+[api 1] [21:36:04.756] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 24.513ms
+[api 1] [21:36:04.760] [INFO] Time elapsed: 28.606ms
+[api 1] [21:36:04.786] [INFO] === AI.play() ===
+[api 1] [21:36:04.797] [INFO] StartTimer: 21:36:04.786454
+[api 1] [21:36:04.825] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 38.731ms
+[api 1] [21:36:04.837] [INFO] Time elapsed: 50.107ms
+[api 1] [21:36:04.863] [INFO] === AI.play() ===
+[api 1] [21:36:04.883] [INFO] StartTimer: 21:36:04.863385
+[api 1] [21:36:04.898] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 34.725ms
+[api 1] [21:36:04.902] [INFO] Time elapsed: 38.729ms
+[api 1] [21:36:04.950] [INFO] === AI.play() ===
+[api 1] [21:36:05.005] [INFO] StartTimer: 21:36:04.950744
+[api 1] [21:36:05.008] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 58.047ms
+[api 1] [21:36:05.016] [INFO] Time elapsed: 65.768ms
+[api 1] [21:36:05.039] [INFO] === AI.play() ===
+[api 1] [21:36:05.046] [INFO] StartTimer: 21:36:05.039219
+[api 1] [21:36:05.068] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 29.764ms
+[api 1] [21:36:05.074] [INFO] Time elapsed: 35.763ms
+[api 1] [21:36:05.105] [INFO] === AI.play() ===
+[api 1] [21:36:05.124] [INFO] StartTimer: 21:36:05.105942
+[api 1] [21:36:05.149] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 43.544ms
+[api 1] [21:36:05.152] [INFO] Time elapsed: 46.545ms
+[api 1] [21:36:05.183] [INFO] === AI.play() ===
+[api 1] [21:36:05.208] [INFO] StartTimer: 21:36:05.183658
+[api 1] [21:36:05.217] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 32.828ms
+[api 1] [21:36:05.235] [INFO] Time elapsed: 51.83ms
+[api 1] [21:36:05.283] [INFO] === AI.play() ===
+[api 1] [21:36:05.290] [INFO] StartTimer: 21:36:05.283196
+[api 1] [21:36:05.301] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 18.025ms
+[api 1] [21:36:05.329] [INFO] Time elapsed: 46.007ms
+[api 1] [21:36:05.381] [INFO] === AI.play() ===
+[api 1] [21:36:05.385] [INFO] StartTimer: 21:36:05.381794
+[api 1] [21:36:05.401] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 19.997ms
+[api 1] [21:36:05.419] [INFO] Time elapsed: 37.458ms
+[api 1] [21:36:05.463] [INFO] === AI.play() ===
+[api 1] [21:36:05.466] [INFO] StartTimer: 21:36:05.463615
+[api 1] [21:36:05.488] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 25.249ms
+[api 1] [21:36:05.511] [INFO] Time elapsed: 47.99ms
+[api 1] [21:36:05.536] [INFO] === AI.play() ===
+[api 1] [21:36:05.548] [INFO] StartTimer: 21:36:05.536611
+[api 1] [21:36:05.566] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 29.992ms
+[api 1] [21:36:05.579] [INFO] Time elapsed: 42.995ms
+[api 1] [21:36:05.598] [INFO] === AI.play() ===
+[api 1] [21:36:05.609] [INFO] StartTimer: 21:36:05.598769
+[api 1] [21:36:05.633] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 34.292ms
+[api 1] [21:36:05.643] [INFO] Time elapsed: 44.392ms
+[api 1] [21:36:05.676] [INFO] === AI.play() ===
+[api 1] [21:36:05.687] [INFO] StartTimer: 21:36:05.676799
+[api 1] [21:36:05.701] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 24.697ms
+[api 1] [21:36:05.703] [INFO] Time elapsed: 26.697ms
+[api 1] [21:36:05.747] [INFO] === AI.play() ===
+[api 1] [21:36:05.806] [INFO] StartTimer: 21:36:05.747188
+[api 1] [21:36:05.839] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 92.301ms
+[api 1] [21:36:05.870] [INFO] Time elapsed: 123.385ms
+[api 1] [21:36:05.917] [INFO] === AI.play() ===
+[api 1] [21:36:05.930] [INFO] StartTimer: 21:36:05.917124
+[api 1] [21:36:05.949] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 32.825ms
+[api 1] [21:36:05.976] [INFO] Time elapsed: 59.333ms
+[api 1] [21:36:06.033] [INFO] === AI.play() ===
+[api 1] [21:36:06.092] [INFO] StartTimer: 21:36:06.033003
+[api 1] [21:36:06.128] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 95.711ms
+[api 1] [21:36:06.151] [INFO] Time elapsed: 118.873ms
+[api 1] [21:36:06.184] [INFO] === AI.play() ===
+[api 1] [21:36:06.194] [INFO] StartTimer: 21:36:06.184168
+[api 1] [21:36:06.213] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 28.879ms
+[api 1] [21:36:06.231] [INFO] Time elapsed: 47.751ms
+[api 1] [21:36:06.234] [INFO] === AI.play() ===
+[api 1] [21:36:06.239] [INFO] StartTimer: 21:36:06.234914
+[api 1] [21:36:06.250] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 15.675ms
+[api 1] [21:36:06.270] [INFO] Time elapsed: 35.77ms
+[api 1] [21:36:06.317] [INFO] === AI.play() ===
+[api 1] [21:36:06.320] [INFO] StartTimer: 21:36:06.317795
+[api 1] [21:36:06.365] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 47.454ms
+[api 1] [21:36:06.393] [INFO] Time elapsed: 75.235ms
+[api 1] [21:36:06.422] [INFO] === AI.play() ===
+[api 1] [21:36:06.451] [INFO] StartTimer: 21:36:06.422341
+[api 1] [21:36:06.484] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 62.294ms
+[api 1] [21:36:06.502] [INFO] Time elapsed: 80.444ms
+[api 1] [21:36:06.563] [INFO] === AI.play() ===
+[api 1] [21:36:06.608] [INFO] StartTimer: 21:36:06.563858
+[api 1] [21:36:06.664] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 100.88ms
+[api 1] [21:36:06.689] [INFO] Time elapsed: 125.66ms
+[api 1] [21:36:06.768] [INFO] === AI.play() ===
+[api 1] [21:36:06.805] [INFO] StartTimer: 21:36:06.768910
+[api 1] [21:36:06.816] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 47.276ms
+[api 1] [21:36:06.876] [INFO] Time elapsed: 107.824ms
+[api 1] [21:36:06.943] [INFO] === AI.play() ===
+[api 1] [21:36:07.003] [INFO] StartTimer: 21:36:06.943419
+[api 1] [21:36:07.050] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 107.118ms
+[api 1] [21:36:07.063] [INFO] Time elapsed: 119.638ms
+[api 1] [21:36:07.094] [INFO] === AI.play() ===
+[api 1] [21:36:07.107] [INFO] StartTimer: 21:36:07.094836
+[api 1] [21:36:07.140] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 45.292ms
+[api 1] [21:36:07.151] [INFO] Time elapsed: 57.079ms
+[api 1] [21:36:07.180] [INFO] === AI.play() ===
+[api 1] [21:36:07.208] [INFO] StartTimer: 21:36:07.180811
+[api 1] [21:36:07.236] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 55.764ms
+[api 1] [21:36:07.243] [INFO] Time elapsed: 62.783ms
+[api 1] [21:36:07.274] [INFO] === AI.play() ===
+[api 1] [21:36:07.286] [INFO] StartTimer: 21:36:07.274134
+[api 1] [21:36:07.291] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 17.609ms
+[api 1] [21:36:07.300] [INFO] Time elapsed: 26.778ms
+[api 1] [21:36:07.362] [INFO] === AI.play() ===
+[api 1] [21:36:07.379] [INFO] StartTimer: 21:36:07.362126
+[api 1] [21:36:07.405] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 43.116ms
+[api 1] [21:36:07.448] [INFO] Time elapsed: 86.512ms
+[api 1] [21:36:07.517] [INFO] === AI.play() ===
+[api 1] [21:36:07.518] [INFO] StartTimer: 21:36:07.517464
+[api 1] [21:36:07.518] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 0.992ms
+[api 1] [21:36:07.552] [INFO] Time elapsed: 35.018ms
+[api 1] [21:36:07.590] [INFO] === AI.play() ===
+[api 1] [21:36:07.607] [INFO] StartTimer: 21:36:07.590990
+[api 1] [21:36:07.675] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 84.549ms
+[api 1] [21:36:07.739] [INFO] Time elapsed: 147.564ms
+[api 1] [21:36:07.791] [INFO] === AI.play() ===
+[api 1] [21:36:07.818] [INFO] StartTimer: 21:36:07.791857
+[api 1] [21:36:07.843] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 51.055ms
+[api 1] [21:36:07.869] [INFO] Time elapsed: 77.398ms
+[api 1] [21:36:07.908] [INFO] === AI.play() ===
+[api 1] [21:36:07.909] [INFO] StartTimer: 21:36:07.908912
+[api 1] [21:36:07.909] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 1.003ms
+[api 1] [21:36:07.929] [INFO] Time elapsed: 20.998ms
+[api 1] [21:36:07.983] [INFO] === AI.play() ===
+[api 1] [21:36:08.010] [INFO] StartTimer: 21:36:07.983998
+[api 1] [21:36:08.029] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 45.073ms
+[api 1] [21:36:08.049] [INFO] Time elapsed: 65.962ms
+[api 1] [21:36:08.087] [INFO] === AI.play() ===
+[api 1] [21:36:08.090] [INFO] StartTimer: 21:36:08.087824
+[api 1] [21:36:08.098] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 11.013ms
+[api 1] [21:36:08.118] [INFO] Time elapsed: 30.94ms
+[api 1] [21:36:08.177] [INFO] === AI.play() ===
+[api 1] [21:36:08.187] [INFO] StartTimer: 21:36:08.177997
+[api 1] [21:36:08.189] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 11.992ms
+[api 1] [21:36:08.214] [INFO] Time elapsed: 36.003ms
+[api 1] [21:36:08.234] [INFO] === AI.play() ===
+[api 1] [21:36:08.255] [INFO] StartTimer: 21:36:08.234555
+[api 1] [21:36:08.281] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 47.318ms
+[api 1] [21:36:08.341] [INFO] Time elapsed: 106.92ms
+[api 1] [21:36:08.371] [INFO] === AI.play() ===
+[api 1] [21:36:08.408] [INFO] StartTimer: 21:36:08.371280
+[api 1] [21:36:08.431] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 60.094ms
+[api 1] [21:36:08.435] [INFO] Time elapsed: 64.113ms
+[api 1] [21:36:08.469] [INFO] === AI.play() ===
+[api 1] [21:36:08.470] [INFO] StartTimer: 21:36:08.469798
+[api 1] [21:36:08.470] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 1.005ms
+[api 1] [21:36:08.471] [INFO] Time elapsed: 1.999ms
+[api 1] [21:36:08.519] [INFO] === AI.play() ===
+[api 1] [21:36:08.524] [INFO] StartTimer: 21:36:08.519064
+[api 1] [21:36:08.537] [INFO] Move: timeInMilliseconds = 1, angle = 1, called at 18.863ms
+[api 1] [21:36:08.547] [INFO] Time elapsed: 28.406ms
