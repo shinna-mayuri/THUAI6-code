@@ -1,1815 +1,1815 @@
-[logic] [01:20:59.053] [INFO] *********Basic Info*********
-[logic] [01:20:59.054] [INFO] asynchronous: True
-[logic] [01:20:59.054] [INFO] server: 127.0.0.1:8888
-[logic] [01:20:59.054] [INFO] playerID: 0
-[logic] [01:20:59.054] [INFO] player type: StudentPlayer
-[logic] [01:20:59.054] [INFO] ****************************
-[logic] [01:20:59.062] [INFO] Try to connect to server...
-[logic] [01:20:59.093] [INFO] Connect to the server successfully, AI thread will be started.
-[logic] [01:20:59.095] [INFO] Message thread start!
-[logic] [01:20:59.095] [INFO] Join the AI thread.
-[logic] [01:20:59.095] [INFO] Join the player!
-[logic] [01:20:59.163] [DEBUG] Get message from server!
-[logic] [01:20:59.163] [INFO] Game start!
-[logic] [01:20:59.164] [INFO] Game map loaded!
-[logic] [01:20:59.164] [DEBUG] Buffer cleared!
-[logic] [01:20:59.164] [DEBUG] Add Student!
-[logic] [01:20:59.164] [DEBUG] Unknown Message!
-[logic] [01:20:59.164] [DEBUG] Unknown Message!
-[logic] [01:20:59.165] [DEBUG] Add Classroom!
-[logic] [01:20:59.165] [INFO] Update state!
-[logic] [01:20:59.188] [DEBUG] Get message from server!
-[logic] [01:20:59.188] [DEBUG] Buffer cleared!
-[logic] [01:20:59.188] [DEBUG] Add Student!
-[logic] [01:20:59.189] [DEBUG] Unknown Message!
-[logic] [01:20:59.189] [DEBUG] Update Classroom!
-[logic] [01:20:59.189] [INFO] Update state!
-[logic] [01:20:59.190] [DEBUG] Called GetFullMap
-[logic] [01:20:59.192] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.192] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.233] [DEBUG] Get message from server!
-[logic] [01:20:59.233] [DEBUG] Buffer cleared!
-[logic] [01:20:59.233] [DEBUG] Add Student!
-[logic] [01:20:59.233] [DEBUG] Unknown Message!
-[logic] [01:20:59.234] [DEBUG] Update Classroom!
-[logic] [01:20:59.234] [INFO] Update state!
-[logic] [01:20:59.235] [DEBUG] Called GetFullMap
-[logic] [01:20:59.235] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.236] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.280] [DEBUG] Get message from server!
-[logic] [01:20:59.281] [DEBUG] Buffer cleared!
-[logic] [01:20:59.281] [DEBUG] Add Student!
-[logic] [01:20:59.281] [DEBUG] Unknown Message!
-[logic] [01:20:59.281] [DEBUG] Update Classroom!
-[logic] [01:20:59.281] [INFO] Update state!
-[logic] [01:20:59.282] [DEBUG] Called GetFullMap
-[logic] [01:20:59.283] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.283] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.329] [DEBUG] Get message from server!
-[logic] [01:20:59.329] [DEBUG] Buffer cleared!
-[logic] [01:20:59.329] [DEBUG] Add Student!
-[logic] [01:20:59.329] [DEBUG] Unknown Message!
-[logic] [01:20:59.329] [DEBUG] Update Classroom!
-[logic] [01:20:59.330] [INFO] Update state!
-[logic] [01:20:59.330] [DEBUG] Called GetFullMap
-[logic] [01:20:59.331] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.331] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.389] [DEBUG] Get message from server!
-[logic] [01:20:59.389] [DEBUG] Buffer cleared!
-[logic] [01:20:59.389] [DEBUG] Add Student!
-[logic] [01:20:59.389] [DEBUG] Unknown Message!
-[logic] [01:20:59.390] [DEBUG] Update Classroom!
-[logic] [01:20:59.390] [INFO] Update state!
-[logic] [01:20:59.395] [DEBUG] Called GetFullMap
-[logic] [01:20:59.396] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.396] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.437] [DEBUG] Get message from server!
-[logic] [01:20:59.437] [DEBUG] Buffer cleared!
-[logic] [01:20:59.437] [DEBUG] Add Student!
-[logic] [01:20:59.437] [DEBUG] Unknown Message!
-[logic] [01:20:59.437] [DEBUG] Update Classroom!
-[logic] [01:20:59.437] [INFO] Update state!
-[logic] [01:20:59.441] [DEBUG] Called GetFullMap
-[logic] [01:20:59.442] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.442] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.483] [DEBUG] Get message from server!
-[logic] [01:20:59.483] [DEBUG] Buffer cleared!
-[logic] [01:20:59.483] [DEBUG] Add Student!
-[logic] [01:20:59.483] [DEBUG] Unknown Message!
-[logic] [01:20:59.483] [DEBUG] Update Classroom!
-[logic] [01:20:59.483] [INFO] Update state!
-[logic] [01:20:59.487] [DEBUG] Called GetFullMap
-[logic] [01:20:59.488] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.488] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.530] [DEBUG] Get message from server!
-[logic] [01:20:59.531] [DEBUG] Buffer cleared!
-[logic] [01:20:59.531] [DEBUG] Add Student!
-[logic] [01:20:59.531] [DEBUG] Unknown Message!
-[logic] [01:20:59.531] [DEBUG] Update Classroom!
-[logic] [01:20:59.531] [INFO] Update state!
-[logic] [01:20:59.535] [DEBUG] Called GetFullMap
-[logic] [01:20:59.536] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.536] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.578] [DEBUG] Get message from server!
-[logic] [01:20:59.578] [DEBUG] Buffer cleared!
-[logic] [01:20:59.578] [DEBUG] Add Student!
-[logic] [01:20:59.578] [DEBUG] Unknown Message!
-[logic] [01:20:59.578] [DEBUG] Update Classroom!
-[logic] [01:20:59.578] [INFO] Update state!
-[logic] [01:20:59.582] [DEBUG] Called GetFullMap
-[logic] [01:20:59.583] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.583] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.639] [DEBUG] Get message from server!
-[logic] [01:20:59.640] [DEBUG] Buffer cleared!
-[logic] [01:20:59.640] [DEBUG] Add Student!
-[logic] [01:20:59.640] [DEBUG] Unknown Message!
-[logic] [01:20:59.640] [DEBUG] Update Classroom!
-[logic] [01:20:59.640] [INFO] Update state!
-[logic] [01:20:59.645] [DEBUG] Called GetFullMap
-[logic] [01:20:59.646] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.646] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.687] [DEBUG] Get message from server!
-[logic] [01:20:59.687] [DEBUG] Buffer cleared!
-[logic] [01:20:59.687] [DEBUG] Add Student!
-[logic] [01:20:59.687] [DEBUG] Unknown Message!
-[logic] [01:20:59.687] [DEBUG] Update Classroom!
-[logic] [01:20:59.688] [INFO] Update state!
-[logic] [01:20:59.692] [DEBUG] Called GetFullMap
-[logic] [01:20:59.693] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.693] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.734] [DEBUG] Get message from server!
-[logic] [01:20:59.734] [DEBUG] Buffer cleared!
-[logic] [01:20:59.734] [DEBUG] Add Student!
-[logic] [01:20:59.734] [DEBUG] Unknown Message!
-[logic] [01:20:59.734] [DEBUG] Update Classroom!
-[logic] [01:20:59.735] [INFO] Update state!
-[logic] [01:20:59.738] [DEBUG] Called GetFullMap
-[logic] [01:20:59.739] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.739] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.781] [DEBUG] Get message from server!
-[logic] [01:20:59.781] [DEBUG] Buffer cleared!
-[logic] [01:20:59.781] [DEBUG] Add Student!
-[logic] [01:20:59.781] [DEBUG] Unknown Message!
-[logic] [01:20:59.782] [DEBUG] Update Classroom!
-[logic] [01:20:59.782] [INFO] Update state!
-[logic] [01:20:59.786] [DEBUG] Called GetFullMap
-[logic] [01:20:59.787] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.787] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.828] [DEBUG] Get message from server!
-[logic] [01:20:59.828] [DEBUG] Buffer cleared!
-[logic] [01:20:59.828] [DEBUG] Add Student!
-[logic] [01:20:59.828] [DEBUG] Unknown Message!
-[logic] [01:20:59.829] [DEBUG] Update Classroom!
-[logic] [01:20:59.829] [INFO] Update state!
-[logic] [01:20:59.834] [DEBUG] Called GetFullMap
-[logic] [01:20:59.835] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.835] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.891] [DEBUG] Get message from server!
-[logic] [01:20:59.891] [DEBUG] Buffer cleared!
-[logic] [01:20:59.891] [DEBUG] Add Student!
-[logic] [01:20:59.891] [DEBUG] Unknown Message!
-[logic] [01:20:59.892] [DEBUG] Update Classroom!
-[logic] [01:20:59.892] [INFO] Update state!
-[logic] [01:20:59.895] [DEBUG] Called GetFullMap
-[logic] [01:20:59.896] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.896] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.937] [DEBUG] Get message from server!
-[logic] [01:20:59.937] [DEBUG] Buffer cleared!
-[logic] [01:20:59.937] [DEBUG] Add Student!
-[logic] [01:20:59.938] [DEBUG] Unknown Message!
-[logic] [01:20:59.938] [DEBUG] Update Classroom!
-[logic] [01:20:59.938] [INFO] Update state!
-[logic] [01:20:59.944] [DEBUG] Called GetFullMap
-[logic] [01:20:59.945] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.945] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.985] [DEBUG] Get message from server!
-[logic] [01:20:59.985] [DEBUG] Buffer cleared!
-[logic] [01:20:59.985] [DEBUG] Add Student!
-[logic] [01:20:59.985] [DEBUG] Unknown Message!
-[logic] [01:20:59.985] [DEBUG] Update Classroom!
-[logic] [01:20:59.985] [INFO] Update state!
-[logic] [01:20:59.991] [DEBUG] Called GetFullMap
-[logic] [01:20:59.992] [DEBUG] Called GetSelfInfo
-[logic] [01:20:59.992] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.033] [DEBUG] Get message from server!
-[logic] [01:21:00.033] [DEBUG] Buffer cleared!
-[logic] [01:21:00.033] [DEBUG] Add Student!
-[logic] [01:21:00.033] [DEBUG] Unknown Message!
-[logic] [01:21:00.033] [DEBUG] Update Classroom!
-[logic] [01:21:00.034] [INFO] Update state!
-[logic] [01:21:00.036] [DEBUG] Called GetFullMap
-[logic] [01:21:00.037] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.037] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.079] [DEBUG] Get message from server!
-[logic] [01:21:00.080] [DEBUG] Buffer cleared!
-[logic] [01:21:00.080] [DEBUG] Add Student!
-[logic] [01:21:00.080] [DEBUG] Unknown Message!
-[logic] [01:21:00.080] [DEBUG] Update Classroom!
-[logic] [01:21:00.081] [INFO] Update state!
-[logic] [01:21:00.086] [DEBUG] Called GetFullMap
-[logic] [01:21:00.088] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.088] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.143] [DEBUG] Get message from server!
-[logic] [01:21:00.143] [DEBUG] Buffer cleared!
-[logic] [01:21:00.144] [DEBUG] Add Student!
-[logic] [01:21:00.144] [DEBUG] Unknown Message!
-[logic] [01:21:00.144] [DEBUG] Update Classroom!
-[logic] [01:21:00.144] [INFO] Update state!
-[logic] [01:21:00.147] [DEBUG] Called GetFullMap
-[logic] [01:21:00.148] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.149] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.189] [DEBUG] Get message from server!
-[logic] [01:21:00.189] [DEBUG] Buffer cleared!
-[logic] [01:21:00.189] [DEBUG] Add Student!
-[logic] [01:21:00.189] [DEBUG] Unknown Message!
-[logic] [01:21:00.190] [DEBUG] Update Classroom!
-[logic] [01:21:00.190] [INFO] Update state!
-[logic] [01:21:00.193] [DEBUG] Called GetFullMap
-[logic] [01:21:00.194] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.195] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.238] [DEBUG] Get message from server!
-[logic] [01:21:00.238] [DEBUG] Buffer cleared!
-[logic] [01:21:00.238] [DEBUG] Add Student!
-[logic] [01:21:00.238] [DEBUG] Unknown Message!
-[logic] [01:21:00.238] [DEBUG] Update Classroom!
-[logic] [01:21:00.239] [INFO] Update state!
-[logic] [01:21:00.242] [DEBUG] Called GetFullMap
-[logic] [01:21:00.244] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.244] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.284] [DEBUG] Get message from server!
-[logic] [01:21:00.285] [DEBUG] Buffer cleared!
-[logic] [01:21:00.285] [DEBUG] Add Student!
-[logic] [01:21:00.285] [DEBUG] Unknown Message!
-[logic] [01:21:00.285] [DEBUG] Update Classroom!
-[logic] [01:21:00.285] [INFO] Update state!
-[logic] [01:21:00.289] [DEBUG] Called GetFullMap
-[logic] [01:21:00.290] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.290] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.330] [DEBUG] Get message from server!
-[logic] [01:21:00.331] [DEBUG] Buffer cleared!
-[logic] [01:21:00.331] [DEBUG] Add Student!
-[logic] [01:21:00.331] [DEBUG] Unknown Message!
-[logic] [01:21:00.331] [DEBUG] Update Classroom!
-[logic] [01:21:00.331] [INFO] Update state!
-[logic] [01:21:00.334] [DEBUG] Called GetFullMap
-[logic] [01:21:00.335] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.335] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.393] [DEBUG] Get message from server!
-[logic] [01:21:00.393] [DEBUG] Buffer cleared!
-[logic] [01:21:00.393] [DEBUG] Add Student!
-[logic] [01:21:00.393] [DEBUG] Unknown Message!
-[logic] [01:21:00.393] [DEBUG] Update Classroom!
-[logic] [01:21:00.394] [INFO] Update state!
-[logic] [01:21:00.398] [DEBUG] Called GetFullMap
-[logic] [01:21:00.399] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.399] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.439] [DEBUG] Get message from server!
-[logic] [01:21:00.439] [DEBUG] Buffer cleared!
-[logic] [01:21:00.439] [DEBUG] Add Student!
-[logic] [01:21:00.439] [DEBUG] Unknown Message!
-[logic] [01:21:00.440] [DEBUG] Update Classroom!
-[logic] [01:21:00.440] [INFO] Update state!
-[logic] [01:21:00.444] [DEBUG] Called GetFullMap
-[logic] [01:21:00.445] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.445] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.488] [DEBUG] Get message from server!
-[logic] [01:21:00.488] [DEBUG] Buffer cleared!
-[logic] [01:21:00.488] [DEBUG] Add Student!
-[logic] [01:21:00.488] [DEBUG] Unknown Message!
-[logic] [01:21:00.488] [DEBUG] Update Classroom!
-[logic] [01:21:00.489] [INFO] Update state!
-[logic] [01:21:00.494] [DEBUG] Called GetFullMap
-[logic] [01:21:00.495] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.495] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.534] [DEBUG] Get message from server!
-[logic] [01:21:00.535] [DEBUG] Buffer cleared!
-[logic] [01:21:00.535] [DEBUG] Add Student!
-[logic] [01:21:00.535] [DEBUG] Unknown Message!
-[logic] [01:21:00.535] [DEBUG] Update Classroom!
-[logic] [01:21:00.535] [INFO] Update state!
-[logic] [01:21:00.540] [DEBUG] Called GetFullMap
-[logic] [01:21:00.541] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.541] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.581] [DEBUG] Get message from server!
-[logic] [01:21:00.581] [DEBUG] Buffer cleared!
-[logic] [01:21:00.581] [DEBUG] Add Student!
-[logic] [01:21:00.581] [DEBUG] Unknown Message!
-[logic] [01:21:00.581] [DEBUG] Update Classroom!
-[logic] [01:21:00.581] [INFO] Update state!
-[logic] [01:21:00.586] [DEBUG] Called GetFullMap
-[logic] [01:21:00.587] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.587] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.642] [DEBUG] Get message from server!
-[logic] [01:21:00.642] [DEBUG] Buffer cleared!
-[logic] [01:21:00.643] [DEBUG] Add Student!
-[logic] [01:21:00.643] [DEBUG] Unknown Message!
-[logic] [01:21:00.643] [DEBUG] Update Classroom!
-[logic] [01:21:00.643] [INFO] Update state!
-[logic] [01:21:00.648] [DEBUG] Called GetFullMap
-[logic] [01:21:00.648] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.649] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.688] [DEBUG] Get message from server!
-[logic] [01:21:00.689] [DEBUG] Buffer cleared!
-[logic] [01:21:00.689] [DEBUG] Add Student!
-[logic] [01:21:00.689] [DEBUG] Unknown Message!
-[logic] [01:21:00.689] [DEBUG] Update Classroom!
-[logic] [01:21:00.689] [INFO] Update state!
-[logic] [01:21:00.694] [DEBUG] Called GetFullMap
-[logic] [01:21:00.695] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.695] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.734] [DEBUG] Get message from server!
-[logic] [01:21:00.735] [DEBUG] Buffer cleared!
-[logic] [01:21:00.735] [DEBUG] Add Student!
-[logic] [01:21:00.735] [DEBUG] Unknown Message!
-[logic] [01:21:00.735] [DEBUG] Update Classroom!
-[logic] [01:21:00.735] [INFO] Update state!
-[logic] [01:21:00.740] [DEBUG] Called GetFullMap
-[logic] [01:21:00.741] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.741] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.781] [DEBUG] Get message from server!
-[logic] [01:21:00.782] [DEBUG] Buffer cleared!
-[logic] [01:21:00.782] [DEBUG] Add Student!
-[logic] [01:21:00.782] [DEBUG] Unknown Message!
-[logic] [01:21:00.782] [DEBUG] Update Classroom!
-[logic] [01:21:00.782] [INFO] Update state!
-[logic] [01:21:00.786] [DEBUG] Called GetFullMap
-[logic] [01:21:00.787] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.787] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.828] [DEBUG] Get message from server!
-[logic] [01:21:00.828] [DEBUG] Buffer cleared!
-[logic] [01:21:00.828] [DEBUG] Add Student!
-[logic] [01:21:00.828] [DEBUG] Unknown Message!
-[logic] [01:21:00.828] [DEBUG] Update Classroom!
-[logic] [01:21:00.828] [INFO] Update state!
-[logic] [01:21:00.835] [DEBUG] Called GetFullMap
-[logic] [01:21:00.836] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.836] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.891] [DEBUG] Get message from server!
-[logic] [01:21:00.891] [DEBUG] Buffer cleared!
-[logic] [01:21:00.891] [DEBUG] Add Student!
-[logic] [01:21:00.891] [DEBUG] Unknown Message!
-[logic] [01:21:00.892] [DEBUG] Update Classroom!
-[logic] [01:21:00.892] [INFO] Update state!
-[logic] [01:21:00.897] [DEBUG] Called GetFullMap
-[logic] [01:21:00.898] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.898] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.938] [DEBUG] Get message from server!
-[logic] [01:21:00.938] [DEBUG] Buffer cleared!
-[logic] [01:21:00.938] [DEBUG] Add Student!
-[logic] [01:21:00.938] [DEBUG] Unknown Message!
-[logic] [01:21:00.938] [DEBUG] Update Classroom!
-[logic] [01:21:00.938] [INFO] Update state!
-[logic] [01:21:00.942] [DEBUG] Called GetFullMap
-[logic] [01:21:00.943] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.943] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.985] [DEBUG] Get message from server!
-[logic] [01:21:00.985] [DEBUG] Buffer cleared!
-[logic] [01:21:00.985] [DEBUG] Add Student!
-[logic] [01:21:00.985] [DEBUG] Unknown Message!
-[logic] [01:21:00.985] [DEBUG] Update Classroom!
-[logic] [01:21:00.985] [INFO] Update state!
-[logic] [01:21:00.990] [DEBUG] Called GetFullMap
-[logic] [01:21:00.991] [DEBUG] Called GetSelfInfo
-[logic] [01:21:00.991] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.031] [DEBUG] Get message from server!
-[logic] [01:21:01.032] [DEBUG] Buffer cleared!
-[logic] [01:21:01.032] [DEBUG] Add Student!
-[logic] [01:21:01.032] [DEBUG] Unknown Message!
-[logic] [01:21:01.032] [DEBUG] Update Classroom!
-[logic] [01:21:01.032] [INFO] Update state!
-[logic] [01:21:01.036] [DEBUG] Called GetFullMap
-[logic] [01:21:01.037] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.037] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.078] [DEBUG] Get message from server!
-[logic] [01:21:01.078] [DEBUG] Buffer cleared!
-[logic] [01:21:01.078] [DEBUG] Add Student!
-[logic] [01:21:01.078] [DEBUG] Unknown Message!
-[logic] [01:21:01.078] [DEBUG] Update Classroom!
-[logic] [01:21:01.078] [INFO] Update state!
-[logic] [01:21:01.083] [DEBUG] Called GetFullMap
-[logic] [01:21:01.084] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.084] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.140] [DEBUG] Get message from server!
-[logic] [01:21:01.140] [DEBUG] Buffer cleared!
-[logic] [01:21:01.141] [DEBUG] Add Student!
-[logic] [01:21:01.141] [DEBUG] Unknown Message!
-[logic] [01:21:01.141] [DEBUG] Update Classroom!
-[logic] [01:21:01.141] [INFO] Update state!
-[logic] [01:21:01.145] [DEBUG] Called GetFullMap
-[logic] [01:21:01.146] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.146] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.185] [DEBUG] Get message from server!
-[logic] [01:21:01.185] [DEBUG] Buffer cleared!
-[logic] [01:21:01.185] [DEBUG] Add Student!
-[logic] [01:21:01.185] [DEBUG] Unknown Message!
-[logic] [01:21:01.186] [DEBUG] Update Classroom!
-[logic] [01:21:01.186] [INFO] Update state!
-[logic] [01:21:01.190] [DEBUG] Called GetFullMap
-[logic] [01:21:01.190] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.190] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.232] [DEBUG] Get message from server!
-[logic] [01:21:01.233] [DEBUG] Buffer cleared!
-[logic] [01:21:01.233] [DEBUG] Add Student!
-[logic] [01:21:01.233] [DEBUG] Unknown Message!
-[logic] [01:21:01.233] [DEBUG] Update Classroom!
-[logic] [01:21:01.233] [INFO] Update state!
-[logic] [01:21:01.237] [DEBUG] Called GetFullMap
-[logic] [01:21:01.238] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.238] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.294] [DEBUG] Get message from server!
-[logic] [01:21:01.294] [DEBUG] Buffer cleared!
-[logic] [01:21:01.294] [DEBUG] Add Student!
-[logic] [01:21:01.294] [DEBUG] Unknown Message!
-[logic] [01:21:01.294] [DEBUG] Update Classroom!
-[logic] [01:21:01.294] [INFO] Update state!
-[logic] [01:21:01.299] [DEBUG] Called GetFullMap
-[logic] [01:21:01.300] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.300] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.341] [DEBUG] Get message from server!
-[logic] [01:21:01.342] [DEBUG] Buffer cleared!
-[logic] [01:21:01.342] [DEBUG] Add Student!
-[logic] [01:21:01.342] [DEBUG] Unknown Message!
-[logic] [01:21:01.342] [DEBUG] Update Classroom!
-[logic] [01:21:01.342] [INFO] Update state!
-[logic] [01:21:01.346] [DEBUG] Called GetFullMap
-[logic] [01:21:01.347] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.347] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.387] [DEBUG] Get message from server!
-[logic] [01:21:01.387] [DEBUG] Buffer cleared!
-[logic] [01:21:01.388] [DEBUG] Add Student!
-[logic] [01:21:01.388] [DEBUG] Unknown Message!
-[logic] [01:21:01.388] [DEBUG] Update Classroom!
-[logic] [01:21:01.388] [INFO] Update state!
-[logic] [01:21:01.391] [DEBUG] Called GetFullMap
-[logic] [01:21:01.392] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.393] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.450] [DEBUG] Get message from server!
-[logic] [01:21:01.450] [DEBUG] Buffer cleared!
-[logic] [01:21:01.450] [DEBUG] Add Student!
-[logic] [01:21:01.450] [DEBUG] Unknown Message!
-[logic] [01:21:01.450] [DEBUG] Update Classroom!
-[logic] [01:21:01.450] [INFO] Update state!
-[logic] [01:21:01.455] [DEBUG] Called GetFullMap
-[logic] [01:21:01.456] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.456] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.496] [DEBUG] Get message from server!
-[logic] [01:21:01.496] [DEBUG] Buffer cleared!
-[logic] [01:21:01.496] [DEBUG] Add Student!
-[logic] [01:21:01.496] [DEBUG] Unknown Message!
-[logic] [01:21:01.496] [DEBUG] Update Classroom!
-[logic] [01:21:01.496] [INFO] Update state!
-[logic] [01:21:01.502] [DEBUG] Called GetFullMap
-[logic] [01:21:01.503] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.503] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.542] [DEBUG] Get message from server!
-[logic] [01:21:01.542] [DEBUG] Buffer cleared!
-[logic] [01:21:01.543] [DEBUG] Add Student!
-[logic] [01:21:01.543] [DEBUG] Unknown Message!
-[logic] [01:21:01.543] [DEBUG] Update Classroom!
-[logic] [01:21:01.543] [INFO] Update state!
-[logic] [01:21:01.549] [DEBUG] Called GetFullMap
-[logic] [01:21:01.550] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.551] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.588] [DEBUG] Get message from server!
-[logic] [01:21:01.588] [DEBUG] Buffer cleared!
-[logic] [01:21:01.589] [DEBUG] Add Student!
-[logic] [01:21:01.589] [DEBUG] Unknown Message!
-[logic] [01:21:01.589] [DEBUG] Update Classroom!
-[logic] [01:21:01.589] [INFO] Update state!
-[logic] [01:21:01.593] [DEBUG] Called GetFullMap
-[logic] [01:21:01.595] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.595] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.651] [DEBUG] Get message from server!
-[logic] [01:21:01.651] [DEBUG] Buffer cleared!
-[logic] [01:21:01.651] [DEBUG] Add Student!
-[logic] [01:21:01.651] [DEBUG] Unknown Message!
-[logic] [01:21:01.652] [DEBUG] Update Classroom!
-[logic] [01:21:01.653] [INFO] Update state!
-[logic] [01:21:01.667] [DEBUG] Called GetFullMap
-[logic] [01:21:01.668] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.669] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.698] [DEBUG] Get message from server!
-[logic] [01:21:01.699] [DEBUG] Buffer cleared!
-[logic] [01:21:01.699] [DEBUG] Add Student!
-[logic] [01:21:01.699] [DEBUG] Unknown Message!
-[logic] [01:21:01.699] [DEBUG] Update Classroom!
-[logic] [01:21:01.699] [INFO] Update state!
-[logic] [01:21:01.707] [DEBUG] Called GetFullMap
-[logic] [01:21:01.708] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.708] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.745] [DEBUG] Get message from server!
-[logic] [01:21:01.746] [DEBUG] Buffer cleared!
-[logic] [01:21:01.746] [DEBUG] Add Student!
-[logic] [01:21:01.746] [DEBUG] Unknown Message!
-[logic] [01:21:01.746] [DEBUG] Update Classroom!
-[logic] [01:21:01.746] [INFO] Update state!
-[logic] [01:21:01.749] [DEBUG] Called GetFullMap
-[logic] [01:21:01.750] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.750] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.792] [DEBUG] Get message from server!
-[logic] [01:21:01.792] [DEBUG] Buffer cleared!
-[logic] [01:21:01.792] [DEBUG] Add Student!
-[logic] [01:21:01.792] [DEBUG] Unknown Message!
-[logic] [01:21:01.793] [DEBUG] Update Classroom!
-[logic] [01:21:01.793] [INFO] Update state!
-[logic] [01:21:01.798] [DEBUG] Called GetFullMap
-[logic] [01:21:01.799] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.799] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.839] [DEBUG] Get message from server!
-[logic] [01:21:01.839] [DEBUG] Buffer cleared!
-[logic] [01:21:01.839] [DEBUG] Add Student!
-[logic] [01:21:01.840] [DEBUG] Unknown Message!
-[logic] [01:21:01.840] [DEBUG] Update Classroom!
-[logic] [01:21:01.840] [INFO] Update state!
-[logic] [01:21:01.845] [DEBUG] Called GetFullMap
-[logic] [01:21:01.846] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.847] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.902] [DEBUG] Get message from server!
-[logic] [01:21:01.902] [DEBUG] Buffer cleared!
-[logic] [01:21:01.902] [DEBUG] Add Student!
-[logic] [01:21:01.902] [DEBUG] Unknown Message!
-[logic] [01:21:01.902] [DEBUG] Update Classroom!
-[logic] [01:21:01.903] [INFO] Update state!
-[logic] [01:21:01.907] [DEBUG] Called GetFullMap
-[logic] [01:21:01.908] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.909] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.948] [DEBUG] Get message from server!
-[logic] [01:21:01.948] [DEBUG] Buffer cleared!
-[logic] [01:21:01.948] [DEBUG] Add Student!
-[logic] [01:21:01.948] [DEBUG] Unknown Message!
-[logic] [01:21:01.948] [DEBUG] Update Classroom!
-[logic] [01:21:01.949] [INFO] Update state!
-[logic] [01:21:01.953] [DEBUG] Called GetFullMap
-[logic] [01:21:01.954] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.954] [DEBUG] Called GetSelfInfo
-[logic] [01:21:01.996] [DEBUG] Get message from server!
-[logic] [01:21:01.996] [DEBUG] Buffer cleared!
-[logic] [01:21:01.996] [DEBUG] Add Student!
-[logic] [01:21:01.996] [DEBUG] Unknown Message!
-[logic] [01:21:01.996] [DEBUG] Update Classroom!
-[logic] [01:21:01.996] [INFO] Update state!
-[logic] [01:21:02.001] [DEBUG] Called GetFullMap
-[logic] [01:21:02.002] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.002] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.042] [DEBUG] Get message from server!
-[logic] [01:21:02.042] [DEBUG] Buffer cleared!
-[logic] [01:21:02.043] [DEBUG] Add Student!
-[logic] [01:21:02.043] [DEBUG] Unknown Message!
-[logic] [01:21:02.043] [DEBUG] Update Classroom!
-[logic] [01:21:02.043] [INFO] Update state!
-[logic] [01:21:02.048] [DEBUG] Called GetFullMap
-[logic] [01:21:02.049] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.049] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.088] [DEBUG] Get message from server!
-[logic] [01:21:02.088] [DEBUG] Buffer cleared!
-[logic] [01:21:02.088] [DEBUG] Add Student!
-[logic] [01:21:02.088] [DEBUG] Unknown Message!
-[logic] [01:21:02.088] [DEBUG] Update Classroom!
-[logic] [01:21:02.089] [INFO] Update state!
-[logic] [01:21:02.093] [DEBUG] Called GetFullMap
-[logic] [01:21:02.094] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.094] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.150] [DEBUG] Get message from server!
-[logic] [01:21:02.150] [DEBUG] Buffer cleared!
-[logic] [01:21:02.150] [DEBUG] Add Student!
-[logic] [01:21:02.150] [DEBUG] Unknown Message!
-[logic] [01:21:02.150] [DEBUG] Update Classroom!
-[logic] [01:21:02.151] [INFO] Update state!
-[logic] [01:21:02.153] [DEBUG] Called GetFullMap
-[logic] [01:21:02.155] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.155] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.197] [DEBUG] Get message from server!
-[logic] [01:21:02.197] [DEBUG] Buffer cleared!
-[logic] [01:21:02.197] [DEBUG] Add Student!
-[logic] [01:21:02.197] [DEBUG] Unknown Message!
-[logic] [01:21:02.197] [DEBUG] Update Classroom!
-[logic] [01:21:02.197] [INFO] Update state!
-[logic] [01:21:02.203] [DEBUG] Called GetFullMap
-[logic] [01:21:02.204] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.204] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.244] [DEBUG] Get message from server!
-[logic] [01:21:02.244] [DEBUG] Buffer cleared!
-[logic] [01:21:02.244] [DEBUG] Add Student!
-[logic] [01:21:02.244] [DEBUG] Unknown Message!
-[logic] [01:21:02.244] [DEBUG] Update Classroom!
-[logic] [01:21:02.244] [INFO] Update state!
-[logic] [01:21:02.251] [DEBUG] Called GetFullMap
-[logic] [01:21:02.252] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.252] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.291] [DEBUG] Get message from server!
-[logic] [01:21:02.291] [DEBUG] Buffer cleared!
-[logic] [01:21:02.291] [DEBUG] Add Student!
-[logic] [01:21:02.291] [DEBUG] Unknown Message!
-[logic] [01:21:02.291] [DEBUG] Update Classroom!
-[logic] [01:21:02.292] [INFO] Update state!
-[logic] [01:21:02.297] [DEBUG] Called GetFullMap
-[logic] [01:21:02.298] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.298] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.339] [DEBUG] Get message from server!
-[logic] [01:21:02.339] [DEBUG] Buffer cleared!
-[logic] [01:21:02.339] [DEBUG] Add Student!
-[logic] [01:21:02.339] [DEBUG] Unknown Message!
-[logic] [01:21:02.339] [DEBUG] Update Classroom!
-[logic] [01:21:02.340] [INFO] Update state!
-[logic] [01:21:02.345] [DEBUG] Called GetFullMap
-[logic] [01:21:02.346] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.346] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.400] [DEBUG] Get message from server!
-[logic] [01:21:02.401] [DEBUG] Buffer cleared!
-[logic] [01:21:02.401] [DEBUG] Add Student!
-[logic] [01:21:02.401] [DEBUG] Unknown Message!
-[logic] [01:21:02.401] [DEBUG] Update Classroom!
-[logic] [01:21:02.401] [INFO] Update state!
-[logic] [01:21:02.405] [DEBUG] Called GetFullMap
-[logic] [01:21:02.406] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.406] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.450] [DEBUG] Get message from server!
-[logic] [01:21:02.450] [DEBUG] Buffer cleared!
-[logic] [01:21:02.450] [DEBUG] Add Student!
-[logic] [01:21:02.450] [DEBUG] Unknown Message!
-[logic] [01:21:02.450] [DEBUG] Update Classroom!
-[logic] [01:21:02.451] [INFO] Update state!
-[logic] [01:21:02.455] [DEBUG] Called GetFullMap
-[logic] [01:21:02.456] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.456] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.495] [DEBUG] Get message from server!
-[logic] [01:21:02.495] [DEBUG] Buffer cleared!
-[logic] [01:21:02.495] [DEBUG] Add Student!
-[logic] [01:21:02.495] [DEBUG] Unknown Message!
-[logic] [01:21:02.495] [DEBUG] Update Classroom!
-[logic] [01:21:02.495] [INFO] Update state!
-[logic] [01:21:02.502] [DEBUG] Called GetFullMap
-[logic] [01:21:02.503] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.503] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.541] [DEBUG] Get message from server!
-[logic] [01:21:02.542] [DEBUG] Buffer cleared!
-[logic] [01:21:02.542] [DEBUG] Add Student!
-[logic] [01:21:02.542] [DEBUG] Unknown Message!
-[logic] [01:21:02.542] [DEBUG] Update Classroom!
-[logic] [01:21:02.542] [INFO] Update state!
-[logic] [01:21:02.549] [DEBUG] Called GetFullMap
-[logic] [01:21:02.550] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.551] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.589] [DEBUG] Get message from server!
-[logic] [01:21:02.590] [DEBUG] Buffer cleared!
-[logic] [01:21:02.590] [DEBUG] Add Student!
-[logic] [01:21:02.590] [DEBUG] Unknown Message!
-[logic] [01:21:02.590] [DEBUG] Update Classroom!
-[logic] [01:21:02.590] [INFO] Update state!
-[logic] [01:21:02.596] [DEBUG] Called GetFullMap
-[logic] [01:21:02.597] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.597] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.650] [DEBUG] Get message from server!
-[logic] [01:21:02.650] [DEBUG] Buffer cleared!
-[logic] [01:21:02.650] [DEBUG] Add Student!
-[logic] [01:21:02.650] [DEBUG] Unknown Message!
-[logic] [01:21:02.650] [DEBUG] Update Classroom!
-[logic] [01:21:02.651] [INFO] Update state!
-[logic] [01:21:02.656] [DEBUG] Called GetFullMap
-[logic] [01:21:02.657] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.657] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.696] [DEBUG] Get message from server!
-[logic] [01:21:02.696] [DEBUG] Buffer cleared!
-[logic] [01:21:02.696] [DEBUG] Add Student!
-[logic] [01:21:02.697] [DEBUG] Unknown Message!
-[logic] [01:21:02.697] [DEBUG] Update Classroom!
-[logic] [01:21:02.697] [INFO] Update state!
-[logic] [01:21:02.703] [DEBUG] Called GetFullMap
-[logic] [01:21:02.704] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.704] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.745] [DEBUG] Get message from server!
-[logic] [01:21:02.745] [DEBUG] Buffer cleared!
-[logic] [01:21:02.745] [DEBUG] Add Student!
-[logic] [01:21:02.745] [DEBUG] Unknown Message!
-[logic] [01:21:02.745] [DEBUG] Update Classroom!
-[logic] [01:21:02.746] [INFO] Update state!
-[logic] [01:21:02.751] [DEBUG] Called GetFullMap
-[logic] [01:21:02.752] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.752] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.792] [DEBUG] Get message from server!
-[logic] [01:21:02.792] [DEBUG] Buffer cleared!
-[logic] [01:21:02.794] [DEBUG] Add Student!
-[logic] [01:21:02.794] [DEBUG] Unknown Message!
-[logic] [01:21:02.794] [DEBUG] Update Classroom!
-[logic] [01:21:02.794] [INFO] Update state!
-[logic] [01:21:02.798] [DEBUG] Called GetFullMap
-[logic] [01:21:02.799] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.799] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.837] [DEBUG] Get message from server!
-[logic] [01:21:02.838] [DEBUG] Buffer cleared!
-[logic] [01:21:02.838] [DEBUG] Add Student!
-[logic] [01:21:02.838] [DEBUG] Unknown Message!
-[logic] [01:21:02.838] [DEBUG] Update Classroom!
-[logic] [01:21:02.838] [INFO] Update state!
-[logic] [01:21:02.844] [DEBUG] Called GetFullMap
-[logic] [01:21:02.845] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.845] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.900] [DEBUG] Get message from server!
-[logic] [01:21:02.900] [DEBUG] Buffer cleared!
-[logic] [01:21:02.900] [DEBUG] Add Student!
-[logic] [01:21:02.900] [DEBUG] Unknown Message!
-[logic] [01:21:02.901] [DEBUG] Update Classroom!
-[logic] [01:21:02.901] [INFO] Update state!
-[logic] [01:21:02.904] [DEBUG] Called GetFullMap
-[logic] [01:21:02.905] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.905] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.947] [DEBUG] Get message from server!
-[logic] [01:21:02.947] [DEBUG] Buffer cleared!
-[logic] [01:21:02.947] [DEBUG] Add Student!
-[logic] [01:21:02.947] [DEBUG] Unknown Message!
-[logic] [01:21:02.948] [DEBUG] Update Classroom!
-[logic] [01:21:02.948] [INFO] Update state!
-[logic] [01:21:02.951] [DEBUG] Called GetFullMap
-[logic] [01:21:02.952] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.952] [DEBUG] Called GetSelfInfo
-[logic] [01:21:02.994] [DEBUG] Get message from server!
-[logic] [01:21:02.994] [DEBUG] Buffer cleared!
-[logic] [01:21:02.994] [DEBUG] Add Student!
-[logic] [01:21:02.994] [DEBUG] Unknown Message!
-[logic] [01:21:02.994] [DEBUG] Update Classroom!
-[logic] [01:21:02.995] [INFO] Update state!
-[logic] [01:21:03.001] [DEBUG] Called GetFullMap
-[logic] [01:21:03.001] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.002] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.041] [DEBUG] Get message from server!
-[logic] [01:21:03.041] [DEBUG] Buffer cleared!
-[logic] [01:21:03.041] [DEBUG] Add Student!
-[logic] [01:21:03.041] [DEBUG] Unknown Message!
-[logic] [01:21:03.042] [DEBUG] Update Classroom!
-[logic] [01:21:03.042] [INFO] Update state!
-[logic] [01:21:03.047] [DEBUG] Called GetFullMap
-[logic] [01:21:03.048] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.048] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.087] [DEBUG] Get message from server!
-[logic] [01:21:03.087] [DEBUG] Buffer cleared!
-[logic] [01:21:03.087] [DEBUG] Add Student!
-[logic] [01:21:03.088] [DEBUG] Unknown Message!
-[logic] [01:21:03.088] [DEBUG] Update Classroom!
-[logic] [01:21:03.088] [INFO] Update state!
-[logic] [01:21:03.090] [DEBUG] Called GetFullMap
-[logic] [01:21:03.091] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.091] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.150] [DEBUG] Get message from server!
-[logic] [01:21:03.150] [DEBUG] Buffer cleared!
-[logic] [01:21:03.150] [DEBUG] Add Student!
-[logic] [01:21:03.150] [DEBUG] Unknown Message!
-[logic] [01:21:03.150] [DEBUG] Update Classroom!
-[logic] [01:21:03.151] [INFO] Update state!
-[logic] [01:21:03.155] [DEBUG] Called GetFullMap
-[logic] [01:21:03.156] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.156] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.196] [DEBUG] Get message from server!
-[logic] [01:21:03.196] [DEBUG] Buffer cleared!
-[logic] [01:21:03.196] [DEBUG] Add Student!
-[logic] [01:21:03.196] [DEBUG] Unknown Message!
-[logic] [01:21:03.196] [DEBUG] Update Classroom!
-[logic] [01:21:03.197] [INFO] Update state!
-[logic] [01:21:03.204] [DEBUG] Called GetFullMap
-[logic] [01:21:03.206] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.206] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.243] [DEBUG] Get message from server!
-[logic] [01:21:03.244] [DEBUG] Buffer cleared!
-[logic] [01:21:03.244] [DEBUG] Add Student!
-[logic] [01:21:03.244] [DEBUG] Unknown Message!
-[logic] [01:21:03.244] [DEBUG] Update Classroom!
-[logic] [01:21:03.244] [INFO] Update state!
-[logic] [01:21:03.248] [DEBUG] Called GetFullMap
-[logic] [01:21:03.249] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.249] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.289] [DEBUG] Get message from server!
-[logic] [01:21:03.290] [DEBUG] Buffer cleared!
-[logic] [01:21:03.290] [DEBUG] Add Student!
-[logic] [01:21:03.290] [DEBUG] Unknown Message!
-[logic] [01:21:03.290] [DEBUG] Update Classroom!
-[logic] [01:21:03.290] [INFO] Update state!
-[logic] [01:21:03.295] [DEBUG] Called GetFullMap
-[logic] [01:21:03.296] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.296] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.336] [DEBUG] Get message from server!
-[logic] [01:21:03.336] [DEBUG] Buffer cleared!
-[logic] [01:21:03.337] [DEBUG] Add Student!
-[logic] [01:21:03.337] [DEBUG] Unknown Message!
-[logic] [01:21:03.337] [DEBUG] Update Classroom!
-[logic] [01:21:03.337] [INFO] Update state!
-[logic] [01:21:03.340] [DEBUG] Called GetFullMap
-[logic] [01:21:03.341] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.341] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.399] [DEBUG] Get message from server!
-[logic] [01:21:03.399] [DEBUG] Buffer cleared!
-[logic] [01:21:03.399] [DEBUG] Add Student!
-[logic] [01:21:03.399] [DEBUG] Unknown Message!
-[logic] [01:21:03.399] [DEBUG] Update Classroom!
-[logic] [01:21:03.399] [INFO] Update state!
-[logic] [01:21:03.403] [DEBUG] Called GetFullMap
-[logic] [01:21:03.404] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.404] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.446] [DEBUG] Get message from server!
-[logic] [01:21:03.446] [DEBUG] Buffer cleared!
-[logic] [01:21:03.446] [DEBUG] Add Student!
-[logic] [01:21:03.446] [DEBUG] Unknown Message!
-[logic] [01:21:03.446] [DEBUG] Update Classroom!
-[logic] [01:21:03.446] [INFO] Update state!
-[logic] [01:21:03.453] [DEBUG] Called GetFullMap
-[logic] [01:21:03.453] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.454] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.493] [DEBUG] Get message from server!
-[logic] [01:21:03.493] [DEBUG] Buffer cleared!
-[logic] [01:21:03.493] [DEBUG] Add Student!
-[logic] [01:21:03.493] [DEBUG] Unknown Message!
-[logic] [01:21:03.493] [DEBUG] Update Classroom!
-[logic] [01:21:03.493] [INFO] Update state!
-[logic] [01:21:03.499] [DEBUG] Called GetFullMap
-[logic] [01:21:03.500] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.500] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.539] [DEBUG] Get message from server!
-[logic] [01:21:03.539] [DEBUG] Buffer cleared!
-[logic] [01:21:03.540] [DEBUG] Add Student!
-[logic] [01:21:03.540] [DEBUG] Unknown Message!
-[logic] [01:21:03.540] [DEBUG] Update Classroom!
-[logic] [01:21:03.540] [INFO] Update state!
-[logic] [01:21:03.545] [DEBUG] Called GetFullMap
-[logic] [01:21:03.546] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.546] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.587] [DEBUG] Get message from server!
-[logic] [01:21:03.587] [DEBUG] Buffer cleared!
-[logic] [01:21:03.587] [DEBUG] Add Student!
-[logic] [01:21:03.587] [DEBUG] Unknown Message!
-[logic] [01:21:03.587] [DEBUG] Update Classroom!
-[logic] [01:21:03.588] [INFO] Update state!
-[logic] [01:21:03.593] [DEBUG] Called GetFullMap
-[logic] [01:21:03.594] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.594] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.634] [DEBUG] Get message from server!
-[logic] [01:21:03.635] [DEBUG] Buffer cleared!
-[logic] [01:21:03.635] [DEBUG] Add Student!
-[logic] [01:21:03.635] [DEBUG] Unknown Message!
-[logic] [01:21:03.635] [DEBUG] Update Classroom!
-[logic] [01:21:03.635] [INFO] Update state!
-[logic] [01:21:03.639] [DEBUG] Called GetFullMap
-[logic] [01:21:03.640] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.640] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.697] [DEBUG] Get message from server!
-[logic] [01:21:03.697] [DEBUG] Buffer cleared!
-[logic] [01:21:03.697] [DEBUG] Add Student!
-[logic] [01:21:03.698] [DEBUG] Unknown Message!
-[logic] [01:21:03.698] [DEBUG] Update Classroom!
-[logic] [01:21:03.698] [INFO] Update state!
-[logic] [01:21:03.705] [DEBUG] Called GetFullMap
-[logic] [01:21:03.707] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.707] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.742] [DEBUG] Get message from server!
-[logic] [01:21:03.743] [DEBUG] Buffer cleared!
-[logic] [01:21:03.743] [DEBUG] Add Student!
-[logic] [01:21:03.743] [DEBUG] Unknown Message!
-[logic] [01:21:03.743] [DEBUG] Update Classroom!
-[logic] [01:21:03.744] [INFO] Update state!
-[logic] [01:21:03.750] [DEBUG] Called GetFullMap
-[logic] [01:21:03.751] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.751] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.790] [DEBUG] Get message from server!
-[logic] [01:21:03.790] [DEBUG] Buffer cleared!
-[logic] [01:21:03.790] [DEBUG] Add Student!
-[logic] [01:21:03.790] [DEBUG] Unknown Message!
-[logic] [01:21:03.791] [DEBUG] Update Classroom!
-[logic] [01:21:03.791] [INFO] Update state!
-[logic] [01:21:03.797] [DEBUG] Called GetFullMap
-[logic] [01:21:03.798] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.798] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.837] [DEBUG] Get message from server!
-[logic] [01:21:03.838] [DEBUG] Buffer cleared!
-[logic] [01:21:03.838] [DEBUG] Add Student!
-[logic] [01:21:03.838] [DEBUG] Unknown Message!
-[logic] [01:21:03.838] [DEBUG] Update Classroom!
-[logic] [01:21:03.838] [INFO] Update state!
-[logic] [01:21:03.842] [DEBUG] Called GetFullMap
-[logic] [01:21:03.843] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.843] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.900] [DEBUG] Get message from server!
-[logic] [01:21:03.900] [DEBUG] Buffer cleared!
-[logic] [01:21:03.900] [DEBUG] Add Student!
-[logic] [01:21:03.900] [DEBUG] Unknown Message!
-[logic] [01:21:03.900] [DEBUG] Update Classroom!
-[logic] [01:21:03.900] [INFO] Update state!
-[logic] [01:21:03.904] [DEBUG] Called GetFullMap
-[logic] [01:21:03.905] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.905] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.945] [DEBUG] Get message from server!
-[logic] [01:21:03.946] [DEBUG] Buffer cleared!
-[logic] [01:21:03.946] [DEBUG] Add Student!
-[logic] [01:21:03.946] [DEBUG] Unknown Message!
-[logic] [01:21:03.946] [DEBUG] Update Classroom!
-[logic] [01:21:03.946] [INFO] Update state!
-[logic] [01:21:03.952] [DEBUG] Called GetFullMap
-[logic] [01:21:03.952] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.953] [DEBUG] Called GetSelfInfo
-[logic] [01:21:03.992] [DEBUG] Get message from server!
-[logic] [01:21:03.993] [DEBUG] Buffer cleared!
-[logic] [01:21:03.993] [DEBUG] Add Student!
-[logic] [01:21:03.993] [DEBUG] Unknown Message!
-[logic] [01:21:03.993] [DEBUG] Update Classroom!
-[logic] [01:21:03.994] [INFO] Update state!
-[logic] [01:21:04.000] [DEBUG] Called GetFullMap
-[logic] [01:21:04.000] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.001] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.041] [DEBUG] Get message from server!
-[logic] [01:21:04.041] [DEBUG] Buffer cleared!
-[logic] [01:21:04.041] [DEBUG] Add Student!
-[logic] [01:21:04.041] [DEBUG] Unknown Message!
-[logic] [01:21:04.041] [DEBUG] Update Classroom!
-[logic] [01:21:04.042] [INFO] Update state!
-[logic] [01:21:04.048] [DEBUG] Called GetFullMap
-[logic] [01:21:04.048] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.049] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.088] [DEBUG] Get message from server!
-[logic] [01:21:04.088] [DEBUG] Buffer cleared!
-[logic] [01:21:04.088] [DEBUG] Add Student!
-[logic] [01:21:04.088] [DEBUG] Unknown Message!
-[logic] [01:21:04.088] [DEBUG] Update Classroom!
-[logic] [01:21:04.088] [INFO] Update state!
-[logic] [01:21:04.093] [DEBUG] Called GetFullMap
-[logic] [01:21:04.094] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.094] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.150] [DEBUG] Get message from server!
-[logic] [01:21:04.150] [DEBUG] Buffer cleared!
-[logic] [01:21:04.150] [DEBUG] Add Student!
-[logic] [01:21:04.150] [DEBUG] Unknown Message!
-[logic] [01:21:04.151] [DEBUG] Update Classroom!
-[logic] [01:21:04.151] [INFO] Update state!
-[logic] [01:21:04.155] [DEBUG] Called GetFullMap
-[logic] [01:21:04.156] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.156] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.195] [DEBUG] Get message from server!
-[logic] [01:21:04.195] [DEBUG] Buffer cleared!
-[logic] [01:21:04.196] [DEBUG] Add Student!
-[logic] [01:21:04.196] [DEBUG] Unknown Message!
-[logic] [01:21:04.196] [DEBUG] Update Classroom!
-[logic] [01:21:04.196] [INFO] Update state!
-[logic] [01:21:04.201] [DEBUG] Called GetFullMap
-[logic] [01:21:04.202] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.202] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.241] [DEBUG] Get message from server!
-[logic] [01:21:04.241] [DEBUG] Buffer cleared!
-[logic] [01:21:04.242] [DEBUG] Add Student!
-[logic] [01:21:04.242] [DEBUG] Unknown Message!
-[logic] [01:21:04.242] [DEBUG] Update Classroom!
-[logic] [01:21:04.242] [INFO] Update state!
-[logic] [01:21:04.247] [DEBUG] Called GetFullMap
-[logic] [01:21:04.248] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.248] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.290] [DEBUG] Get message from server!
-[logic] [01:21:04.290] [DEBUG] Buffer cleared!
-[logic] [01:21:04.290] [DEBUG] Add Student!
-[logic] [01:21:04.290] [DEBUG] Unknown Message!
-[logic] [01:21:04.290] [DEBUG] Update Classroom!
-[logic] [01:21:04.291] [INFO] Update state!
-[logic] [01:21:04.296] [DEBUG] Called GetFullMap
-[logic] [01:21:04.297] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.297] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.336] [DEBUG] Get message from server!
-[logic] [01:21:04.336] [DEBUG] Buffer cleared!
-[logic] [01:21:04.336] [DEBUG] Add Student!
-[logic] [01:21:04.336] [DEBUG] Unknown Message!
-[logic] [01:21:04.336] [DEBUG] Update Classroom!
-[logic] [01:21:04.337] [INFO] Update state!
-[logic] [01:21:04.340] [DEBUG] Called GetFullMap
-[logic] [01:21:04.341] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.341] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.397] [DEBUG] Get message from server!
-[logic] [01:21:04.398] [DEBUG] Buffer cleared!
-[logic] [01:21:04.398] [DEBUG] Add Student!
-[logic] [01:21:04.398] [DEBUG] Unknown Message!
-[logic] [01:21:04.398] [DEBUG] Update Classroom!
-[logic] [01:21:04.398] [INFO] Update state!
-[logic] [01:21:04.402] [DEBUG] Called GetFullMap
-[logic] [01:21:04.403] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.403] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.445] [DEBUG] Get message from server!
-[logic] [01:21:04.445] [DEBUG] Buffer cleared!
-[logic] [01:21:04.445] [DEBUG] Add Student!
-[logic] [01:21:04.445] [DEBUG] Unknown Message!
-[logic] [01:21:04.445] [DEBUG] Update Classroom!
-[logic] [01:21:04.445] [INFO] Update state!
-[logic] [01:21:04.451] [DEBUG] Called GetFullMap
-[logic] [01:21:04.452] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.452] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.490] [DEBUG] Get message from server!
-[logic] [01:21:04.491] [DEBUG] Buffer cleared!
-[logic] [01:21:04.491] [DEBUG] Add Student!
-[logic] [01:21:04.491] [DEBUG] Unknown Message!
-[logic] [01:21:04.491] [DEBUG] Update Classroom!
-[logic] [01:21:04.491] [INFO] Update state!
-[logic] [01:21:04.497] [DEBUG] Called GetFullMap
-[logic] [01:21:04.498] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.498] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.537] [DEBUG] Get message from server!
-[logic] [01:21:04.537] [DEBUG] Buffer cleared!
-[logic] [01:21:04.537] [DEBUG] Add Student!
-[logic] [01:21:04.537] [DEBUG] Unknown Message!
-[logic] [01:21:04.537] [DEBUG] Update Classroom!
-[logic] [01:21:04.537] [INFO] Update state!
-[logic] [01:21:04.540] [DEBUG] Called GetFullMap
-[logic] [01:21:04.541] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.542] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.585] [DEBUG] Get message from server!
-[logic] [01:21:04.585] [DEBUG] Buffer cleared!
-[logic] [01:21:04.585] [DEBUG] Add Student!
-[logic] [01:21:04.585] [DEBUG] Unknown Message!
-[logic] [01:21:04.585] [DEBUG] Update Classroom!
-[logic] [01:21:04.586] [INFO] Update state!
-[logic] [01:21:04.589] [DEBUG] Called GetFullMap
-[logic] [01:21:04.590] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.590] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.646] [DEBUG] Get message from server!
-[logic] [01:21:04.646] [DEBUG] Buffer cleared!
-[logic] [01:21:04.646] [DEBUG] Add Student!
-[logic] [01:21:04.647] [DEBUG] Unknown Message!
-[logic] [01:21:04.647] [DEBUG] Update Classroom!
-[logic] [01:21:04.647] [INFO] Update state!
-[logic] [01:21:04.650] [DEBUG] Called GetFullMap
-[logic] [01:21:04.651] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.651] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.694] [DEBUG] Get message from server!
-[logic] [01:21:04.694] [DEBUG] Buffer cleared!
-[logic] [01:21:04.694] [DEBUG] Add Student!
-[logic] [01:21:04.694] [DEBUG] Unknown Message!
-[logic] [01:21:04.695] [DEBUG] Update Classroom!
-[logic] [01:21:04.695] [INFO] Update state!
-[logic] [01:21:04.698] [DEBUG] Called GetFullMap
-[logic] [01:21:04.699] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.699] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.739] [DEBUG] Get message from server!
-[logic] [01:21:04.739] [DEBUG] Buffer cleared!
-[logic] [01:21:04.740] [DEBUG] Add Student!
-[logic] [01:21:04.740] [DEBUG] Unknown Message!
-[logic] [01:21:04.740] [DEBUG] Update Classroom!
-[logic] [01:21:04.740] [INFO] Update state!
-[logic] [01:21:04.745] [DEBUG] Called GetFullMap
-[logic] [01:21:04.746] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.747] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.787] [DEBUG] Get message from server!
-[logic] [01:21:04.787] [DEBUG] Buffer cleared!
-[logic] [01:21:04.787] [DEBUG] Add Student!
-[logic] [01:21:04.787] [DEBUG] Unknown Message!
-[logic] [01:21:04.787] [DEBUG] Update Classroom!
-[logic] [01:21:04.788] [INFO] Update state!
-[logic] [01:21:04.792] [DEBUG] Called GetFullMap
-[logic] [01:21:04.793] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.793] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.833] [DEBUG] Get message from server!
-[logic] [01:21:04.833] [DEBUG] Buffer cleared!
-[logic] [01:21:04.833] [DEBUG] Add Student!
-[logic] [01:21:04.833] [DEBUG] Unknown Message!
-[logic] [01:21:04.833] [DEBUG] Update Classroom!
-[logic] [01:21:04.834] [INFO] Update state!
-[logic] [01:21:04.838] [DEBUG] Called GetFullMap
-[logic] [01:21:04.839] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.839] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.896] [DEBUG] Get message from server!
-[logic] [01:21:04.896] [DEBUG] Buffer cleared!
-[logic] [01:21:04.896] [DEBUG] Add Student!
-[logic] [01:21:04.896] [DEBUG] Unknown Message!
-[logic] [01:21:04.896] [DEBUG] Update Classroom!
-[logic] [01:21:04.897] [INFO] Update state!
-[logic] [01:21:04.902] [DEBUG] Called GetFullMap
-[logic] [01:21:04.902] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.903] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.942] [DEBUG] Get message from server!
-[logic] [01:21:04.943] [DEBUG] Buffer cleared!
-[logic] [01:21:04.943] [DEBUG] Add Student!
-[logic] [01:21:04.943] [DEBUG] Unknown Message!
-[logic] [01:21:04.943] [DEBUG] Update Classroom!
-[logic] [01:21:04.943] [INFO] Update state!
-[logic] [01:21:04.948] [DEBUG] Called GetFullMap
-[logic] [01:21:04.949] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.949] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.989] [DEBUG] Get message from server!
-[logic] [01:21:04.990] [DEBUG] Buffer cleared!
-[logic] [01:21:04.990] [DEBUG] Add Student!
-[logic] [01:21:04.990] [DEBUG] Unknown Message!
-[logic] [01:21:04.990] [DEBUG] Update Classroom!
-[logic] [01:21:04.990] [INFO] Update state!
-[logic] [01:21:04.995] [DEBUG] Called GetFullMap
-[logic] [01:21:04.996] [DEBUG] Called GetSelfInfo
-[logic] [01:21:04.996] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.036] [DEBUG] Get message from server!
-[logic] [01:21:05.036] [DEBUG] Buffer cleared!
-[logic] [01:21:05.036] [DEBUG] Add Student!
-[logic] [01:21:05.036] [DEBUG] Unknown Message!
-[logic] [01:21:05.036] [DEBUG] Update Classroom!
-[logic] [01:21:05.036] [INFO] Update state!
-[logic] [01:21:05.040] [DEBUG] Called GetFullMap
-[logic] [01:21:05.042] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.042] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.082] [DEBUG] Get message from server!
-[logic] [01:21:05.082] [DEBUG] Buffer cleared!
-[logic] [01:21:05.082] [DEBUG] Add Student!
-[logic] [01:21:05.082] [DEBUG] Unknown Message!
-[logic] [01:21:05.082] [DEBUG] Update Classroom!
-[logic] [01:21:05.082] [INFO] Update state!
-[logic] [01:21:05.088] [DEBUG] Called GetFullMap
-[logic] [01:21:05.089] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.089] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.144] [DEBUG] Get message from server!
-[logic] [01:21:05.144] [DEBUG] Buffer cleared!
-[logic] [01:21:05.144] [DEBUG] Add Student!
-[logic] [01:21:05.144] [DEBUG] Unknown Message!
-[logic] [01:21:05.144] [DEBUG] Update Classroom!
-[logic] [01:21:05.145] [INFO] Update state!
-[logic] [01:21:05.149] [DEBUG] Called GetFullMap
-[logic] [01:21:05.150] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.150] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.190] [DEBUG] Get message from server!
-[logic] [01:21:05.190] [DEBUG] Buffer cleared!
-[logic] [01:21:05.190] [DEBUG] Add Student!
-[logic] [01:21:05.190] [DEBUG] Unknown Message!
-[logic] [01:21:05.191] [DEBUG] Update Classroom!
-[logic] [01:21:05.191] [INFO] Update state!
-[logic] [01:21:05.195] [DEBUG] Called GetFullMap
-[logic] [01:21:05.196] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.197] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.237] [DEBUG] Get message from server!
-[logic] [01:21:05.238] [DEBUG] Buffer cleared!
-[logic] [01:21:05.238] [DEBUG] Add Student!
-[logic] [01:21:05.238] [DEBUG] Unknown Message!
-[logic] [01:21:05.238] [DEBUG] Update Classroom!
-[logic] [01:21:05.238] [INFO] Update state!
-[logic] [01:21:05.244] [DEBUG] Called GetFullMap
-[logic] [01:21:05.245] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.245] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.285] [DEBUG] Get message from server!
-[logic] [01:21:05.286] [DEBUG] Buffer cleared!
-[logic] [01:21:05.286] [DEBUG] Add Student!
-[logic] [01:21:05.286] [DEBUG] Unknown Message!
-[logic] [01:21:05.286] [DEBUG] Update Classroom!
-[logic] [01:21:05.286] [INFO] Update state!
-[logic] [01:21:05.290] [DEBUG] Called GetFullMap
-[logic] [01:21:05.291] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.291] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.332] [DEBUG] Get message from server!
-[logic] [01:21:05.333] [DEBUG] Buffer cleared!
-[logic] [01:21:05.333] [DEBUG] Add Student!
-[logic] [01:21:05.333] [DEBUG] Unknown Message!
-[logic] [01:21:05.333] [DEBUG] Update Classroom!
-[logic] [01:21:05.333] [INFO] Update state!
-[logic] [01:21:05.337] [DEBUG] Called GetFullMap
-[logic] [01:21:05.338] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.338] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.381] [DEBUG] Get message from server!
-[logic] [01:21:05.381] [DEBUG] Buffer cleared!
-[logic] [01:21:05.381] [DEBUG] Add Student!
-[logic] [01:21:05.381] [DEBUG] Unknown Message!
-[logic] [01:21:05.381] [DEBUG] Update Classroom!
-[logic] [01:21:05.382] [INFO] Update state!
-[logic] [01:21:05.386] [DEBUG] Called GetFullMap
-[logic] [01:21:05.387] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.387] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.444] [DEBUG] Get message from server!
-[logic] [01:21:05.444] [DEBUG] Buffer cleared!
-[logic] [01:21:05.444] [DEBUG] Add Student!
-[logic] [01:21:05.444] [DEBUG] Unknown Message!
-[logic] [01:21:05.444] [DEBUG] Update Classroom!
-[logic] [01:21:05.444] [INFO] Update state!
-[logic] [01:21:05.448] [DEBUG] Called GetFullMap
-[logic] [01:21:05.449] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.449] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.491] [DEBUG] Get message from server!
-[logic] [01:21:05.491] [DEBUG] Buffer cleared!
-[logic] [01:21:05.491] [DEBUG] Add Student!
-[logic] [01:21:05.491] [DEBUG] Unknown Message!
-[logic] [01:21:05.491] [DEBUG] Update Classroom!
-[logic] [01:21:05.491] [INFO] Update state!
-[logic] [01:21:05.496] [DEBUG] Called GetFullMap
-[logic] [01:21:05.497] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.497] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.537] [DEBUG] Get message from server!
-[logic] [01:21:05.537] [DEBUG] Buffer cleared!
-[logic] [01:21:05.537] [DEBUG] Add Student!
-[logic] [01:21:05.537] [DEBUG] Unknown Message!
-[logic] [01:21:05.537] [DEBUG] Update Classroom!
-[logic] [01:21:05.538] [INFO] Update state!
-[logic] [01:21:05.541] [DEBUG] Called GetFullMap
-[logic] [01:21:05.542] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.543] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.584] [DEBUG] Get message from server!
-[logic] [01:21:05.585] [DEBUG] Buffer cleared!
-[logic] [01:21:05.585] [DEBUG] Add Student!
-[logic] [01:21:05.585] [DEBUG] Unknown Message!
-[logic] [01:21:05.585] [DEBUG] Update Classroom!
-[logic] [01:21:05.585] [INFO] Update state!
-[logic] [01:21:05.588] [DEBUG] Called GetFullMap
-[logic] [01:21:05.589] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.589] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.647] [DEBUG] Get message from server!
-[logic] [01:21:05.647] [DEBUG] Buffer cleared!
-[logic] [01:21:05.647] [DEBUG] Add Student!
-[logic] [01:21:05.647] [DEBUG] Unknown Message!
-[logic] [01:21:05.647] [DEBUG] Update Classroom!
-[logic] [01:21:05.647] [INFO] Update state!
-[logic] [01:21:05.650] [DEBUG] Called GetFullMap
-[logic] [01:21:05.651] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.651] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.693] [DEBUG] Get message from server!
-[logic] [01:21:05.693] [DEBUG] Buffer cleared!
-[logic] [01:21:05.693] [DEBUG] Add Student!
-[logic] [01:21:05.694] [DEBUG] Unknown Message!
-[logic] [01:21:05.694] [DEBUG] Update Classroom!
-[logic] [01:21:05.694] [INFO] Update state!
-[logic] [01:21:05.699] [DEBUG] Called GetFullMap
-[logic] [01:21:05.700] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.700] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.740] [DEBUG] Get message from server!
-[logic] [01:21:05.740] [DEBUG] Buffer cleared!
-[logic] [01:21:05.740] [DEBUG] Add Student!
-[logic] [01:21:05.740] [DEBUG] Unknown Message!
-[logic] [01:21:05.740] [DEBUG] Update Classroom!
-[logic] [01:21:05.741] [INFO] Update state!
-[logic] [01:21:05.745] [DEBUG] Called GetFullMap
-[logic] [01:21:05.746] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.746] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.787] [DEBUG] Get message from server!
-[logic] [01:21:05.788] [DEBUG] Buffer cleared!
-[logic] [01:21:05.788] [DEBUG] Add Student!
-[logic] [01:21:05.788] [DEBUG] Unknown Message!
-[logic] [01:21:05.788] [DEBUG] Update Classroom!
-[logic] [01:21:05.788] [INFO] Update state!
-[logic] [01:21:05.794] [DEBUG] Called GetFullMap
-[logic] [01:21:05.795] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.795] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.835] [DEBUG] Get message from server!
-[logic] [01:21:05.835] [DEBUG] Buffer cleared!
-[logic] [01:21:05.835] [DEBUG] Add Student!
-[logic] [01:21:05.835] [DEBUG] Unknown Message!
-[logic] [01:21:05.835] [DEBUG] Update Classroom!
-[logic] [01:21:05.836] [INFO] Update state!
-[logic] [01:21:05.839] [DEBUG] Called GetFullMap
-[logic] [01:21:05.840] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.840] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.898] [DEBUG] Get message from server!
-[logic] [01:21:05.898] [DEBUG] Buffer cleared!
-[logic] [01:21:05.898] [DEBUG] Add Student!
-[logic] [01:21:05.898] [DEBUG] Unknown Message!
-[logic] [01:21:05.898] [DEBUG] Update Classroom!
-[logic] [01:21:05.898] [INFO] Update state!
-[logic] [01:21:05.902] [DEBUG] Called GetFullMap
-[logic] [01:21:05.903] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.904] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.944] [DEBUG] Get message from server!
-[logic] [01:21:05.944] [DEBUG] Buffer cleared!
-[logic] [01:21:05.944] [DEBUG] Add Student!
-[logic] [01:21:05.944] [DEBUG] Unknown Message!
-[logic] [01:21:05.945] [DEBUG] Update Classroom!
-[logic] [01:21:05.945] [INFO] Update state!
-[logic] [01:21:05.951] [DEBUG] Called GetFullMap
-[logic] [01:21:05.952] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.952] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.991] [DEBUG] Get message from server!
-[logic] [01:21:05.991] [DEBUG] Buffer cleared!
-[logic] [01:21:05.991] [DEBUG] Add Student!
-[logic] [01:21:05.991] [DEBUG] Unknown Message!
-[logic] [01:21:05.992] [DEBUG] Update Classroom!
-[logic] [01:21:05.992] [INFO] Update state!
-[logic] [01:21:05.996] [DEBUG] Called GetFullMap
-[logic] [01:21:05.998] [DEBUG] Called GetSelfInfo
-[logic] [01:21:05.998] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.039] [DEBUG] Get message from server!
-[logic] [01:21:06.039] [DEBUG] Buffer cleared!
-[logic] [01:21:06.039] [DEBUG] Add Student!
-[logic] [01:21:06.039] [DEBUG] Unknown Message!
-[logic] [01:21:06.039] [DEBUG] Update Classroom!
-[logic] [01:21:06.039] [INFO] Update state!
-[logic] [01:21:06.045] [DEBUG] Called GetFullMap
-[logic] [01:21:06.045] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.046] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.086] [DEBUG] Get message from server!
-[logic] [01:21:06.086] [DEBUG] Buffer cleared!
-[logic] [01:21:06.086] [DEBUG] Add Student!
-[logic] [01:21:06.086] [DEBUG] Unknown Message!
-[logic] [01:21:06.086] [DEBUG] Update Classroom!
-[logic] [01:21:06.087] [INFO] Update state!
-[logic] [01:21:06.090] [DEBUG] Called GetFullMap
-[logic] [01:21:06.092] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.092] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.148] [DEBUG] Get message from server!
-[logic] [01:21:06.148] [DEBUG] Buffer cleared!
-[logic] [01:21:06.148] [DEBUG] Add Student!
-[logic] [01:21:06.148] [DEBUG] Unknown Message!
-[logic] [01:21:06.148] [DEBUG] Update Classroom!
-[logic] [01:21:06.148] [INFO] Update state!
-[logic] [01:21:06.152] [DEBUG] Called GetFullMap
-[logic] [01:21:06.153] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.154] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.195] [DEBUG] Get message from server!
-[logic] [01:21:06.195] [DEBUG] Buffer cleared!
-[logic] [01:21:06.196] [DEBUG] Add Student!
-[logic] [01:21:06.196] [DEBUG] Unknown Message!
-[logic] [01:21:06.196] [DEBUG] Update Classroom!
-[logic] [01:21:06.196] [INFO] Update state!
-[logic] [01:21:06.201] [DEBUG] Called GetFullMap
-[logic] [01:21:06.202] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.202] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.241] [DEBUG] Get message from server!
-[logic] [01:21:06.241] [DEBUG] Buffer cleared!
-[logic] [01:21:06.241] [DEBUG] Add Student!
-[logic] [01:21:06.241] [DEBUG] Unknown Message!
-[logic] [01:21:06.241] [DEBUG] Update Classroom!
-[logic] [01:21:06.241] [INFO] Update state!
-[logic] [01:21:06.247] [DEBUG] Called GetFullMap
-[logic] [01:21:06.248] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.248] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.288] [DEBUG] Get message from server!
-[logic] [01:21:06.288] [DEBUG] Buffer cleared!
-[logic] [01:21:06.288] [DEBUG] Add Student!
-[logic] [01:21:06.288] [DEBUG] Unknown Message!
-[logic] [01:21:06.288] [DEBUG] Update Classroom!
-[logic] [01:21:06.289] [INFO] Update state!
-[logic] [01:21:06.294] [DEBUG] Called GetFullMap
-[logic] [01:21:06.295] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.295] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.335] [DEBUG] Get message from server!
-[logic] [01:21:06.335] [DEBUG] Buffer cleared!
-[logic] [01:21:06.335] [DEBUG] Add Student!
-[logic] [01:21:06.335] [DEBUG] Unknown Message!
-[logic] [01:21:06.335] [DEBUG] Update Classroom!
-[logic] [01:21:06.335] [INFO] Update state!
-[logic] [01:21:06.339] [DEBUG] Called GetFullMap
-[logic] [01:21:06.339] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.340] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.398] [DEBUG] Get message from server!
-[logic] [01:21:06.398] [DEBUG] Buffer cleared!
-[logic] [01:21:06.398] [DEBUG] Add Student!
-[logic] [01:21:06.398] [DEBUG] Unknown Message!
-[logic] [01:21:06.398] [DEBUG] Update Classroom!
-[logic] [01:21:06.399] [INFO] Update state!
-[logic] [01:21:06.402] [DEBUG] Called GetFullMap
-[logic] [01:21:06.403] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.403] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.445] [DEBUG] Get message from server!
-[logic] [01:21:06.445] [DEBUG] Buffer cleared!
-[logic] [01:21:06.445] [DEBUG] Add Student!
-[logic] [01:21:06.445] [DEBUG] Unknown Message!
-[logic] [01:21:06.445] [DEBUG] Update Classroom!
-[logic] [01:21:06.445] [INFO] Update state!
-[logic] [01:21:06.451] [DEBUG] Called GetFullMap
-[logic] [01:21:06.452] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.452] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.493] [DEBUG] Get message from server!
-[logic] [01:21:06.493] [DEBUG] Buffer cleared!
-[logic] [01:21:06.493] [DEBUG] Add Student!
-[logic] [01:21:06.493] [DEBUG] Unknown Message!
-[logic] [01:21:06.493] [DEBUG] Update Classroom!
-[logic] [01:21:06.494] [INFO] Update state!
-[logic] [01:21:06.497] [DEBUG] Called GetFullMap
-[logic] [01:21:06.498] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.498] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.540] [DEBUG] Get message from server!
-[logic] [01:21:06.541] [DEBUG] Buffer cleared!
-[logic] [01:21:06.541] [DEBUG] Add Student!
-[logic] [01:21:06.541] [DEBUG] Unknown Message!
-[logic] [01:21:06.541] [DEBUG] Update Classroom!
-[logic] [01:21:06.541] [INFO] Update state!
-[logic] [01:21:06.545] [DEBUG] Called GetFullMap
-[logic] [01:21:06.546] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.546] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.587] [DEBUG] Get message from server!
-[logic] [01:21:06.588] [DEBUG] Buffer cleared!
-[logic] [01:21:06.588] [DEBUG] Add Student!
-[logic] [01:21:06.588] [DEBUG] Unknown Message!
-[logic] [01:21:06.588] [DEBUG] Update Classroom!
-[logic] [01:21:06.588] [INFO] Update state!
-[logic] [01:21:06.592] [DEBUG] Called GetFullMap
-[logic] [01:21:06.594] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.594] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.652] [DEBUG] Get message from server!
-[logic] [01:21:06.652] [DEBUG] Buffer cleared!
-[logic] [01:21:06.652] [DEBUG] Add Student!
-[logic] [01:21:06.653] [DEBUG] Unknown Message!
-[logic] [01:21:06.653] [DEBUG] Update Classroom!
-[logic] [01:21:06.653] [INFO] Update state!
-[logic] [01:21:06.657] [DEBUG] Called GetFullMap
-[logic] [01:21:06.658] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.658] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.697] [DEBUG] Get message from server!
-[logic] [01:21:06.697] [DEBUG] Buffer cleared!
-[logic] [01:21:06.697] [DEBUG] Add Student!
-[logic] [01:21:06.697] [DEBUG] Unknown Message!
-[logic] [01:21:06.697] [DEBUG] Update Classroom!
-[logic] [01:21:06.697] [INFO] Update state!
-[logic] [01:21:06.703] [DEBUG] Called GetFullMap
-[logic] [01:21:06.704] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.704] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.745] [DEBUG] Get message from server!
-[logic] [01:21:06.745] [DEBUG] Buffer cleared!
-[logic] [01:21:06.745] [DEBUG] Add Student!
-[logic] [01:21:06.745] [DEBUG] Unknown Message!
-[logic] [01:21:06.745] [DEBUG] Update Classroom!
-[logic] [01:21:06.746] [INFO] Update state!
-[logic] [01:21:06.751] [DEBUG] Called GetFullMap
-[logic] [01:21:06.752] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.752] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.791] [DEBUG] Get message from server!
-[logic] [01:21:06.792] [DEBUG] Buffer cleared!
-[logic] [01:21:06.792] [DEBUG] Add Student!
-[logic] [01:21:06.792] [DEBUG] Unknown Message!
-[logic] [01:21:06.792] [DEBUG] Update Classroom!
-[logic] [01:21:06.792] [INFO] Update state!
-[logic] [01:21:06.798] [DEBUG] Called GetFullMap
-[logic] [01:21:06.799] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.799] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.839] [DEBUG] Get message from server!
-[logic] [01:21:06.839] [DEBUG] Buffer cleared!
-[logic] [01:21:06.839] [DEBUG] Add Student!
-[logic] [01:21:06.839] [DEBUG] Unknown Message!
-[logic] [01:21:06.839] [DEBUG] Update Classroom!
-[logic] [01:21:06.839] [INFO] Update state!
-[logic] [01:21:06.844] [DEBUG] Called GetFullMap
-[logic] [01:21:06.845] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.845] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.901] [DEBUG] Get message from server!
-[logic] [01:21:06.902] [DEBUG] Buffer cleared!
-[logic] [01:21:06.902] [DEBUG] Add Student!
-[logic] [01:21:06.902] [DEBUG] Unknown Message!
-[logic] [01:21:06.902] [DEBUG] Update Classroom!
-[logic] [01:21:06.902] [INFO] Update state!
-[logic] [01:21:06.907] [DEBUG] Called GetFullMap
-[logic] [01:21:06.908] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.908] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.948] [DEBUG] Get message from server!
-[logic] [01:21:06.949] [DEBUG] Buffer cleared!
-[logic] [01:21:06.949] [DEBUG] Add Student!
-[logic] [01:21:06.949] [DEBUG] Unknown Message!
-[logic] [01:21:06.949] [DEBUG] Update Classroom!
-[logic] [01:21:06.949] [INFO] Update state!
-[logic] [01:21:06.953] [DEBUG] Called GetFullMap
-[logic] [01:21:06.954] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.954] [DEBUG] Called GetSelfInfo
-[logic] [01:21:06.997] [DEBUG] Get message from server!
-[logic] [01:21:06.997] [DEBUG] Buffer cleared!
-[logic] [01:21:06.998] [DEBUG] Add Student!
-[logic] [01:21:06.998] [DEBUG] Unknown Message!
-[logic] [01:21:06.998] [DEBUG] Update Classroom!
-[logic] [01:21:06.998] [INFO] Update state!
-[logic] [01:21:07.002] [DEBUG] Called GetFullMap
-[logic] [01:21:07.003] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.003] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.043] [DEBUG] Get message from server!
-[logic] [01:21:07.043] [DEBUG] Buffer cleared!
-[logic] [01:21:07.043] [DEBUG] Add Student!
-[logic] [01:21:07.043] [DEBUG] Unknown Message!
-[logic] [01:21:07.043] [DEBUG] Update Classroom!
-[logic] [01:21:07.043] [INFO] Update state!
-[logic] [01:21:07.048] [DEBUG] Called GetFullMap
-[logic] [01:21:07.049] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.049] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.091] [DEBUG] Get message from server!
-[logic] [01:21:07.091] [DEBUG] Buffer cleared!
-[logic] [01:21:07.092] [DEBUG] Add Student!
-[logic] [01:21:07.092] [DEBUG] Unknown Message!
-[logic] [01:21:07.092] [DEBUG] Update Classroom!
-[logic] [01:21:07.092] [INFO] Update state!
-[logic] [01:21:07.097] [DEBUG] Called GetFullMap
-[logic] [01:21:07.098] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.098] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.154] [DEBUG] Get message from server!
-[logic] [01:21:07.154] [DEBUG] Buffer cleared!
-[logic] [01:21:07.154] [DEBUG] Add Student!
-[logic] [01:21:07.154] [DEBUG] Unknown Message!
-[logic] [01:21:07.154] [DEBUG] Update Classroom!
-[logic] [01:21:07.154] [INFO] Update state!
-[logic] [01:21:07.157] [DEBUG] Called GetFullMap
-[logic] [01:21:07.159] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.159] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.200] [DEBUG] Get message from server!
-[logic] [01:21:07.200] [DEBUG] Buffer cleared!
-[logic] [01:21:07.200] [DEBUG] Add Student!
-[logic] [01:21:07.200] [DEBUG] Unknown Message!
-[logic] [01:21:07.200] [DEBUG] Update Classroom!
-[logic] [01:21:07.200] [INFO] Update state!
-[logic] [01:21:07.204] [DEBUG] Called GetFullMap
-[logic] [01:21:07.205] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.205] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.248] [DEBUG] Get message from server!
-[logic] [01:21:07.250] [DEBUG] Buffer cleared!
-[logic] [01:21:07.250] [DEBUG] Add Student!
-[logic] [01:21:07.250] [DEBUG] Unknown Message!
-[logic] [01:21:07.250] [DEBUG] Update Classroom!
-[logic] [01:21:07.250] [INFO] Update state!
-[logic] [01:21:07.254] [DEBUG] Called GetFullMap
-[logic] [01:21:07.255] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.255] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.280] [DEBUG] Get message from server!
-[logic] [01:21:07.280] [DEBUG] Buffer cleared!
-[logic] [01:21:07.280] [DEBUG] Add Student!
-[logic] [01:21:07.280] [DEBUG] Unknown Message!
-[logic] [01:21:07.280] [DEBUG] Update Classroom!
-[logic] [01:21:07.281] [INFO] Update state!
-[logic] [01:21:07.289] [DEBUG] Called GetFullMap
-[logic] [01:21:07.290] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.290] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.328] [DEBUG] Get message from server!
-[logic] [01:21:07.328] [DEBUG] Buffer cleared!
-[logic] [01:21:07.329] [DEBUG] Add Student!
-[logic] [01:21:07.329] [DEBUG] Unknown Message!
-[logic] [01:21:07.329] [DEBUG] Update Classroom!
-[logic] [01:21:07.329] [INFO] Update state!
-[logic] [01:21:07.334] [DEBUG] Called GetFullMap
-[logic] [01:21:07.335] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.335] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.390] [DEBUG] Get message from server!
-[logic] [01:21:07.390] [DEBUG] Buffer cleared!
-[logic] [01:21:07.390] [DEBUG] Add Student!
-[logic] [01:21:07.390] [DEBUG] Unknown Message!
-[logic] [01:21:07.390] [DEBUG] Update Classroom!
-[logic] [01:21:07.391] [INFO] Update state!
-[logic] [01:21:07.394] [DEBUG] Called GetFullMap
-[logic] [01:21:07.395] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.395] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.437] [DEBUG] Get message from server!
-[logic] [01:21:07.437] [DEBUG] Buffer cleared!
-[logic] [01:21:07.437] [DEBUG] Add Student!
-[logic] [01:21:07.437] [DEBUG] Unknown Message!
-[logic] [01:21:07.438] [DEBUG] Update Classroom!
-[logic] [01:21:07.438] [INFO] Update state!
-[logic] [01:21:07.444] [DEBUG] Called GetFullMap
-[logic] [01:21:07.445] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.445] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.484] [DEBUG] Get message from server!
-[logic] [01:21:07.485] [DEBUG] Buffer cleared!
-[logic] [01:21:07.485] [DEBUG] Add Student!
-[logic] [01:21:07.485] [DEBUG] Unknown Message!
-[logic] [01:21:07.485] [DEBUG] Update Classroom!
-[logic] [01:21:07.485] [INFO] Update state!
-[logic] [01:21:07.489] [DEBUG] Called GetFullMap
-[logic] [01:21:07.490] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.490] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.531] [DEBUG] Get message from server!
-[logic] [01:21:07.531] [DEBUG] Buffer cleared!
-[logic] [01:21:07.531] [DEBUG] Add Student!
-[logic] [01:21:07.531] [DEBUG] Unknown Message!
-[logic] [01:21:07.531] [DEBUG] Update Classroom!
-[logic] [01:21:07.532] [INFO] Update state!
-[logic] [01:21:07.536] [DEBUG] Called GetFullMap
-[logic] [01:21:07.537] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.537] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.578] [DEBUG] Get message from server!
-[logic] [01:21:07.578] [DEBUG] Buffer cleared!
-[logic] [01:21:07.579] [DEBUG] Add Student!
-[logic] [01:21:07.579] [DEBUG] Unknown Message!
-[logic] [01:21:07.579] [DEBUG] Update Classroom!
-[logic] [01:21:07.579] [INFO] Update state!
-[logic] [01:21:07.584] [DEBUG] Called GetFullMap
-[logic] [01:21:07.585] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.585] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.641] [DEBUG] Get message from server!
-[logic] [01:21:07.641] [DEBUG] Buffer cleared!
-[logic] [01:21:07.641] [DEBUG] Add Student!
-[logic] [01:21:07.641] [DEBUG] Unknown Message!
-[logic] [01:21:07.641] [DEBUG] Update Classroom!
-[logic] [01:21:07.641] [INFO] Update state!
-[logic] [01:21:07.645] [DEBUG] Called GetFullMap
-[logic] [01:21:07.646] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.646] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.688] [DEBUG] Get message from server!
-[logic] [01:21:07.688] [DEBUG] Buffer cleared!
-[logic] [01:21:07.688] [DEBUG] Add Student!
-[logic] [01:21:07.688] [DEBUG] Unknown Message!
-[logic] [01:21:07.688] [DEBUG] Update Classroom!
-[logic] [01:21:07.688] [INFO] Update state!
-[logic] [01:21:07.694] [DEBUG] Called GetFullMap
-[logic] [01:21:07.694] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.694] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.735] [DEBUG] Get message from server!
-[logic] [01:21:07.735] [DEBUG] Buffer cleared!
-[logic] [01:21:07.735] [DEBUG] Add Student!
-[logic] [01:21:07.735] [DEBUG] Unknown Message!
-[logic] [01:21:07.735] [DEBUG] Update Classroom!
-[logic] [01:21:07.736] [INFO] Update state!
-[logic] [01:21:07.739] [DEBUG] Called GetFullMap
-[logic] [01:21:07.740] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.740] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.782] [DEBUG] Get message from server!
-[logic] [01:21:07.783] [DEBUG] Buffer cleared!
-[logic] [01:21:07.783] [DEBUG] Add Student!
-[logic] [01:21:07.783] [DEBUG] Unknown Message!
-[logic] [01:21:07.783] [DEBUG] Update Classroom!
-[logic] [01:21:07.783] [INFO] Update state!
-[logic] [01:21:07.787] [DEBUG] Called GetFullMap
-[logic] [01:21:07.788] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.788] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.829] [DEBUG] Get message from server!
-[logic] [01:21:07.829] [DEBUG] Buffer cleared!
-[logic] [01:21:07.830] [DEBUG] Add Student!
-[logic] [01:21:07.830] [DEBUG] Unknown Message!
-[logic] [01:21:07.830] [DEBUG] Update Classroom!
-[logic] [01:21:07.830] [INFO] Update state!
-[logic] [01:21:07.836] [DEBUG] Called GetFullMap
-[logic] [01:21:07.837] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.837] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.893] [DEBUG] Get message from server!
-[logic] [01:21:07.893] [DEBUG] Buffer cleared!
-[logic] [01:21:07.893] [DEBUG] Add Student!
-[logic] [01:21:07.893] [DEBUG] Unknown Message!
-[logic] [01:21:07.894] [DEBUG] Update Classroom!
-[logic] [01:21:07.894] [INFO] Update state!
-[logic] [01:21:07.899] [DEBUG] Called GetFullMap
-[logic] [01:21:07.900] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.900] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.940] [DEBUG] Get message from server!
-[logic] [01:21:07.940] [DEBUG] Buffer cleared!
-[logic] [01:21:07.940] [DEBUG] Add Student!
-[logic] [01:21:07.940] [DEBUG] Unknown Message!
-[logic] [01:21:07.940] [DEBUG] Update Classroom!
-[logic] [01:21:07.940] [INFO] Update state!
-[logic] [01:21:07.945] [DEBUG] Called GetFullMap
-[logic] [01:21:07.946] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.946] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.986] [DEBUG] Get message from server!
-[logic] [01:21:07.987] [DEBUG] Buffer cleared!
-[logic] [01:21:07.987] [DEBUG] Add Student!
-[logic] [01:21:07.987] [DEBUG] Unknown Message!
-[logic] [01:21:07.987] [DEBUG] Update Classroom!
-[logic] [01:21:07.987] [INFO] Update state!
-[logic] [01:21:07.991] [DEBUG] Called GetFullMap
-[logic] [01:21:07.992] [DEBUG] Called GetSelfInfo
-[logic] [01:21:07.992] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.032] [DEBUG] Get message from server!
-[logic] [01:21:08.033] [DEBUG] Buffer cleared!
-[logic] [01:21:08.033] [DEBUG] Add Student!
-[logic] [01:21:08.033] [DEBUG] Unknown Message!
-[logic] [01:21:08.033] [DEBUG] Update Classroom!
-[logic] [01:21:08.033] [INFO] Update state!
-[logic] [01:21:08.036] [DEBUG] Called GetFullMap
-[logic] [01:21:08.037] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.037] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.079] [DEBUG] Get message from server!
-[logic] [01:21:08.079] [DEBUG] Buffer cleared!
-[logic] [01:21:08.079] [DEBUG] Add Student!
-[logic] [01:21:08.079] [DEBUG] Unknown Message!
-[logic] [01:21:08.079] [DEBUG] Update Classroom!
-[logic] [01:21:08.079] [INFO] Update state!
-[logic] [01:21:08.086] [DEBUG] Called GetFullMap
-[logic] [01:21:08.087] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.087] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.141] [DEBUG] Get message from server!
-[logic] [01:21:08.141] [DEBUG] Buffer cleared!
-[logic] [01:21:08.141] [DEBUG] Add Student!
-[logic] [01:21:08.141] [DEBUG] Unknown Message!
-[logic] [01:21:08.141] [DEBUG] Update Classroom!
-[logic] [01:21:08.141] [INFO] Update state!
-[logic] [01:21:08.146] [DEBUG] Called GetFullMap
-[logic] [01:21:08.147] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.147] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.189] [DEBUG] Get message from server!
-[logic] [01:21:08.189] [DEBUG] Buffer cleared!
-[logic] [01:21:08.189] [DEBUG] Add Student!
-[logic] [01:21:08.189] [DEBUG] Unknown Message!
-[logic] [01:21:08.189] [DEBUG] Update Classroom!
-[logic] [01:21:08.190] [INFO] Update state!
-[logic] [01:21:08.194] [DEBUG] Called GetFullMap
-[logic] [01:21:08.195] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.195] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.235] [DEBUG] Get message from server!
-[logic] [01:21:08.235] [DEBUG] Buffer cleared!
-[logic] [01:21:08.235] [DEBUG] Add Student!
-[logic] [01:21:08.235] [DEBUG] Unknown Message!
-[logic] [01:21:08.235] [DEBUG] Update Classroom!
-[logic] [01:21:08.235] [INFO] Update state!
-[logic] [01:21:08.239] [DEBUG] Called GetFullMap
-[logic] [01:21:08.240] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.240] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.283] [DEBUG] Get message from server!
-[logic] [01:21:08.283] [DEBUG] Buffer cleared!
-[logic] [01:21:08.283] [DEBUG] Add Student!
-[logic] [01:21:08.283] [DEBUG] Unknown Message!
-[logic] [01:21:08.283] [DEBUG] Update Classroom!
-[logic] [01:21:08.284] [INFO] Update state!
-[logic] [01:21:08.288] [DEBUG] Called GetFullMap
-[logic] [01:21:08.288] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.289] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.329] [DEBUG] Get message from server!
-[logic] [01:21:08.329] [DEBUG] Buffer cleared!
-[logic] [01:21:08.330] [DEBUG] Add Student!
-[logic] [01:21:08.330] [DEBUG] Unknown Message!
-[logic] [01:21:08.330] [DEBUG] Update Classroom!
-[logic] [01:21:08.330] [INFO] Update state!
-[logic] [01:21:08.335] [DEBUG] Called GetFullMap
-[logic] [01:21:08.336] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.336] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.378] [DEBUG] Get message from server!
-[logic] [01:21:08.378] [DEBUG] Buffer cleared!
-[logic] [01:21:08.378] [DEBUG] Add Student!
-[logic] [01:21:08.378] [DEBUG] Unknown Message!
-[logic] [01:21:08.378] [DEBUG] Update Classroom!
-[logic] [01:21:08.378] [INFO] Update state!
-[logic] [01:21:08.384] [DEBUG] Called GetFullMap
-[logic] [01:21:08.385] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.385] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.440] [DEBUG] Get message from server!
-[logic] [01:21:08.440] [DEBUG] Buffer cleared!
-[logic] [01:21:08.440] [DEBUG] Add Student!
-[logic] [01:21:08.440] [DEBUG] Unknown Message!
-[logic] [01:21:08.441] [DEBUG] Update Classroom!
-[logic] [01:21:08.441] [INFO] Update state!
-[logic] [01:21:08.444] [DEBUG] Called GetFullMap
-[logic] [01:21:08.445] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.445] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.487] [DEBUG] Get message from server!
-[logic] [01:21:08.488] [DEBUG] Buffer cleared!
-[logic] [01:21:08.488] [DEBUG] Add Student!
-[logic] [01:21:08.488] [DEBUG] Unknown Message!
-[logic] [01:21:08.488] [DEBUG] Update Classroom!
-[logic] [01:21:08.488] [INFO] Update state!
-[logic] [01:21:08.492] [DEBUG] Called GetFullMap
-[logic] [01:21:08.493] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.494] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.534] [DEBUG] Get message from server!
-[logic] [01:21:08.534] [DEBUG] Buffer cleared!
-[logic] [01:21:08.534] [DEBUG] Add Student!
-[logic] [01:21:08.534] [DEBUG] Unknown Message!
-[logic] [01:21:08.534] [DEBUG] Update Classroom!
-[logic] [01:21:08.534] [INFO] Update state!
-[logic] [01:21:08.538] [DEBUG] Called GetFullMap
-[logic] [01:21:08.539] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.539] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.580] [DEBUG] Get message from server!
-[logic] [01:21:08.580] [DEBUG] Buffer cleared!
-[logic] [01:21:08.580] [DEBUG] Add Student!
-[logic] [01:21:08.580] [DEBUG] Unknown Message!
-[logic] [01:21:08.580] [DEBUG] Update Classroom!
-[logic] [01:21:08.581] [INFO] Update state!
-[logic] [01:21:08.586] [DEBUG] Called GetFullMap
-[logic] [01:21:08.587] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.587] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.643] [DEBUG] Get message from server!
-[logic] [01:21:08.644] [DEBUG] Buffer cleared!
-[logic] [01:21:08.644] [DEBUG] Add Student!
-[logic] [01:21:08.644] [DEBUG] Unknown Message!
-[logic] [01:21:08.644] [DEBUG] Update Classroom!
-[logic] [01:21:08.644] [INFO] Update state!
-[logic] [01:21:08.648] [DEBUG] Called GetFullMap
-[logic] [01:21:08.649] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.649] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.690] [DEBUG] Get message from server!
-[logic] [01:21:08.690] [DEBUG] Buffer cleared!
-[logic] [01:21:08.690] [DEBUG] Add Student!
-[logic] [01:21:08.690] [DEBUG] Unknown Message!
-[logic] [01:21:08.690] [DEBUG] Update Classroom!
-[logic] [01:21:08.691] [INFO] Update state!
-[logic] [01:21:08.695] [DEBUG] Called GetFullMap
-[logic] [01:21:08.696] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.696] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.737] [DEBUG] Get message from server!
-[logic] [01:21:08.737] [DEBUG] Buffer cleared!
-[logic] [01:21:08.737] [DEBUG] Add Student!
-[logic] [01:21:08.737] [DEBUG] Unknown Message!
-[logic] [01:21:08.737] [DEBUG] Update Classroom!
-[logic] [01:21:08.737] [INFO] Update state!
-[logic] [01:21:08.742] [DEBUG] Called GetFullMap
-[logic] [01:21:08.744] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.744] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.785] [DEBUG] Get message from server!
-[logic] [01:21:08.785] [DEBUG] Buffer cleared!
-[logic] [01:21:08.785] [DEBUG] Add Student!
-[logic] [01:21:08.785] [DEBUG] Unknown Message!
-[logic] [01:21:08.785] [DEBUG] Update Classroom!
-[logic] [01:21:08.785] [INFO] Update state!
-[logic] [01:21:08.788] [DEBUG] Called GetFullMap
-[logic] [01:21:08.788] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.789] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.831] [DEBUG] Get message from server!
-[logic] [01:21:08.832] [DEBUG] Buffer cleared!
-[logic] [01:21:08.832] [DEBUG] Add Student!
-[logic] [01:21:08.832] [DEBUG] Unknown Message!
-[logic] [01:21:08.832] [DEBUG] Update Classroom!
-[logic] [01:21:08.832] [INFO] Update state!
-[logic] [01:21:08.835] [DEBUG] Called GetFullMap
-[logic] [01:21:08.836] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.836] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.894] [DEBUG] Get message from server!
-[logic] [01:21:08.894] [DEBUG] Buffer cleared!
-[logic] [01:21:08.894] [DEBUG] Add Student!
-[logic] [01:21:08.894] [DEBUG] Unknown Message!
-[logic] [01:21:08.894] [DEBUG] Update Classroom!
-[logic] [01:21:08.894] [INFO] Update state!
-[logic] [01:21:08.898] [DEBUG] Called GetFullMap
-[logic] [01:21:08.899] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.899] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.940] [DEBUG] Get message from server!
-[logic] [01:21:08.941] [DEBUG] Buffer cleared!
-[logic] [01:21:08.941] [DEBUG] Add Student!
-[logic] [01:21:08.941] [DEBUG] Unknown Message!
-[logic] [01:21:08.941] [DEBUG] Update Classroom!
-[logic] [01:21:08.941] [INFO] Update state!
-[logic] [01:21:08.946] [DEBUG] Called GetFullMap
-[logic] [01:21:08.946] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.947] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.987] [DEBUG] Get message from server!
-[logic] [01:21:08.988] [DEBUG] Buffer cleared!
-[logic] [01:21:08.988] [DEBUG] Add Student!
-[logic] [01:21:08.988] [DEBUG] Unknown Message!
-[logic] [01:21:08.988] [DEBUG] Update Classroom!
-[logic] [01:21:08.988] [INFO] Update state!
-[logic] [01:21:08.994] [DEBUG] Called GetFullMap
-[logic] [01:21:08.995] [DEBUG] Called GetSelfInfo
-[logic] [01:21:08.995] [DEBUG] Called GetSelfInfo
-[logic] [01:21:09.035] [DEBUG] Get message from server!
-[logic] [01:21:09.035] [DEBUG] Buffer cleared!
-[logic] [01:21:09.035] [DEBUG] Add Student!
-[logic] [01:21:09.035] [DEBUG] Unknown Message!
-[logic] [01:21:09.035] [DEBUG] Update Classroom!
-[logic] [01:21:09.035] [INFO] Update state!
-[logic] [01:21:09.040] [DEBUG] Called GetFullMap
-[logic] [01:21:09.040] [DEBUG] Called GetSelfInfo
-[logic] [01:21:09.040] [DEBUG] Called GetSelfInfo
-[logic] [01:21:09.082] [DEBUG] Get message from server!
-[logic] [01:21:09.082] [DEBUG] Buffer cleared!
-[logic] [01:21:09.082] [DEBUG] Add Student!
-[logic] [01:21:09.082] [DEBUG] Unknown Message!
-[logic] [01:21:09.082] [DEBUG] Update Classroom!
-[logic] [01:21:09.083] [INFO] Update state!
-[logic] [01:21:09.086] [DEBUG] Called GetFullMap
-[logic] [01:21:09.087] [DEBUG] Called GetSelfInfo
-[logic] [01:21:09.087] [DEBUG] Called GetSelfInfo
-[logic] [01:21:09.145] [DEBUG] Get message from server!
-[logic] [01:21:09.145] [ERROR] Unknown GameState!
-[logic] [01:21:09.146] [INFO] Game End!
-[logic] [01:21:09.148] [INFO] Message thread end!
+[logic] [13:25:11.111] [INFO] *********Basic Info*********
+[logic] [13:25:11.111] [INFO] asynchronous: True
+[logic] [13:25:11.111] [INFO] server: 127.0.0.1:8888
+[logic] [13:25:11.111] [INFO] playerID: 0
+[logic] [13:25:11.111] [INFO] player type: StudentPlayer
+[logic] [13:25:11.111] [INFO] ****************************
+[logic] [13:25:11.127] [INFO] Try to connect to server...
+[logic] [13:25:11.142] [INFO] Connect to the server successfully, AI thread will be started.
+[logic] [13:25:11.158] [INFO] Message thread start!
+[logic] [13:25:11.158] [INFO] Join the AI thread.
+[logic] [13:25:11.158] [INFO] Join the player!
+[logic] [13:25:11.221] [DEBUG] Get message from server!
+[logic] [13:25:11.221] [INFO] Game start!
+[logic] [13:25:11.221] [INFO] Game map loaded!
+[logic] [13:25:11.221] [DEBUG] Buffer cleared!
+[logic] [13:25:11.221] [DEBUG] Add Student!
+[logic] [13:25:11.221] [DEBUG] Unknown Message!
+[logic] [13:25:11.221] [DEBUG] Unknown Message!
+[logic] [13:25:11.221] [DEBUG] Add Classroom!
+[logic] [13:25:11.221] [INFO] Update state!
+[logic] [13:25:11.252] [DEBUG] Get message from server!
+[logic] [13:25:11.252] [DEBUG] Buffer cleared!
+[logic] [13:25:11.252] [DEBUG] Add Student!
+[logic] [13:25:11.252] [DEBUG] Unknown Message!
+[logic] [13:25:11.252] [DEBUG] Update Classroom!
+[logic] [13:25:11.252] [INFO] Update state!
+[logic] [13:25:11.252] [DEBUG] Called GetFullMap
+[logic] [13:25:11.252] [DEBUG] Called GetSelfInfo
+[logic] [13:25:11.252] [DEBUG] Called GetSelfInfo
+[logic] [13:25:11.300] [DEBUG] Get message from server!
+[logic] [13:25:11.300] [DEBUG] Buffer cleared!
+[logic] [13:25:11.300] [DEBUG] Add Student!
+[logic] [13:25:11.300] [DEBUG] Unknown Message!
+[logic] [13:25:11.300] [DEBUG] Update Classroom!
+[logic] [13:25:11.300] [INFO] Update state!
+[logic] [13:25:11.300] [DEBUG] Called GetFullMap
+[logic] [13:25:11.300] [DEBUG] Called GetSelfInfo
+[logic] [13:25:11.300] [DEBUG] Called GetSelfInfo
+[logic] [13:25:11.347] [DEBUG] Get message from server!
+[logic] [13:25:11.347] [DEBUG] Buffer cleared!
+[logic] [13:25:11.347] [DEBUG] Add Student!
+[logic] [13:25:11.347] [DEBUG] Unknown Message!
+[logic] [13:25:11.347] [DEBUG] Update Classroom!
+[logic] [13:25:11.347] [INFO] Update state!
+[logic] [13:25:11.347] [DEBUG] Called GetFullMap
+[logic] [13:25:11.347] [DEBUG] Called GetSelfInfo
+[logic] [13:25:11.347] [DEBUG] Called GetSelfInfo
+[logic] [13:25:11.395] [DEBUG] Get message from server!
+[logic] [13:25:11.395] [DEBUG] Buffer cleared!
+[logic] [13:25:11.395] [DEBUG] Add Student!
+[logic] [13:25:11.395] [DEBUG] Unknown Message!
+[logic] [13:25:11.395] [DEBUG] Update Classroom!
+[logic] [13:25:11.395] [INFO] Update state!
+[logic] [13:25:11.395] [DEBUG] Called GetFullMap
+[logic] [13:25:11.395] [DEBUG] Called GetSelfInfo
+[logic] [13:25:11.395] [DEBUG] Called GetSelfInfo
+[logic] [13:25:11.458] [DEBUG] Get message from server!
+[logic] [13:25:11.458] [DEBUG] Buffer cleared!
+[logic] [13:25:11.458] [DEBUG] Add Student!
+[logic] [13:25:11.458] [DEBUG] Unknown Message!
+[logic] [13:25:11.458] [DEBUG] Update Classroom!
+[logic] [13:25:11.458] [INFO] Update state!
+[logic] [13:25:11.458] [DEBUG] Called GetFullMap
+[logic] [13:25:11.458] [DEBUG] Called GetSelfInfo
+[logic] [13:25:11.458] [DEBUG] Called GetSelfInfo
+[logic] [13:25:11.506] [DEBUG] Get message from server!
+[logic] [13:25:11.506] [DEBUG] Buffer cleared!
+[logic] [13:25:11.506] [DEBUG] Add Student!
+[logic] [13:25:11.506] [DEBUG] Unknown Message!
+[logic] [13:25:11.506] [DEBUG] Update Classroom!
+[logic] [13:25:11.506] [INFO] Update state!
+[logic] [13:25:11.506] [DEBUG] Called GetFullMap
+[logic] [13:25:11.506] [DEBUG] Called GetSelfInfo
+[logic] [13:25:11.506] [DEBUG] Called GetSelfInfo
+[logic] [13:25:11.553] [DEBUG] Get message from server!
+[logic] [13:25:11.553] [DEBUG] Buffer cleared!
+[logic] [13:25:11.553] [DEBUG] Add Student!
+[logic] [13:25:11.553] [DEBUG] Unknown Message!
+[logic] [13:25:11.553] [DEBUG] Update Classroom!
+[logic] [13:25:11.553] [INFO] Update state!
+[logic] [13:25:11.553] [DEBUG] Called GetFullMap
+[logic] [13:25:11.553] [DEBUG] Called GetSelfInfo
+[logic] [13:25:11.553] [DEBUG] Called GetSelfInfo
+[logic] [13:25:11.600] [DEBUG] Get message from server!
+[logic] [13:25:11.600] [DEBUG] Buffer cleared!
+[logic] [13:25:11.600] [DEBUG] Add Student!
+[logic] [13:25:11.600] [DEBUG] Unknown Message!
+[logic] [13:25:11.600] [DEBUG] Update Classroom!
+[logic] [13:25:11.600] [INFO] Update state!
+[logic] [13:25:11.600] [DEBUG] Called GetFullMap
+[logic] [13:25:11.600] [DEBUG] Called GetSelfInfo
+[logic] [13:25:11.600] [DEBUG] Called GetSelfInfo
+[logic] [13:25:11.647] [DEBUG] Get message from server!
+[logic] [13:25:11.647] [DEBUG] Buffer cleared!
+[logic] [13:25:11.647] [DEBUG] Add Student!
+[logic] [13:25:11.647] [DEBUG] Unknown Message!
+[logic] [13:25:11.647] [DEBUG] Update Classroom!
+[logic] [13:25:11.647] [INFO] Update state!
+[logic] [13:25:11.647] [DEBUG] Called GetFullMap
+[logic] [13:25:11.647] [DEBUG] Called GetSelfInfo
+[logic] [13:25:11.647] [DEBUG] Called GetSelfInfo
+[logic] [13:25:11.695] [DEBUG] Get message from server!
+[logic] [13:25:11.695] [DEBUG] Buffer cleared!
+[logic] [13:25:11.695] [DEBUG] Add Student!
+[logic] [13:25:11.695] [DEBUG] Unknown Message!
+[logic] [13:25:11.695] [DEBUG] Update Classroom!
+[logic] [13:25:11.695] [INFO] Update state!
+[logic] [13:25:11.695] [DEBUG] Called GetFullMap
+[logic] [13:25:11.695] [DEBUG] Called GetSelfInfo
+[logic] [13:25:11.695] [DEBUG] Called GetSelfInfo
+[logic] [13:25:11.758] [DEBUG] Get message from server!
+[logic] [13:25:11.758] [DEBUG] Buffer cleared!
+[logic] [13:25:11.758] [DEBUG] Add Student!
+[logic] [13:25:11.758] [DEBUG] Unknown Message!
+[logic] [13:25:11.758] [DEBUG] Update Classroom!
+[logic] [13:25:11.758] [INFO] Update state!
+[logic] [13:25:11.758] [DEBUG] Called GetFullMap
+[logic] [13:25:11.758] [DEBUG] Called GetSelfInfo
+[logic] [13:25:11.758] [DEBUG] Called GetSelfInfo
+[logic] [13:25:11.806] [DEBUG] Get message from server!
+[logic] [13:25:11.806] [DEBUG] Buffer cleared!
+[logic] [13:25:11.806] [DEBUG] Add Student!
+[logic] [13:25:11.806] [DEBUG] Unknown Message!
+[logic] [13:25:11.806] [DEBUG] Update Classroom!
+[logic] [13:25:11.806] [INFO] Update state!
+[logic] [13:25:11.806] [DEBUG] Called GetFullMap
+[logic] [13:25:11.806] [DEBUG] Called GetSelfInfo
+[logic] [13:25:11.806] [DEBUG] Called GetSelfInfo
+[logic] [13:25:11.853] [DEBUG] Get message from server!
+[logic] [13:25:11.853] [DEBUG] Buffer cleared!
+[logic] [13:25:11.853] [DEBUG] Add Student!
+[logic] [13:25:11.853] [DEBUG] Unknown Message!
+[logic] [13:25:11.853] [DEBUG] Update Classroom!
+[logic] [13:25:11.853] [INFO] Update state!
+[logic] [13:25:11.853] [DEBUG] Called GetFullMap
+[logic] [13:25:11.853] [DEBUG] Called GetSelfInfo
+[logic] [13:25:11.853] [DEBUG] Called GetSelfInfo
+[logic] [13:25:11.900] [DEBUG] Get message from server!
+[logic] [13:25:11.900] [DEBUG] Buffer cleared!
+[logic] [13:25:11.900] [DEBUG] Add Student!
+[logic] [13:25:11.900] [DEBUG] Unknown Message!
+[logic] [13:25:11.900] [DEBUG] Update Classroom!
+[logic] [13:25:11.900] [INFO] Update state!
+[logic] [13:25:11.900] [DEBUG] Called GetFullMap
+[logic] [13:25:11.900] [DEBUG] Called GetSelfInfo
+[logic] [13:25:11.900] [DEBUG] Called GetSelfInfo
+[logic] [13:25:11.963] [DEBUG] Get message from server!
+[logic] [13:25:11.963] [DEBUG] Buffer cleared!
+[logic] [13:25:11.963] [DEBUG] Add Student!
+[logic] [13:25:11.963] [DEBUG] Unknown Message!
+[logic] [13:25:11.963] [DEBUG] Update Classroom!
+[logic] [13:25:11.963] [INFO] Update state!
+[logic] [13:25:11.963] [DEBUG] Called GetFullMap
+[logic] [13:25:11.963] [DEBUG] Called GetSelfInfo
+[logic] [13:25:11.963] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.011] [DEBUG] Get message from server!
+[logic] [13:25:12.011] [DEBUG] Buffer cleared!
+[logic] [13:25:12.011] [DEBUG] Add Student!
+[logic] [13:25:12.011] [DEBUG] Unknown Message!
+[logic] [13:25:12.011] [DEBUG] Update Classroom!
+[logic] [13:25:12.011] [INFO] Update state!
+[logic] [13:25:12.011] [DEBUG] Called GetFullMap
+[logic] [13:25:12.011] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.011] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.058] [DEBUG] Get message from server!
+[logic] [13:25:12.058] [DEBUG] Buffer cleared!
+[logic] [13:25:12.058] [DEBUG] Add Student!
+[logic] [13:25:12.058] [DEBUG] Unknown Message!
+[logic] [13:25:12.058] [DEBUG] Update Classroom!
+[logic] [13:25:12.058] [INFO] Update state!
+[logic] [13:25:12.058] [DEBUG] Called GetFullMap
+[logic] [13:25:12.058] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.058] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.106] [DEBUG] Get message from server!
+[logic] [13:25:12.106] [DEBUG] Buffer cleared!
+[logic] [13:25:12.106] [DEBUG] Add Student!
+[logic] [13:25:12.106] [DEBUG] Unknown Message!
+[logic] [13:25:12.106] [DEBUG] Update Classroom!
+[logic] [13:25:12.106] [INFO] Update state!
+[logic] [13:25:12.106] [DEBUG] Called GetFullMap
+[logic] [13:25:12.106] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.106] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.153] [DEBUG] Get message from server!
+[logic] [13:25:12.153] [DEBUG] Buffer cleared!
+[logic] [13:25:12.153] [DEBUG] Add Student!
+[logic] [13:25:12.153] [DEBUG] Unknown Message!
+[logic] [13:25:12.153] [DEBUG] Update Classroom!
+[logic] [13:25:12.153] [INFO] Update state!
+[logic] [13:25:12.153] [DEBUG] Called GetFullMap
+[logic] [13:25:12.153] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.153] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.217] [DEBUG] Get message from server!
+[logic] [13:25:12.217] [DEBUG] Buffer cleared!
+[logic] [13:25:12.217] [DEBUG] Add Student!
+[logic] [13:25:12.217] [DEBUG] Unknown Message!
+[logic] [13:25:12.217] [DEBUG] Update Classroom!
+[logic] [13:25:12.217] [INFO] Update state!
+[logic] [13:25:12.217] [DEBUG] Called GetFullMap
+[logic] [13:25:12.217] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.217] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.248] [DEBUG] Get message from server!
+[logic] [13:25:12.248] [DEBUG] Buffer cleared!
+[logic] [13:25:12.248] [DEBUG] Add Student!
+[logic] [13:25:12.248] [DEBUG] Unknown Message!
+[logic] [13:25:12.248] [DEBUG] Update Classroom!
+[logic] [13:25:12.248] [INFO] Update state!
+[logic] [13:25:12.248] [DEBUG] Called GetFullMap
+[logic] [13:25:12.248] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.248] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.296] [DEBUG] Get message from server!
+[logic] [13:25:12.296] [DEBUG] Buffer cleared!
+[logic] [13:25:12.296] [DEBUG] Add Student!
+[logic] [13:25:12.296] [DEBUG] Unknown Message!
+[logic] [13:25:12.296] [DEBUG] Update Classroom!
+[logic] [13:25:12.296] [INFO] Update state!
+[logic] [13:25:12.296] [DEBUG] Called GetFullMap
+[logic] [13:25:12.296] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.296] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.344] [DEBUG] Get message from server!
+[logic] [13:25:12.344] [DEBUG] Buffer cleared!
+[logic] [13:25:12.344] [DEBUG] Add Student!
+[logic] [13:25:12.344] [DEBUG] Unknown Message!
+[logic] [13:25:12.344] [DEBUG] Update Classroom!
+[logic] [13:25:12.344] [INFO] Update state!
+[logic] [13:25:12.344] [DEBUG] Called GetFullMap
+[logic] [13:25:12.344] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.344] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.392] [DEBUG] Get message from server!
+[logic] [13:25:12.392] [DEBUG] Buffer cleared!
+[logic] [13:25:12.392] [DEBUG] Add Student!
+[logic] [13:25:12.392] [DEBUG] Unknown Message!
+[logic] [13:25:12.392] [DEBUG] Update Classroom!
+[logic] [13:25:12.392] [INFO] Update state!
+[logic] [13:25:12.392] [DEBUG] Called GetFullMap
+[logic] [13:25:12.392] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.392] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.455] [DEBUG] Get message from server!
+[logic] [13:25:12.455] [DEBUG] Buffer cleared!
+[logic] [13:25:12.455] [DEBUG] Add Student!
+[logic] [13:25:12.455] [DEBUG] Unknown Message!
+[logic] [13:25:12.455] [DEBUG] Update Classroom!
+[logic] [13:25:12.455] [INFO] Update state!
+[logic] [13:25:12.455] [DEBUG] Called GetFullMap
+[logic] [13:25:12.455] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.455] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.501] [DEBUG] Get message from server!
+[logic] [13:25:12.501] [DEBUG] Buffer cleared!
+[logic] [13:25:12.501] [DEBUG] Add Student!
+[logic] [13:25:12.501] [DEBUG] Unknown Message!
+[logic] [13:25:12.501] [DEBUG] Update Classroom!
+[logic] [13:25:12.501] [INFO] Update state!
+[logic] [13:25:12.501] [DEBUG] Called GetFullMap
+[logic] [13:25:12.501] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.501] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.548] [DEBUG] Get message from server!
+[logic] [13:25:12.548] [DEBUG] Buffer cleared!
+[logic] [13:25:12.548] [DEBUG] Add Student!
+[logic] [13:25:12.548] [DEBUG] Unknown Message!
+[logic] [13:25:12.548] [DEBUG] Update Classroom!
+[logic] [13:25:12.548] [INFO] Update state!
+[logic] [13:25:12.548] [DEBUG] Called GetFullMap
+[logic] [13:25:12.548] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.548] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.596] [DEBUG] Get message from server!
+[logic] [13:25:12.596] [DEBUG] Buffer cleared!
+[logic] [13:25:12.596] [DEBUG] Add Student!
+[logic] [13:25:12.596] [DEBUG] Unknown Message!
+[logic] [13:25:12.596] [DEBUG] Update Classroom!
+[logic] [13:25:12.596] [INFO] Update state!
+[logic] [13:25:12.596] [DEBUG] Called GetFullMap
+[logic] [13:25:12.596] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.596] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.643] [DEBUG] Get message from server!
+[logic] [13:25:12.643] [DEBUG] Buffer cleared!
+[logic] [13:25:12.643] [DEBUG] Add Student!
+[logic] [13:25:12.643] [DEBUG] Unknown Message!
+[logic] [13:25:12.643] [DEBUG] Update Classroom!
+[logic] [13:25:12.643] [INFO] Update state!
+[logic] [13:25:12.643] [DEBUG] Called GetFullMap
+[logic] [13:25:12.643] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.643] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.691] [DEBUG] Get message from server!
+[logic] [13:25:12.691] [DEBUG] Buffer cleared!
+[logic] [13:25:12.691] [DEBUG] Add Student!
+[logic] [13:25:12.691] [DEBUG] Unknown Message!
+[logic] [13:25:12.691] [DEBUG] Update Classroom!
+[logic] [13:25:12.691] [INFO] Update state!
+[logic] [13:25:12.691] [DEBUG] Called GetFullMap
+[logic] [13:25:12.691] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.691] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.754] [DEBUG] Get message from server!
+[logic] [13:25:12.754] [DEBUG] Buffer cleared!
+[logic] [13:25:12.754] [DEBUG] Add Student!
+[logic] [13:25:12.754] [DEBUG] Unknown Message!
+[logic] [13:25:12.754] [DEBUG] Update Classroom!
+[logic] [13:25:12.754] [INFO] Update state!
+[logic] [13:25:12.754] [DEBUG] Called GetFullMap
+[logic] [13:25:12.754] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.754] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.802] [DEBUG] Get message from server!
+[logic] [13:25:12.802] [DEBUG] Buffer cleared!
+[logic] [13:25:12.802] [DEBUG] Add Student!
+[logic] [13:25:12.802] [DEBUG] Unknown Message!
+[logic] [13:25:12.802] [DEBUG] Update Classroom!
+[logic] [13:25:12.802] [INFO] Update state!
+[logic] [13:25:12.802] [DEBUG] Called GetFullMap
+[logic] [13:25:12.802] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.802] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.849] [DEBUG] Get message from server!
+[logic] [13:25:12.849] [DEBUG] Buffer cleared!
+[logic] [13:25:12.849] [DEBUG] Add Student!
+[logic] [13:25:12.849] [DEBUG] Unknown Message!
+[logic] [13:25:12.849] [DEBUG] Update Classroom!
+[logic] [13:25:12.849] [INFO] Update state!
+[logic] [13:25:12.849] [DEBUG] Called GetFullMap
+[logic] [13:25:12.849] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.849] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.897] [DEBUG] Get message from server!
+[logic] [13:25:12.897] [DEBUG] Buffer cleared!
+[logic] [13:25:12.897] [DEBUG] Add Student!
+[logic] [13:25:12.897] [DEBUG] Unknown Message!
+[logic] [13:25:12.897] [DEBUG] Update Classroom!
+[logic] [13:25:12.897] [INFO] Update state!
+[logic] [13:25:12.897] [DEBUG] Called GetFullMap
+[logic] [13:25:12.897] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.897] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.960] [DEBUG] Get message from server!
+[logic] [13:25:12.960] [DEBUG] Buffer cleared!
+[logic] [13:25:12.960] [DEBUG] Add Student!
+[logic] [13:25:12.960] [DEBUG] Unknown Message!
+[logic] [13:25:12.960] [DEBUG] Update Classroom!
+[logic] [13:25:12.960] [INFO] Update state!
+[logic] [13:25:12.960] [DEBUG] Called GetFullMap
+[logic] [13:25:12.960] [DEBUG] Called GetSelfInfo
+[logic] [13:25:12.960] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.008] [DEBUG] Get message from server!
+[logic] [13:25:13.008] [DEBUG] Buffer cleared!
+[logic] [13:25:13.008] [DEBUG] Add Student!
+[logic] [13:25:13.008] [DEBUG] Unknown Message!
+[logic] [13:25:13.008] [DEBUG] Update Classroom!
+[logic] [13:25:13.008] [INFO] Update state!
+[logic] [13:25:13.008] [DEBUG] Called GetFullMap
+[logic] [13:25:13.008] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.008] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.055] [DEBUG] Get message from server!
+[logic] [13:25:13.055] [DEBUG] Buffer cleared!
+[logic] [13:25:13.055] [DEBUG] Add Student!
+[logic] [13:25:13.055] [DEBUG] Unknown Message!
+[logic] [13:25:13.055] [DEBUG] Update Classroom!
+[logic] [13:25:13.055] [INFO] Update state!
+[logic] [13:25:13.055] [DEBUG] Called GetFullMap
+[logic] [13:25:13.055] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.055] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.103] [DEBUG] Get message from server!
+[logic] [13:25:13.103] [DEBUG] Buffer cleared!
+[logic] [13:25:13.103] [DEBUG] Add Student!
+[logic] [13:25:13.103] [DEBUG] Unknown Message!
+[logic] [13:25:13.103] [DEBUG] Update Classroom!
+[logic] [13:25:13.103] [INFO] Update state!
+[logic] [13:25:13.103] [DEBUG] Called GetFullMap
+[logic] [13:25:13.103] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.103] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.150] [DEBUG] Get message from server!
+[logic] [13:25:13.150] [DEBUG] Buffer cleared!
+[logic] [13:25:13.150] [DEBUG] Add Student!
+[logic] [13:25:13.150] [DEBUG] Unknown Message!
+[logic] [13:25:13.150] [DEBUG] Update Classroom!
+[logic] [13:25:13.150] [INFO] Update state!
+[logic] [13:25:13.150] [DEBUG] Called GetFullMap
+[logic] [13:25:13.150] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.150] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.213] [DEBUG] Get message from server!
+[logic] [13:25:13.213] [DEBUG] Buffer cleared!
+[logic] [13:25:13.213] [DEBUG] Add Student!
+[logic] [13:25:13.213] [DEBUG] Unknown Message!
+[logic] [13:25:13.213] [DEBUG] Update Classroom!
+[logic] [13:25:13.213] [INFO] Update state!
+[logic] [13:25:13.213] [DEBUG] Called GetFullMap
+[logic] [13:25:13.213] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.213] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.260] [DEBUG] Get message from server!
+[logic] [13:25:13.260] [DEBUG] Buffer cleared!
+[logic] [13:25:13.260] [DEBUG] Add Student!
+[logic] [13:25:13.260] [DEBUG] Unknown Message!
+[logic] [13:25:13.260] [DEBUG] Update Classroom!
+[logic] [13:25:13.260] [INFO] Update state!
+[logic] [13:25:13.260] [DEBUG] Called GetFullMap
+[logic] [13:25:13.260] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.260] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.308] [DEBUG] Get message from server!
+[logic] [13:25:13.308] [DEBUG] Buffer cleared!
+[logic] [13:25:13.308] [DEBUG] Add Student!
+[logic] [13:25:13.308] [DEBUG] Unknown Message!
+[logic] [13:25:13.308] [DEBUG] Update Classroom!
+[logic] [13:25:13.308] [INFO] Update state!
+[logic] [13:25:13.308] [DEBUG] Called GetFullMap
+[logic] [13:25:13.308] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.308] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.354] [DEBUG] Get message from server!
+[logic] [13:25:13.354] [DEBUG] Buffer cleared!
+[logic] [13:25:13.354] [DEBUG] Add Student!
+[logic] [13:25:13.354] [DEBUG] Unknown Message!
+[logic] [13:25:13.354] [DEBUG] Update Classroom!
+[logic] [13:25:13.354] [INFO] Update state!
+[logic] [13:25:13.354] [DEBUG] Called GetFullMap
+[logic] [13:25:13.354] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.354] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.402] [DEBUG] Get message from server!
+[logic] [13:25:13.402] [DEBUG] Buffer cleared!
+[logic] [13:25:13.402] [DEBUG] Add Student!
+[logic] [13:25:13.402] [DEBUG] Unknown Message!
+[logic] [13:25:13.402] [DEBUG] Update Classroom!
+[logic] [13:25:13.402] [INFO] Update state!
+[logic] [13:25:13.402] [DEBUG] Called GetFullMap
+[logic] [13:25:13.402] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.402] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.465] [DEBUG] Get message from server!
+[logic] [13:25:13.465] [DEBUG] Buffer cleared!
+[logic] [13:25:13.465] [DEBUG] Add Student!
+[logic] [13:25:13.465] [DEBUG] Unknown Message!
+[logic] [13:25:13.465] [DEBUG] Update Classroom!
+[logic] [13:25:13.465] [INFO] Update state!
+[logic] [13:25:13.465] [DEBUG] Called GetFullMap
+[logic] [13:25:13.465] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.465] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.513] [DEBUG] Get message from server!
+[logic] [13:25:13.513] [DEBUG] Buffer cleared!
+[logic] [13:25:13.513] [DEBUG] Add Student!
+[logic] [13:25:13.513] [DEBUG] Unknown Message!
+[logic] [13:25:13.513] [DEBUG] Update Classroom!
+[logic] [13:25:13.513] [INFO] Update state!
+[logic] [13:25:13.513] [DEBUG] Called GetFullMap
+[logic] [13:25:13.513] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.513] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.559] [DEBUG] Get message from server!
+[logic] [13:25:13.559] [DEBUG] Buffer cleared!
+[logic] [13:25:13.559] [DEBUG] Add Student!
+[logic] [13:25:13.559] [DEBUG] Unknown Message!
+[logic] [13:25:13.559] [DEBUG] Update Classroom!
+[logic] [13:25:13.559] [INFO] Update state!
+[logic] [13:25:13.559] [DEBUG] Called GetFullMap
+[logic] [13:25:13.559] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.559] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.607] [DEBUG] Get message from server!
+[logic] [13:25:13.607] [DEBUG] Buffer cleared!
+[logic] [13:25:13.607] [DEBUG] Add Student!
+[logic] [13:25:13.607] [DEBUG] Unknown Message!
+[logic] [13:25:13.607] [DEBUG] Update Classroom!
+[logic] [13:25:13.607] [INFO] Update state!
+[logic] [13:25:13.607] [DEBUG] Called GetFullMap
+[logic] [13:25:13.607] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.607] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.639] [DEBUG] Get message from server!
+[logic] [13:25:13.639] [DEBUG] Buffer cleared!
+[logic] [13:25:13.639] [DEBUG] Add Student!
+[logic] [13:25:13.639] [DEBUG] Unknown Message!
+[logic] [13:25:13.639] [DEBUG] Update Classroom!
+[logic] [13:25:13.639] [INFO] Update state!
+[logic] [13:25:13.639] [DEBUG] Called GetFullMap
+[logic] [13:25:13.639] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.639] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.687] [DEBUG] Get message from server!
+[logic] [13:25:13.687] [DEBUG] Buffer cleared!
+[logic] [13:25:13.687] [DEBUG] Add Student!
+[logic] [13:25:13.687] [DEBUG] Unknown Message!
+[logic] [13:25:13.687] [DEBUG] Update Classroom!
+[logic] [13:25:13.687] [INFO] Update state!
+[logic] [13:25:13.691] [DEBUG] Called GetFullMap
+[logic] [13:25:13.691] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.691] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.750] [DEBUG] Get message from server!
+[logic] [13:25:13.750] [DEBUG] Buffer cleared!
+[logic] [13:25:13.750] [DEBUG] Add Student!
+[logic] [13:25:13.750] [DEBUG] Unknown Message!
+[logic] [13:25:13.750] [DEBUG] Update Classroom!
+[logic] [13:25:13.750] [INFO] Update state!
+[logic] [13:25:13.750] [DEBUG] Called GetFullMap
+[logic] [13:25:13.750] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.750] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.798] [DEBUG] Get message from server!
+[logic] [13:25:13.798] [DEBUG] Buffer cleared!
+[logic] [13:25:13.798] [DEBUG] Add Student!
+[logic] [13:25:13.798] [DEBUG] Unknown Message!
+[logic] [13:25:13.798] [DEBUG] Update Classroom!
+[logic] [13:25:13.798] [INFO] Update state!
+[logic] [13:25:13.798] [DEBUG] Called GetFullMap
+[logic] [13:25:13.798] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.798] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.845] [DEBUG] Get message from server!
+[logic] [13:25:13.845] [DEBUG] Buffer cleared!
+[logic] [13:25:13.845] [DEBUG] Add Student!
+[logic] [13:25:13.845] [DEBUG] Unknown Message!
+[logic] [13:25:13.845] [DEBUG] Update Classroom!
+[logic] [13:25:13.845] [INFO] Update state!
+[logic] [13:25:13.845] [DEBUG] Called GetFullMap
+[logic] [13:25:13.845] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.845] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.894] [DEBUG] Get message from server!
+[logic] [13:25:13.894] [DEBUG] Buffer cleared!
+[logic] [13:25:13.894] [DEBUG] Add Student!
+[logic] [13:25:13.894] [DEBUG] Unknown Message!
+[logic] [13:25:13.894] [DEBUG] Update Classroom!
+[logic] [13:25:13.894] [INFO] Update state!
+[logic] [13:25:13.894] [DEBUG] Called GetFullMap
+[logic] [13:25:13.894] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.894] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.957] [DEBUG] Get message from server!
+[logic] [13:25:13.957] [DEBUG] Buffer cleared!
+[logic] [13:25:13.957] [DEBUG] Add Student!
+[logic] [13:25:13.957] [DEBUG] Unknown Message!
+[logic] [13:25:13.957] [DEBUG] Update Classroom!
+[logic] [13:25:13.957] [INFO] Update state!
+[logic] [13:25:13.957] [DEBUG] Called GetFullMap
+[logic] [13:25:13.957] [DEBUG] Called GetSelfInfo
+[logic] [13:25:13.957] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.004] [DEBUG] Get message from server!
+[logic] [13:25:14.004] [DEBUG] Buffer cleared!
+[logic] [13:25:14.004] [DEBUG] Add Student!
+[logic] [13:25:14.004] [DEBUG] Unknown Message!
+[logic] [13:25:14.004] [DEBUG] Update Classroom!
+[logic] [13:25:14.004] [INFO] Update state!
+[logic] [13:25:14.004] [DEBUG] Called GetFullMap
+[logic] [13:25:14.004] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.004] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.052] [DEBUG] Get message from server!
+[logic] [13:25:14.052] [DEBUG] Buffer cleared!
+[logic] [13:25:14.052] [DEBUG] Add Student!
+[logic] [13:25:14.052] [DEBUG] Unknown Message!
+[logic] [13:25:14.052] [DEBUG] Update Classroom!
+[logic] [13:25:14.052] [INFO] Update state!
+[logic] [13:25:14.052] [DEBUG] Called GetFullMap
+[logic] [13:25:14.052] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.052] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.099] [DEBUG] Get message from server!
+[logic] [13:25:14.099] [DEBUG] Buffer cleared!
+[logic] [13:25:14.099] [DEBUG] Add Student!
+[logic] [13:25:14.099] [DEBUG] Unknown Message!
+[logic] [13:25:14.099] [DEBUG] Update Classroom!
+[logic] [13:25:14.099] [INFO] Update state!
+[logic] [13:25:14.099] [DEBUG] Called GetFullMap
+[logic] [13:25:14.099] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.099] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.146] [DEBUG] Get message from server!
+[logic] [13:25:14.146] [DEBUG] Buffer cleared!
+[logic] [13:25:14.146] [DEBUG] Add Student!
+[logic] [13:25:14.146] [DEBUG] Unknown Message!
+[logic] [13:25:14.146] [DEBUG] Update Classroom!
+[logic] [13:25:14.146] [INFO] Update state!
+[logic] [13:25:14.146] [DEBUG] Called GetFullMap
+[logic] [13:25:14.146] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.146] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.210] [DEBUG] Get message from server!
+[logic] [13:25:14.210] [DEBUG] Buffer cleared!
+[logic] [13:25:14.210] [DEBUG] Add Student!
+[logic] [13:25:14.210] [DEBUG] Unknown Message!
+[logic] [13:25:14.210] [DEBUG] Update Classroom!
+[logic] [13:25:14.210] [INFO] Update state!
+[logic] [13:25:14.210] [DEBUG] Called GetFullMap
+[logic] [13:25:14.210] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.210] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.257] [DEBUG] Get message from server!
+[logic] [13:25:14.257] [DEBUG] Buffer cleared!
+[logic] [13:25:14.257] [DEBUG] Add Student!
+[logic] [13:25:14.257] [DEBUG] Unknown Message!
+[logic] [13:25:14.257] [DEBUG] Update Classroom!
+[logic] [13:25:14.257] [INFO] Update state!
+[logic] [13:25:14.257] [DEBUG] Called GetFullMap
+[logic] [13:25:14.257] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.257] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.305] [DEBUG] Get message from server!
+[logic] [13:25:14.305] [DEBUG] Buffer cleared!
+[logic] [13:25:14.305] [DEBUG] Add Student!
+[logic] [13:25:14.305] [DEBUG] Unknown Message!
+[logic] [13:25:14.305] [DEBUG] Update Classroom!
+[logic] [13:25:14.305] [INFO] Update state!
+[logic] [13:25:14.305] [DEBUG] Called GetFullMap
+[logic] [13:25:14.305] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.305] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.353] [DEBUG] Get message from server!
+[logic] [13:25:14.360] [DEBUG] Buffer cleared!
+[logic] [13:25:14.360] [DEBUG] Add Student!
+[logic] [13:25:14.360] [DEBUG] Unknown Message!
+[logic] [13:25:14.360] [DEBUG] Update Classroom!
+[logic] [13:25:14.360] [INFO] Update state!
+[logic] [13:25:14.360] [DEBUG] Called GetFullMap
+[logic] [13:25:14.360] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.360] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.400] [DEBUG] Get message from server!
+[logic] [13:25:14.400] [DEBUG] Buffer cleared!
+[logic] [13:25:14.400] [DEBUG] Add Student!
+[logic] [13:25:14.400] [DEBUG] Unknown Message!
+[logic] [13:25:14.400] [DEBUG] Update Classroom!
+[logic] [13:25:14.400] [INFO] Update state!
+[logic] [13:25:14.400] [DEBUG] Called GetFullMap
+[logic] [13:25:14.400] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.400] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.462] [DEBUG] Get message from server!
+[logic] [13:25:14.462] [DEBUG] Buffer cleared!
+[logic] [13:25:14.462] [DEBUG] Add Student!
+[logic] [13:25:14.462] [DEBUG] Unknown Message!
+[logic] [13:25:14.462] [DEBUG] Update Classroom!
+[logic] [13:25:14.462] [INFO] Update state!
+[logic] [13:25:14.462] [DEBUG] Called GetFullMap
+[logic] [13:25:14.462] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.462] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.509] [DEBUG] Get message from server!
+[logic] [13:25:14.509] [DEBUG] Buffer cleared!
+[logic] [13:25:14.509] [DEBUG] Add Student!
+[logic] [13:25:14.509] [DEBUG] Unknown Message!
+[logic] [13:25:14.509] [DEBUG] Update Classroom!
+[logic] [13:25:14.509] [INFO] Update state!
+[logic] [13:25:14.509] [DEBUG] Called GetFullMap
+[logic] [13:25:14.509] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.509] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.557] [DEBUG] Get message from server!
+[logic] [13:25:14.557] [DEBUG] Buffer cleared!
+[logic] [13:25:14.557] [DEBUG] Add Student!
+[logic] [13:25:14.557] [DEBUG] Unknown Message!
+[logic] [13:25:14.557] [DEBUG] Update Classroom!
+[logic] [13:25:14.557] [INFO] Update state!
+[logic] [13:25:14.557] [DEBUG] Called GetFullMap
+[logic] [13:25:14.557] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.557] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.604] [DEBUG] Get message from server!
+[logic] [13:25:14.604] [DEBUG] Buffer cleared!
+[logic] [13:25:14.604] [DEBUG] Add Student!
+[logic] [13:25:14.604] [DEBUG] Unknown Message!
+[logic] [13:25:14.604] [DEBUG] Update Classroom!
+[logic] [13:25:14.604] [INFO] Update state!
+[logic] [13:25:14.604] [DEBUG] Called GetFullMap
+[logic] [13:25:14.604] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.604] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.651] [DEBUG] Get message from server!
+[logic] [13:25:14.651] [DEBUG] Buffer cleared!
+[logic] [13:25:14.651] [DEBUG] Add Student!
+[logic] [13:25:14.651] [DEBUG] Unknown Message!
+[logic] [13:25:14.651] [DEBUG] Update Classroom!
+[logic] [13:25:14.651] [INFO] Update state!
+[logic] [13:25:14.651] [DEBUG] Called GetFullMap
+[logic] [13:25:14.651] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.651] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.714] [DEBUG] Get message from server!
+[logic] [13:25:14.714] [DEBUG] Buffer cleared!
+[logic] [13:25:14.714] [DEBUG] Add Student!
+[logic] [13:25:14.714] [DEBUG] Unknown Message!
+[logic] [13:25:14.714] [DEBUG] Update Classroom!
+[logic] [13:25:14.714] [INFO] Update state!
+[logic] [13:25:14.714] [DEBUG] Called GetFullMap
+[logic] [13:25:14.714] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.714] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.762] [DEBUG] Get message from server!
+[logic] [13:25:14.762] [DEBUG] Buffer cleared!
+[logic] [13:25:14.762] [DEBUG] Add Student!
+[logic] [13:25:14.762] [DEBUG] Unknown Message!
+[logic] [13:25:14.762] [DEBUG] Update Classroom!
+[logic] [13:25:14.762] [INFO] Update state!
+[logic] [13:25:14.762] [DEBUG] Called GetFullMap
+[logic] [13:25:14.762] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.762] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.810] [DEBUG] Get message from server!
+[logic] [13:25:14.810] [DEBUG] Buffer cleared!
+[logic] [13:25:14.810] [DEBUG] Add Student!
+[logic] [13:25:14.810] [DEBUG] Unknown Message!
+[logic] [13:25:14.810] [DEBUG] Update Classroom!
+[logic] [13:25:14.810] [INFO] Update state!
+[logic] [13:25:14.810] [DEBUG] Called GetFullMap
+[logic] [13:25:14.810] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.810] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.857] [DEBUG] Get message from server!
+[logic] [13:25:14.857] [DEBUG] Buffer cleared!
+[logic] [13:25:14.857] [DEBUG] Add Student!
+[logic] [13:25:14.857] [DEBUG] Unknown Message!
+[logic] [13:25:14.857] [DEBUG] Update Classroom!
+[logic] [13:25:14.857] [INFO] Update state!
+[logic] [13:25:14.857] [DEBUG] Called GetFullMap
+[logic] [13:25:14.857] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.857] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.889] [DEBUG] Get message from server!
+[logic] [13:25:14.889] [DEBUG] Buffer cleared!
+[logic] [13:25:14.889] [DEBUG] Add Student!
+[logic] [13:25:14.889] [DEBUG] Unknown Message!
+[logic] [13:25:14.889] [DEBUG] Update Classroom!
+[logic] [13:25:14.889] [INFO] Update state!
+[logic] [13:25:14.897] [DEBUG] Called GetFullMap
+[logic] [13:25:14.897] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.897] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.952] [DEBUG] Get message from server!
+[logic] [13:25:14.952] [DEBUG] Buffer cleared!
+[logic] [13:25:14.952] [DEBUG] Add Student!
+[logic] [13:25:14.952] [DEBUG] Unknown Message!
+[logic] [13:25:14.952] [DEBUG] Update Classroom!
+[logic] [13:25:14.952] [INFO] Update state!
+[logic] [13:25:14.952] [DEBUG] Called GetFullMap
+[logic] [13:25:14.952] [DEBUG] Called GetSelfInfo
+[logic] [13:25:14.952] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.000] [DEBUG] Get message from server!
+[logic] [13:25:15.000] [DEBUG] Buffer cleared!
+[logic] [13:25:15.000] [DEBUG] Add Student!
+[logic] [13:25:15.000] [DEBUG] Unknown Message!
+[logic] [13:25:15.000] [DEBUG] Update Classroom!
+[logic] [13:25:15.000] [INFO] Update state!
+[logic] [13:25:15.000] [DEBUG] Called GetFullMap
+[logic] [13:25:15.000] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.000] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.047] [DEBUG] Get message from server!
+[logic] [13:25:15.047] [DEBUG] Buffer cleared!
+[logic] [13:25:15.047] [DEBUG] Add Student!
+[logic] [13:25:15.047] [DEBUG] Unknown Message!
+[logic] [13:25:15.047] [DEBUG] Update Classroom!
+[logic] [13:25:15.047] [INFO] Update state!
+[logic] [13:25:15.047] [DEBUG] Called GetFullMap
+[logic] [13:25:15.047] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.047] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.094] [DEBUG] Get message from server!
+[logic] [13:25:15.094] [DEBUG] Buffer cleared!
+[logic] [13:25:15.094] [DEBUG] Add Student!
+[logic] [13:25:15.094] [DEBUG] Unknown Message!
+[logic] [13:25:15.094] [DEBUG] Update Classroom!
+[logic] [13:25:15.094] [INFO] Update state!
+[logic] [13:25:15.097] [DEBUG] Called GetFullMap
+[logic] [13:25:15.097] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.097] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.142] [DEBUG] Get message from server!
+[logic] [13:25:15.142] [DEBUG] Buffer cleared!
+[logic] [13:25:15.142] [DEBUG] Add Student!
+[logic] [13:25:15.142] [DEBUG] Unknown Message!
+[logic] [13:25:15.142] [DEBUG] Update Classroom!
+[logic] [13:25:15.142] [INFO] Update state!
+[logic] [13:25:15.142] [DEBUG] Called GetFullMap
+[logic] [13:25:15.142] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.142] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.205] [DEBUG] Get message from server!
+[logic] [13:25:15.205] [DEBUG] Buffer cleared!
+[logic] [13:25:15.205] [DEBUG] Add Student!
+[logic] [13:25:15.205] [DEBUG] Unknown Message!
+[logic] [13:25:15.205] [DEBUG] Update Classroom!
+[logic] [13:25:15.205] [INFO] Update state!
+[logic] [13:25:15.205] [DEBUG] Called GetFullMap
+[logic] [13:25:15.205] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.205] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.252] [DEBUG] Get message from server!
+[logic] [13:25:15.252] [DEBUG] Buffer cleared!
+[logic] [13:25:15.252] [DEBUG] Add Student!
+[logic] [13:25:15.252] [DEBUG] Unknown Message!
+[logic] [13:25:15.252] [DEBUG] Update Classroom!
+[logic] [13:25:15.252] [INFO] Update state!
+[logic] [13:25:15.252] [DEBUG] Called GetFullMap
+[logic] [13:25:15.252] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.252] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.299] [DEBUG] Get message from server!
+[logic] [13:25:15.299] [DEBUG] Buffer cleared!
+[logic] [13:25:15.299] [DEBUG] Add Student!
+[logic] [13:25:15.299] [DEBUG] Unknown Message!
+[logic] [13:25:15.299] [DEBUG] Update Classroom!
+[logic] [13:25:15.299] [INFO] Update state!
+[logic] [13:25:15.299] [DEBUG] Called GetFullMap
+[logic] [13:25:15.299] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.299] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.347] [DEBUG] Get message from server!
+[logic] [13:25:15.347] [DEBUG] Buffer cleared!
+[logic] [13:25:15.347] [DEBUG] Add Student!
+[logic] [13:25:15.347] [DEBUG] Unknown Message!
+[logic] [13:25:15.347] [DEBUG] Update Classroom!
+[logic] [13:25:15.347] [INFO] Update state!
+[logic] [13:25:15.347] [DEBUG] Called GetFullMap
+[logic] [13:25:15.347] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.347] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.393] [DEBUG] Get message from server!
+[logic] [13:25:15.393] [DEBUG] Buffer cleared!
+[logic] [13:25:15.393] [DEBUG] Add Student!
+[logic] [13:25:15.393] [DEBUG] Unknown Message!
+[logic] [13:25:15.393] [DEBUG] Update Classroom!
+[logic] [13:25:15.393] [INFO] Update state!
+[logic] [13:25:15.398] [DEBUG] Called GetFullMap
+[logic] [13:25:15.398] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.398] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.441] [DEBUG] Get message from server!
+[logic] [13:25:15.441] [DEBUG] Buffer cleared!
+[logic] [13:25:15.441] [DEBUG] Add Student!
+[logic] [13:25:15.441] [DEBUG] Unknown Message!
+[logic] [13:25:15.441] [DEBUG] Update Classroom!
+[logic] [13:25:15.441] [INFO] Update state!
+[logic] [13:25:15.441] [DEBUG] Called GetFullMap
+[logic] [13:25:15.441] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.441] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.504] [DEBUG] Get message from server!
+[logic] [13:25:15.504] [DEBUG] Buffer cleared!
+[logic] [13:25:15.504] [DEBUG] Add Student!
+[logic] [13:25:15.504] [DEBUG] Unknown Message!
+[logic] [13:25:15.504] [DEBUG] Update Classroom!
+[logic] [13:25:15.504] [INFO] Update state!
+[logic] [13:25:15.504] [DEBUG] Called GetFullMap
+[logic] [13:25:15.504] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.504] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.551] [DEBUG] Get message from server!
+[logic] [13:25:15.551] [DEBUG] Buffer cleared!
+[logic] [13:25:15.551] [DEBUG] Add Student!
+[logic] [13:25:15.551] [DEBUG] Unknown Message!
+[logic] [13:25:15.551] [DEBUG] Update Classroom!
+[logic] [13:25:15.551] [INFO] Update state!
+[logic] [13:25:15.551] [DEBUG] Called GetFullMap
+[logic] [13:25:15.551] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.551] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.599] [DEBUG] Get message from server!
+[logic] [13:25:15.599] [DEBUG] Buffer cleared!
+[logic] [13:25:15.599] [DEBUG] Add Student!
+[logic] [13:25:15.599] [DEBUG] Unknown Message!
+[logic] [13:25:15.599] [DEBUG] Update Classroom!
+[logic] [13:25:15.599] [INFO] Update state!
+[logic] [13:25:15.599] [DEBUG] Called GetFullMap
+[logic] [13:25:15.599] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.599] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.646] [DEBUG] Get message from server!
+[logic] [13:25:15.646] [DEBUG] Buffer cleared!
+[logic] [13:25:15.646] [DEBUG] Add Student!
+[logic] [13:25:15.646] [DEBUG] Unknown Message!
+[logic] [13:25:15.646] [DEBUG] Update Classroom!
+[logic] [13:25:15.646] [INFO] Update state!
+[logic] [13:25:15.646] [DEBUG] Called GetFullMap
+[logic] [13:25:15.646] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.646] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.710] [DEBUG] Get message from server!
+[logic] [13:25:15.717] [DEBUG] Buffer cleared!
+[logic] [13:25:15.717] [DEBUG] Add Student!
+[logic] [13:25:15.717] [DEBUG] Unknown Message!
+[logic] [13:25:15.717] [DEBUG] Update Classroom!
+[logic] [13:25:15.717] [INFO] Update state!
+[logic] [13:25:15.717] [DEBUG] Called GetFullMap
+[logic] [13:25:15.717] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.717] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.757] [DEBUG] Get message from server!
+[logic] [13:25:15.757] [DEBUG] Buffer cleared!
+[logic] [13:25:15.757] [DEBUG] Add Student!
+[logic] [13:25:15.757] [DEBUG] Unknown Message!
+[logic] [13:25:15.757] [DEBUG] Update Classroom!
+[logic] [13:25:15.757] [INFO] Update state!
+[logic] [13:25:15.757] [DEBUG] Called GetFullMap
+[logic] [13:25:15.757] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.757] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.804] [DEBUG] Get message from server!
+[logic] [13:25:15.804] [DEBUG] Buffer cleared!
+[logic] [13:25:15.804] [DEBUG] Add Student!
+[logic] [13:25:15.804] [DEBUG] Unknown Message!
+[logic] [13:25:15.804] [DEBUG] Update Classroom!
+[logic] [13:25:15.804] [INFO] Update state!
+[logic] [13:25:15.804] [DEBUG] Called GetFullMap
+[logic] [13:25:15.804] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.804] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.851] [DEBUG] Get message from server!
+[logic] [13:25:15.851] [DEBUG] Buffer cleared!
+[logic] [13:25:15.851] [DEBUG] Add Student!
+[logic] [13:25:15.851] [DEBUG] Unknown Message!
+[logic] [13:25:15.851] [DEBUG] Update Classroom!
+[logic] [13:25:15.851] [INFO] Update state!
+[logic] [13:25:15.851] [DEBUG] Called GetFullMap
+[logic] [13:25:15.851] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.851] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.898] [DEBUG] Get message from server!
+[logic] [13:25:15.898] [DEBUG] Buffer cleared!
+[logic] [13:25:15.898] [DEBUG] Add Student!
+[logic] [13:25:15.898] [DEBUG] Unknown Message!
+[logic] [13:25:15.898] [DEBUG] Update Classroom!
+[logic] [13:25:15.898] [INFO] Update state!
+[logic] [13:25:15.900] [DEBUG] Called GetFullMap
+[logic] [13:25:15.900] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.900] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.946] [DEBUG] Get message from server!
+[logic] [13:25:15.946] [DEBUG] Buffer cleared!
+[logic] [13:25:15.946] [DEBUG] Add Student!
+[logic] [13:25:15.946] [DEBUG] Unknown Message!
+[logic] [13:25:15.946] [DEBUG] Update Classroom!
+[logic] [13:25:15.946] [INFO] Update state!
+[logic] [13:25:15.946] [DEBUG] Called GetFullMap
+[logic] [13:25:15.946] [DEBUG] Called GetSelfInfo
+[logic] [13:25:15.946] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.009] [DEBUG] Get message from server!
+[logic] [13:25:16.009] [DEBUG] Buffer cleared!
+[logic] [13:25:16.009] [DEBUG] Add Student!
+[logic] [13:25:16.009] [DEBUG] Unknown Message!
+[logic] [13:25:16.009] [DEBUG] Update Classroom!
+[logic] [13:25:16.009] [INFO] Update state!
+[logic] [13:25:16.009] [DEBUG] Called GetFullMap
+[logic] [13:25:16.009] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.009] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.056] [DEBUG] Get message from server!
+[logic] [13:25:16.056] [DEBUG] Buffer cleared!
+[logic] [13:25:16.056] [DEBUG] Add Student!
+[logic] [13:25:16.056] [DEBUG] Unknown Message!
+[logic] [13:25:16.056] [DEBUG] Update Classroom!
+[logic] [13:25:16.056] [INFO] Update state!
+[logic] [13:25:16.056] [DEBUG] Called GetFullMap
+[logic] [13:25:16.056] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.056] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.103] [DEBUG] Get message from server!
+[logic] [13:25:16.103] [DEBUG] Buffer cleared!
+[logic] [13:25:16.103] [DEBUG] Add Student!
+[logic] [13:25:16.103] [DEBUG] Unknown Message!
+[logic] [13:25:16.103] [DEBUG] Update Classroom!
+[logic] [13:25:16.103] [INFO] Update state!
+[logic] [13:25:16.103] [DEBUG] Called GetFullMap
+[logic] [13:25:16.103] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.103] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.151] [DEBUG] Get message from server!
+[logic] [13:25:16.151] [DEBUG] Buffer cleared!
+[logic] [13:25:16.151] [DEBUG] Add Student!
+[logic] [13:25:16.151] [DEBUG] Unknown Message!
+[logic] [13:25:16.151] [DEBUG] Update Classroom!
+[logic] [13:25:16.151] [INFO] Update state!
+[logic] [13:25:16.151] [DEBUG] Called GetFullMap
+[logic] [13:25:16.151] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.151] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.214] [DEBUG] Get message from server!
+[logic] [13:25:16.214] [DEBUG] Buffer cleared!
+[logic] [13:25:16.214] [DEBUG] Add Student!
+[logic] [13:25:16.214] [DEBUG] Unknown Message!
+[logic] [13:25:16.214] [DEBUG] Update Classroom!
+[logic] [13:25:16.214] [INFO] Update state!
+[logic] [13:25:16.214] [DEBUG] Called GetFullMap
+[logic] [13:25:16.214] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.214] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.262] [DEBUG] Get message from server!
+[logic] [13:25:16.262] [DEBUG] Buffer cleared!
+[logic] [13:25:16.262] [DEBUG] Add Student!
+[logic] [13:25:16.262] [DEBUG] Unknown Message!
+[logic] [13:25:16.262] [DEBUG] Update Classroom!
+[logic] [13:25:16.262] [INFO] Update state!
+[logic] [13:25:16.262] [DEBUG] Called GetFullMap
+[logic] [13:25:16.262] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.262] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.309] [DEBUG] Get message from server!
+[logic] [13:25:16.309] [DEBUG] Buffer cleared!
+[logic] [13:25:16.309] [DEBUG] Add Student!
+[logic] [13:25:16.309] [DEBUG] Unknown Message!
+[logic] [13:25:16.309] [DEBUG] Update Classroom!
+[logic] [13:25:16.309] [INFO] Update state!
+[logic] [13:25:16.309] [DEBUG] Called GetFullMap
+[logic] [13:25:16.309] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.309] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.356] [DEBUG] Get message from server!
+[logic] [13:25:16.356] [DEBUG] Buffer cleared!
+[logic] [13:25:16.356] [DEBUG] Add Student!
+[logic] [13:25:16.356] [DEBUG] Unknown Message!
+[logic] [13:25:16.356] [DEBUG] Update Classroom!
+[logic] [13:25:16.356] [INFO] Update state!
+[logic] [13:25:16.356] [DEBUG] Called GetFullMap
+[logic] [13:25:16.356] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.356] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.404] [DEBUG] Get message from server!
+[logic] [13:25:16.404] [DEBUG] Buffer cleared!
+[logic] [13:25:16.404] [DEBUG] Add Student!
+[logic] [13:25:16.404] [DEBUG] Unknown Message!
+[logic] [13:25:16.404] [DEBUG] Update Classroom!
+[logic] [13:25:16.404] [INFO] Update state!
+[logic] [13:25:16.404] [DEBUG] Called GetFullMap
+[logic] [13:25:16.404] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.404] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.451] [DEBUG] Get message from server!
+[logic] [13:25:16.451] [DEBUG] Buffer cleared!
+[logic] [13:25:16.451] [DEBUG] Add Student!
+[logic] [13:25:16.451] [DEBUG] Unknown Message!
+[logic] [13:25:16.451] [DEBUG] Update Classroom!
+[logic] [13:25:16.451] [INFO] Update state!
+[logic] [13:25:16.451] [DEBUG] Called GetFullMap
+[logic] [13:25:16.451] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.451] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.498] [DEBUG] Get message from server!
+[logic] [13:25:16.498] [DEBUG] Buffer cleared!
+[logic] [13:25:16.498] [DEBUG] Add Student!
+[logic] [13:25:16.498] [DEBUG] Unknown Message!
+[logic] [13:25:16.498] [DEBUG] Update Classroom!
+[logic] [13:25:16.498] [INFO] Update state!
+[logic] [13:25:16.502] [DEBUG] Called GetFullMap
+[logic] [13:25:16.502] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.502] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.546] [DEBUG] Get message from server!
+[logic] [13:25:16.546] [DEBUG] Buffer cleared!
+[logic] [13:25:16.546] [DEBUG] Add Student!
+[logic] [13:25:16.546] [DEBUG] Unknown Message!
+[logic] [13:25:16.546] [DEBUG] Update Classroom!
+[logic] [13:25:16.546] [INFO] Update state!
+[logic] [13:25:16.546] [DEBUG] Called GetFullMap
+[logic] [13:25:16.546] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.546] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.592] [DEBUG] Get message from server!
+[logic] [13:25:16.592] [DEBUG] Buffer cleared!
+[logic] [13:25:16.592] [DEBUG] Add Student!
+[logic] [13:25:16.592] [DEBUG] Unknown Message!
+[logic] [13:25:16.592] [DEBUG] Update Classroom!
+[logic] [13:25:16.592] [INFO] Update state!
+[logic] [13:25:16.592] [DEBUG] Called GetFullMap
+[logic] [13:25:16.592] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.592] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.640] [DEBUG] Get message from server!
+[logic] [13:25:16.640] [DEBUG] Buffer cleared!
+[logic] [13:25:16.640] [DEBUG] Add Student!
+[logic] [13:25:16.640] [DEBUG] Unknown Message!
+[logic] [13:25:16.640] [DEBUG] Update Classroom!
+[logic] [13:25:16.640] [INFO] Update state!
+[logic] [13:25:16.640] [DEBUG] Called GetFullMap
+[logic] [13:25:16.640] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.640] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.703] [DEBUG] Get message from server!
+[logic] [13:25:16.703] [DEBUG] Buffer cleared!
+[logic] [13:25:16.703] [DEBUG] Add Student!
+[logic] [13:25:16.703] [DEBUG] Unknown Message!
+[logic] [13:25:16.703] [DEBUG] Update Classroom!
+[logic] [13:25:16.703] [INFO] Update state!
+[logic] [13:25:16.703] [DEBUG] Called GetFullMap
+[logic] [13:25:16.703] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.703] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.751] [DEBUG] Get message from server!
+[logic] [13:25:16.751] [DEBUG] Buffer cleared!
+[logic] [13:25:16.751] [DEBUG] Add Student!
+[logic] [13:25:16.751] [DEBUG] Unknown Message!
+[logic] [13:25:16.751] [DEBUG] Update Classroom!
+[logic] [13:25:16.751] [INFO] Update state!
+[logic] [13:25:16.751] [DEBUG] Called GetFullMap
+[logic] [13:25:16.751] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.751] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.798] [DEBUG] Get message from server!
+[logic] [13:25:16.798] [DEBUG] Buffer cleared!
+[logic] [13:25:16.798] [DEBUG] Add Student!
+[logic] [13:25:16.798] [DEBUG] Unknown Message!
+[logic] [13:25:16.798] [DEBUG] Update Classroom!
+[logic] [13:25:16.798] [INFO] Update state!
+[logic] [13:25:16.803] [DEBUG] Called GetFullMap
+[logic] [13:25:16.803] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.803] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.846] [DEBUG] Get message from server!
+[logic] [13:25:16.846] [DEBUG] Buffer cleared!
+[logic] [13:25:16.846] [DEBUG] Add Student!
+[logic] [13:25:16.846] [DEBUG] Unknown Message!
+[logic] [13:25:16.846] [DEBUG] Update Classroom!
+[logic] [13:25:16.846] [INFO] Update state!
+[logic] [13:25:16.846] [DEBUG] Called GetFullMap
+[logic] [13:25:16.846] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.846] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.893] [DEBUG] Get message from server!
+[logic] [13:25:16.893] [DEBUG] Buffer cleared!
+[logic] [13:25:16.893] [DEBUG] Add Student!
+[logic] [13:25:16.893] [DEBUG] Unknown Message!
+[logic] [13:25:16.893] [DEBUG] Update Classroom!
+[logic] [13:25:16.893] [INFO] Update state!
+[logic] [13:25:16.893] [DEBUG] Called GetFullMap
+[logic] [13:25:16.893] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.893] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.940] [DEBUG] Get message from server!
+[logic] [13:25:16.940] [DEBUG] Buffer cleared!
+[logic] [13:25:16.940] [DEBUG] Add Student!
+[logic] [13:25:16.940] [DEBUG] Unknown Message!
+[logic] [13:25:16.940] [DEBUG] Update Classroom!
+[logic] [13:25:16.940] [INFO] Update state!
+[logic] [13:25:16.940] [DEBUG] Called GetFullMap
+[logic] [13:25:16.940] [DEBUG] Called GetSelfInfo
+[logic] [13:25:16.940] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.003] [DEBUG] Get message from server!
+[logic] [13:25:17.003] [DEBUG] Buffer cleared!
+[logic] [13:25:17.003] [DEBUG] Add Student!
+[logic] [13:25:17.003] [DEBUG] Unknown Message!
+[logic] [13:25:17.003] [DEBUG] Update Classroom!
+[logic] [13:25:17.003] [INFO] Update state!
+[logic] [13:25:17.003] [DEBUG] Called GetFullMap
+[logic] [13:25:17.003] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.003] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.051] [DEBUG] Get message from server!
+[logic] [13:25:17.051] [DEBUG] Buffer cleared!
+[logic] [13:25:17.051] [DEBUG] Add Student!
+[logic] [13:25:17.051] [DEBUG] Unknown Message!
+[logic] [13:25:17.051] [DEBUG] Update Classroom!
+[logic] [13:25:17.051] [INFO] Update state!
+[logic] [13:25:17.051] [DEBUG] Called GetFullMap
+[logic] [13:25:17.051] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.051] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.098] [DEBUG] Get message from server!
+[logic] [13:25:17.098] [DEBUG] Buffer cleared!
+[logic] [13:25:17.098] [DEBUG] Add Student!
+[logic] [13:25:17.098] [DEBUG] Unknown Message!
+[logic] [13:25:17.098] [DEBUG] Update Classroom!
+[logic] [13:25:17.098] [INFO] Update state!
+[logic] [13:25:17.098] [DEBUG] Called GetFullMap
+[logic] [13:25:17.103] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.103] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.146] [DEBUG] Get message from server!
+[logic] [13:25:17.146] [DEBUG] Buffer cleared!
+[logic] [13:25:17.146] [DEBUG] Add Student!
+[logic] [13:25:17.146] [DEBUG] Unknown Message!
+[logic] [13:25:17.146] [DEBUG] Update Classroom!
+[logic] [13:25:17.146] [INFO] Update state!
+[logic] [13:25:17.146] [DEBUG] Called GetFullMap
+[logic] [13:25:17.146] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.146] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.209] [DEBUG] Get message from server!
+[logic] [13:25:17.209] [DEBUG] Buffer cleared!
+[logic] [13:25:17.209] [DEBUG] Add Student!
+[logic] [13:25:17.209] [DEBUG] Unknown Message!
+[logic] [13:25:17.209] [DEBUG] Update Classroom!
+[logic] [13:25:17.209] [INFO] Update state!
+[logic] [13:25:17.209] [DEBUG] Called GetFullMap
+[logic] [13:25:17.209] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.209] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.256] [DEBUG] Get message from server!
+[logic] [13:25:17.256] [DEBUG] Buffer cleared!
+[logic] [13:25:17.256] [DEBUG] Add Student!
+[logic] [13:25:17.256] [DEBUG] Unknown Message!
+[logic] [13:25:17.256] [DEBUG] Update Classroom!
+[logic] [13:25:17.256] [INFO] Update state!
+[logic] [13:25:17.256] [DEBUG] Called GetFullMap
+[logic] [13:25:17.256] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.256] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.303] [DEBUG] Get message from server!
+[logic] [13:25:17.303] [DEBUG] Buffer cleared!
+[logic] [13:25:17.303] [DEBUG] Add Student!
+[logic] [13:25:17.303] [DEBUG] Unknown Message!
+[logic] [13:25:17.303] [DEBUG] Update Classroom!
+[logic] [13:25:17.304] [INFO] Update state!
+[logic] [13:25:17.304] [DEBUG] Called GetFullMap
+[logic] [13:25:17.304] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.304] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.350] [DEBUG] Get message from server!
+[logic] [13:25:17.350] [DEBUG] Buffer cleared!
+[logic] [13:25:17.350] [DEBUG] Add Student!
+[logic] [13:25:17.350] [DEBUG] Unknown Message!
+[logic] [13:25:17.350] [DEBUG] Update Classroom!
+[logic] [13:25:17.350] [INFO] Update state!
+[logic] [13:25:17.350] [DEBUG] Called GetFullMap
+[logic] [13:25:17.350] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.350] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.397] [DEBUG] Get message from server!
+[logic] [13:25:17.397] [DEBUG] Buffer cleared!
+[logic] [13:25:17.397] [DEBUG] Add Student!
+[logic] [13:25:17.397] [DEBUG] Unknown Message!
+[logic] [13:25:17.397] [DEBUG] Update Classroom!
+[logic] [13:25:17.397] [INFO] Update state!
+[logic] [13:25:17.397] [DEBUG] Called GetFullMap
+[logic] [13:25:17.397] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.397] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.460] [DEBUG] Get message from server!
+[logic] [13:25:17.460] [DEBUG] Buffer cleared!
+[logic] [13:25:17.460] [DEBUG] Add Student!
+[logic] [13:25:17.460] [DEBUG] Unknown Message!
+[logic] [13:25:17.460] [DEBUG] Update Classroom!
+[logic] [13:25:17.460] [INFO] Update state!
+[logic] [13:25:17.460] [DEBUG] Called GetFullMap
+[logic] [13:25:17.460] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.460] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.507] [DEBUG] Get message from server!
+[logic] [13:25:17.507] [DEBUG] Buffer cleared!
+[logic] [13:25:17.507] [DEBUG] Add Student!
+[logic] [13:25:17.507] [DEBUG] Unknown Message!
+[logic] [13:25:17.507] [DEBUG] Update Classroom!
+[logic] [13:25:17.507] [INFO] Update state!
+[logic] [13:25:17.507] [DEBUG] Called GetFullMap
+[logic] [13:25:17.507] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.507] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.555] [DEBUG] Get message from server!
+[logic] [13:25:17.555] [DEBUG] Buffer cleared!
+[logic] [13:25:17.555] [DEBUG] Add Student!
+[logic] [13:25:17.555] [DEBUG] Unknown Message!
+[logic] [13:25:17.555] [DEBUG] Update Classroom!
+[logic] [13:25:17.555] [INFO] Update state!
+[logic] [13:25:17.555] [DEBUG] Called GetFullMap
+[logic] [13:25:17.555] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.555] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.602] [DEBUG] Get message from server!
+[logic] [13:25:17.602] [DEBUG] Buffer cleared!
+[logic] [13:25:17.602] [DEBUG] Add Student!
+[logic] [13:25:17.602] [DEBUG] Unknown Message!
+[logic] [13:25:17.602] [DEBUG] Update Classroom!
+[logic] [13:25:17.602] [INFO] Update state!
+[logic] [13:25:17.605] [DEBUG] Called GetFullMap
+[logic] [13:25:17.605] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.605] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.649] [DEBUG] Get message from server!
+[logic] [13:25:17.649] [DEBUG] Buffer cleared!
+[logic] [13:25:17.649] [DEBUG] Add Student!
+[logic] [13:25:17.649] [DEBUG] Unknown Message!
+[logic] [13:25:17.649] [DEBUG] Update Classroom!
+[logic] [13:25:17.649] [INFO] Update state!
+[logic] [13:25:17.649] [DEBUG] Called GetFullMap
+[logic] [13:25:17.649] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.649] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.712] [DEBUG] Get message from server!
+[logic] [13:25:17.712] [DEBUG] Buffer cleared!
+[logic] [13:25:17.712] [DEBUG] Add Student!
+[logic] [13:25:17.712] [DEBUG] Unknown Message!
+[logic] [13:25:17.712] [DEBUG] Update Classroom!
+[logic] [13:25:17.712] [INFO] Update state!
+[logic] [13:25:17.712] [DEBUG] Called GetFullMap
+[logic] [13:25:17.712] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.712] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.759] [DEBUG] Get message from server!
+[logic] [13:25:17.759] [DEBUG] Buffer cleared!
+[logic] [13:25:17.759] [DEBUG] Add Student!
+[logic] [13:25:17.759] [DEBUG] Unknown Message!
+[logic] [13:25:17.759] [DEBUG] Update Classroom!
+[logic] [13:25:17.759] [INFO] Update state!
+[logic] [13:25:17.759] [DEBUG] Called GetFullMap
+[logic] [13:25:17.759] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.759] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.806] [DEBUG] Get message from server!
+[logic] [13:25:17.806] [DEBUG] Buffer cleared!
+[logic] [13:25:17.806] [DEBUG] Add Student!
+[logic] [13:25:17.806] [DEBUG] Unknown Message!
+[logic] [13:25:17.806] [DEBUG] Update Classroom!
+[logic] [13:25:17.806] [INFO] Update state!
+[logic] [13:25:17.806] [DEBUG] Called GetFullMap
+[logic] [13:25:17.806] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.806] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.853] [DEBUG] Get message from server!
+[logic] [13:25:17.853] [DEBUG] Buffer cleared!
+[logic] [13:25:17.853] [DEBUG] Add Student!
+[logic] [13:25:17.853] [DEBUG] Unknown Message!
+[logic] [13:25:17.853] [DEBUG] Update Classroom!
+[logic] [13:25:17.853] [INFO] Update state!
+[logic] [13:25:17.853] [DEBUG] Called GetFullMap
+[logic] [13:25:17.853] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.853] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.900] [DEBUG] Get message from server!
+[logic] [13:25:17.900] [DEBUG] Buffer cleared!
+[logic] [13:25:17.900] [DEBUG] Add Student!
+[logic] [13:25:17.900] [DEBUG] Unknown Message!
+[logic] [13:25:17.900] [DEBUG] Update Classroom!
+[logic] [13:25:17.900] [INFO] Update state!
+[logic] [13:25:17.900] [DEBUG] Called GetFullMap
+[logic] [13:25:17.900] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.900] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.963] [DEBUG] Get message from server!
+[logic] [13:25:17.963] [DEBUG] Buffer cleared!
+[logic] [13:25:17.963] [DEBUG] Add Student!
+[logic] [13:25:17.963] [DEBUG] Unknown Message!
+[logic] [13:25:17.963] [DEBUG] Update Classroom!
+[logic] [13:25:17.963] [INFO] Update state!
+[logic] [13:25:17.963] [DEBUG] Called GetFullMap
+[logic] [13:25:17.963] [DEBUG] Called GetSelfInfo
+[logic] [13:25:17.963] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.010] [DEBUG] Get message from server!
+[logic] [13:25:18.010] [DEBUG] Buffer cleared!
+[logic] [13:25:18.010] [DEBUG] Add Student!
+[logic] [13:25:18.010] [DEBUG] Unknown Message!
+[logic] [13:25:18.010] [DEBUG] Update Classroom!
+[logic] [13:25:18.010] [INFO] Update state!
+[logic] [13:25:18.010] [DEBUG] Called GetFullMap
+[logic] [13:25:18.010] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.010] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.058] [DEBUG] Get message from server!
+[logic] [13:25:18.058] [DEBUG] Buffer cleared!
+[logic] [13:25:18.058] [DEBUG] Add Student!
+[logic] [13:25:18.058] [DEBUG] Unknown Message!
+[logic] [13:25:18.058] [DEBUG] Update Classroom!
+[logic] [13:25:18.058] [INFO] Update state!
+[logic] [13:25:18.058] [DEBUG] Called GetFullMap
+[logic] [13:25:18.058] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.058] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.104] [DEBUG] Get message from server!
+[logic] [13:25:18.104] [DEBUG] Buffer cleared!
+[logic] [13:25:18.104] [DEBUG] Add Student!
+[logic] [13:25:18.104] [DEBUG] Unknown Message!
+[logic] [13:25:18.104] [DEBUG] Update Classroom!
+[logic] [13:25:18.104] [INFO] Update state!
+[logic] [13:25:18.107] [DEBUG] Called GetFullMap
+[logic] [13:25:18.107] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.107] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.152] [DEBUG] Get message from server!
+[logic] [13:25:18.152] [DEBUG] Buffer cleared!
+[logic] [13:25:18.152] [DEBUG] Add Student!
+[logic] [13:25:18.152] [DEBUG] Unknown Message!
+[logic] [13:25:18.152] [DEBUG] Update Classroom!
+[logic] [13:25:18.152] [INFO] Update state!
+[logic] [13:25:18.152] [DEBUG] Called GetFullMap
+[logic] [13:25:18.152] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.152] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.215] [DEBUG] Get message from server!
+[logic] [13:25:18.215] [DEBUG] Buffer cleared!
+[logic] [13:25:18.215] [DEBUG] Add Student!
+[logic] [13:25:18.215] [DEBUG] Unknown Message!
+[logic] [13:25:18.215] [DEBUG] Update Classroom!
+[logic] [13:25:18.215] [INFO] Update state!
+[logic] [13:25:18.215] [DEBUG] Called GetFullMap
+[logic] [13:25:18.215] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.215] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.262] [DEBUG] Get message from server!
+[logic] [13:25:18.262] [DEBUG] Buffer cleared!
+[logic] [13:25:18.262] [DEBUG] Add Student!
+[logic] [13:25:18.262] [DEBUG] Unknown Message!
+[logic] [13:25:18.262] [DEBUG] Update Classroom!
+[logic] [13:25:18.262] [INFO] Update state!
+[logic] [13:25:18.262] [DEBUG] Called GetFullMap
+[logic] [13:25:18.262] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.262] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.308] [DEBUG] Get message from server!
+[logic] [13:25:18.308] [DEBUG] Buffer cleared!
+[logic] [13:25:18.308] [DEBUG] Add Student!
+[logic] [13:25:18.308] [DEBUG] Unknown Message!
+[logic] [13:25:18.308] [DEBUG] Update Classroom!
+[logic] [13:25:18.308] [INFO] Update state!
+[logic] [13:25:18.308] [DEBUG] Called GetFullMap
+[logic] [13:25:18.308] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.308] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.355] [DEBUG] Get message from server!
+[logic] [13:25:18.355] [DEBUG] Buffer cleared!
+[logic] [13:25:18.355] [DEBUG] Add Student!
+[logic] [13:25:18.355] [DEBUG] Unknown Message!
+[logic] [13:25:18.355] [DEBUG] Update Classroom!
+[logic] [13:25:18.355] [INFO] Update state!
+[logic] [13:25:18.355] [DEBUG] Called GetFullMap
+[logic] [13:25:18.355] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.355] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.402] [DEBUG] Get message from server!
+[logic] [13:25:18.402] [DEBUG] Buffer cleared!
+[logic] [13:25:18.402] [DEBUG] Add Student!
+[logic] [13:25:18.402] [DEBUG] Unknown Message!
+[logic] [13:25:18.402] [DEBUG] Update Classroom!
+[logic] [13:25:18.402] [INFO] Update state!
+[logic] [13:25:18.402] [DEBUG] Called GetFullMap
+[logic] [13:25:18.408] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.408] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.465] [DEBUG] Get message from server!
+[logic] [13:25:18.465] [DEBUG] Buffer cleared!
+[logic] [13:25:18.465] [DEBUG] Add Student!
+[logic] [13:25:18.465] [DEBUG] Unknown Message!
+[logic] [13:25:18.465] [DEBUG] Update Classroom!
+[logic] [13:25:18.465] [INFO] Update state!
+[logic] [13:25:18.465] [DEBUG] Called GetFullMap
+[logic] [13:25:18.465] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.465] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.513] [DEBUG] Get message from server!
+[logic] [13:25:18.513] [DEBUG] Buffer cleared!
+[logic] [13:25:18.513] [DEBUG] Add Student!
+[logic] [13:25:18.513] [DEBUG] Unknown Message!
+[logic] [13:25:18.513] [DEBUG] Update Classroom!
+[logic] [13:25:18.513] [INFO] Update state!
+[logic] [13:25:18.513] [DEBUG] Called GetFullMap
+[logic] [13:25:18.513] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.513] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.560] [DEBUG] Get message from server!
+[logic] [13:25:18.560] [DEBUG] Buffer cleared!
+[logic] [13:25:18.560] [DEBUG] Add Student!
+[logic] [13:25:18.560] [DEBUG] Unknown Message!
+[logic] [13:25:18.560] [DEBUG] Update Classroom!
+[logic] [13:25:18.560] [INFO] Update state!
+[logic] [13:25:18.560] [DEBUG] Called GetFullMap
+[logic] [13:25:18.560] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.560] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.591] [DEBUG] Get message from server!
+[logic] [13:25:18.591] [DEBUG] Buffer cleared!
+[logic] [13:25:18.591] [DEBUG] Add Student!
+[logic] [13:25:18.591] [DEBUG] Unknown Message!
+[logic] [13:25:18.591] [DEBUG] Update Classroom!
+[logic] [13:25:18.591] [INFO] Update state!
+[logic] [13:25:18.591] [DEBUG] Called GetFullMap
+[logic] [13:25:18.591] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.591] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.640] [DEBUG] Get message from server!
+[logic] [13:25:18.640] [DEBUG] Buffer cleared!
+[logic] [13:25:18.640] [DEBUG] Add Student!
+[logic] [13:25:18.640] [DEBUG] Unknown Message!
+[logic] [13:25:18.640] [DEBUG] Update Classroom!
+[logic] [13:25:18.640] [INFO] Update state!
+[logic] [13:25:18.640] [DEBUG] Called GetFullMap
+[logic] [13:25:18.640] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.640] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.702] [DEBUG] Get message from server!
+[logic] [13:25:18.702] [DEBUG] Buffer cleared!
+[logic] [13:25:18.702] [DEBUG] Add Student!
+[logic] [13:25:18.702] [DEBUG] Unknown Message!
+[logic] [13:25:18.702] [DEBUG] Update Classroom!
+[logic] [13:25:18.702] [INFO] Update state!
+[logic] [13:25:18.702] [DEBUG] Called GetFullMap
+[logic] [13:25:18.702] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.702] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.749] [DEBUG] Get message from server!
+[logic] [13:25:18.749] [DEBUG] Buffer cleared!
+[logic] [13:25:18.749] [DEBUG] Add Student!
+[logic] [13:25:18.749] [DEBUG] Unknown Message!
+[logic] [13:25:18.749] [DEBUG] Update Classroom!
+[logic] [13:25:18.749] [INFO] Update state!
+[logic] [13:25:18.749] [DEBUG] Called GetFullMap
+[logic] [13:25:18.749] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.749] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.796] [DEBUG] Get message from server!
+[logic] [13:25:18.796] [DEBUG] Buffer cleared!
+[logic] [13:25:18.796] [DEBUG] Add Student!
+[logic] [13:25:18.796] [DEBUG] Unknown Message!
+[logic] [13:25:18.796] [DEBUG] Update Classroom!
+[logic] [13:25:18.796] [INFO] Update state!
+[logic] [13:25:18.796] [DEBUG] Called GetFullMap
+[logic] [13:25:18.796] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.796] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.844] [DEBUG] Get message from server!
+[logic] [13:25:18.844] [DEBUG] Buffer cleared!
+[logic] [13:25:18.844] [DEBUG] Add Student!
+[logic] [13:25:18.844] [DEBUG] Unknown Message!
+[logic] [13:25:18.844] [DEBUG] Update Classroom!
+[logic] [13:25:18.844] [INFO] Update state!
+[logic] [13:25:18.844] [DEBUG] Called GetFullMap
+[logic] [13:25:18.844] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.844] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.907] [DEBUG] Get message from server!
+[logic] [13:25:18.907] [DEBUG] Buffer cleared!
+[logic] [13:25:18.907] [DEBUG] Add Student!
+[logic] [13:25:18.907] [DEBUG] Unknown Message!
+[logic] [13:25:18.907] [DEBUG] Update Classroom!
+[logic] [13:25:18.907] [INFO] Update state!
+[logic] [13:25:18.909] [DEBUG] Called GetFullMap
+[logic] [13:25:18.909] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.909] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.954] [DEBUG] Get message from server!
+[logic] [13:25:18.954] [DEBUG] Buffer cleared!
+[logic] [13:25:18.954] [DEBUG] Add Student!
+[logic] [13:25:18.954] [DEBUG] Unknown Message!
+[logic] [13:25:18.954] [DEBUG] Update Classroom!
+[logic] [13:25:18.954] [INFO] Update state!
+[logic] [13:25:18.954] [DEBUG] Called GetFullMap
+[logic] [13:25:18.954] [DEBUG] Called GetSelfInfo
+[logic] [13:25:18.954] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.001] [DEBUG] Get message from server!
+[logic] [13:25:19.001] [DEBUG] Buffer cleared!
+[logic] [13:25:19.001] [DEBUG] Add Student!
+[logic] [13:25:19.001] [DEBUG] Unknown Message!
+[logic] [13:25:19.001] [DEBUG] Update Classroom!
+[logic] [13:25:19.001] [INFO] Update state!
+[logic] [13:25:19.001] [DEBUG] Called GetFullMap
+[logic] [13:25:19.001] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.001] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.049] [DEBUG] Get message from server!
+[logic] [13:25:19.049] [DEBUG] Buffer cleared!
+[logic] [13:25:19.049] [DEBUG] Add Student!
+[logic] [13:25:19.049] [DEBUG] Unknown Message!
+[logic] [13:25:19.049] [DEBUG] Update Classroom!
+[logic] [13:25:19.049] [INFO] Update state!
+[logic] [13:25:19.049] [DEBUG] Called GetFullMap
+[logic] [13:25:19.049] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.049] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.096] [DEBUG] Get message from server!
+[logic] [13:25:19.096] [DEBUG] Buffer cleared!
+[logic] [13:25:19.096] [DEBUG] Add Student!
+[logic] [13:25:19.096] [DEBUG] Unknown Message!
+[logic] [13:25:19.096] [DEBUG] Update Classroom!
+[logic] [13:25:19.096] [INFO] Update state!
+[logic] [13:25:19.096] [DEBUG] Called GetFullMap
+[logic] [13:25:19.096] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.096] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.143] [DEBUG] Get message from server!
+[logic] [13:25:19.143] [DEBUG] Buffer cleared!
+[logic] [13:25:19.143] [DEBUG] Add Student!
+[logic] [13:25:19.143] [DEBUG] Unknown Message!
+[logic] [13:25:19.143] [DEBUG] Update Classroom!
+[logic] [13:25:19.143] [INFO] Update state!
+[logic] [13:25:19.143] [DEBUG] Called GetFullMap
+[logic] [13:25:19.143] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.143] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.206] [DEBUG] Get message from server!
+[logic] [13:25:19.206] [DEBUG] Buffer cleared!
+[logic] [13:25:19.206] [DEBUG] Add Student!
+[logic] [13:25:19.206] [DEBUG] Unknown Message!
+[logic] [13:25:19.206] [DEBUG] Update Classroom!
+[logic] [13:25:19.206] [INFO] Update state!
+[logic] [13:25:19.209] [DEBUG] Called GetFullMap
+[logic] [13:25:19.209] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.209] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.253] [DEBUG] Get message from server!
+[logic] [13:25:19.253] [DEBUG] Buffer cleared!
+[logic] [13:25:19.253] [DEBUG] Add Student!
+[logic] [13:25:19.253] [DEBUG] Unknown Message!
+[logic] [13:25:19.253] [DEBUG] Update Classroom!
+[logic] [13:25:19.253] [INFO] Update state!
+[logic] [13:25:19.253] [DEBUG] Called GetFullMap
+[logic] [13:25:19.253] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.253] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.300] [DEBUG] Get message from server!
+[logic] [13:25:19.300] [DEBUG] Buffer cleared!
+[logic] [13:25:19.300] [DEBUG] Add Student!
+[logic] [13:25:19.300] [DEBUG] Unknown Message!
+[logic] [13:25:19.300] [DEBUG] Update Classroom!
+[logic] [13:25:19.300] [INFO] Update state!
+[logic] [13:25:19.300] [DEBUG] Called GetFullMap
+[logic] [13:25:19.300] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.300] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.348] [DEBUG] Get message from server!
+[logic] [13:25:19.348] [DEBUG] Buffer cleared!
+[logic] [13:25:19.348] [DEBUG] Add Student!
+[logic] [13:25:19.348] [DEBUG] Unknown Message!
+[logic] [13:25:19.348] [DEBUG] Update Classroom!
+[logic] [13:25:19.348] [INFO] Update state!
+[logic] [13:25:19.348] [DEBUG] Called GetFullMap
+[logic] [13:25:19.348] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.348] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.395] [DEBUG] Get message from server!
+[logic] [13:25:19.395] [DEBUG] Buffer cleared!
+[logic] [13:25:19.395] [DEBUG] Add Student!
+[logic] [13:25:19.395] [DEBUG] Unknown Message!
+[logic] [13:25:19.395] [DEBUG] Update Classroom!
+[logic] [13:25:19.395] [INFO] Update state!
+[logic] [13:25:19.395] [DEBUG] Called GetFullMap
+[logic] [13:25:19.395] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.395] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.458] [DEBUG] Get message from server!
+[logic] [13:25:19.458] [DEBUG] Buffer cleared!
+[logic] [13:25:19.458] [DEBUG] Add Student!
+[logic] [13:25:19.458] [DEBUG] Unknown Message!
+[logic] [13:25:19.458] [DEBUG] Update Classroom!
+[logic] [13:25:19.458] [INFO] Update state!
+[logic] [13:25:19.458] [DEBUG] Called GetFullMap
+[logic] [13:25:19.458] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.458] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.505] [DEBUG] Get message from server!
+[logic] [13:25:19.505] [DEBUG] Buffer cleared!
+[logic] [13:25:19.505] [DEBUG] Add Student!
+[logic] [13:25:19.505] [DEBUG] Unknown Message!
+[logic] [13:25:19.505] [DEBUG] Update Classroom!
+[logic] [13:25:19.505] [INFO] Update state!
+[logic] [13:25:19.510] [DEBUG] Called GetFullMap
+[logic] [13:25:19.510] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.510] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.552] [DEBUG] Get message from server!
+[logic] [13:25:19.552] [DEBUG] Buffer cleared!
+[logic] [13:25:19.552] [DEBUG] Add Student!
+[logic] [13:25:19.552] [DEBUG] Unknown Message!
+[logic] [13:25:19.552] [DEBUG] Update Classroom!
+[logic] [13:25:19.552] [INFO] Update state!
+[logic] [13:25:19.552] [DEBUG] Called GetFullMap
+[logic] [13:25:19.552] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.552] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.599] [DEBUG] Get message from server!
+[logic] [13:25:19.599] [DEBUG] Buffer cleared!
+[logic] [13:25:19.599] [DEBUG] Add Student!
+[logic] [13:25:19.599] [DEBUG] Unknown Message!
+[logic] [13:25:19.599] [DEBUG] Update Classroom!
+[logic] [13:25:19.599] [INFO] Update state!
+[logic] [13:25:19.599] [DEBUG] Called GetFullMap
+[logic] [13:25:19.599] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.599] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.647] [DEBUG] Get message from server!
+[logic] [13:25:19.647] [DEBUG] Buffer cleared!
+[logic] [13:25:19.647] [DEBUG] Add Student!
+[logic] [13:25:19.647] [DEBUG] Unknown Message!
+[logic] [13:25:19.647] [DEBUG] Update Classroom!
+[logic] [13:25:19.647] [INFO] Update state!
+[logic] [13:25:19.647] [DEBUG] Called GetFullMap
+[logic] [13:25:19.647] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.647] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.709] [DEBUG] Get message from server!
+[logic] [13:25:19.710] [DEBUG] Buffer cleared!
+[logic] [13:25:19.710] [DEBUG] Add Student!
+[logic] [13:25:19.710] [DEBUG] Unknown Message!
+[logic] [13:25:19.710] [DEBUG] Update Classroom!
+[logic] [13:25:19.710] [INFO] Update state!
+[logic] [13:25:19.710] [DEBUG] Called GetFullMap
+[logic] [13:25:19.710] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.710] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.757] [DEBUG] Get message from server!
+[logic] [13:25:19.757] [DEBUG] Buffer cleared!
+[logic] [13:25:19.757] [DEBUG] Add Student!
+[logic] [13:25:19.757] [DEBUG] Unknown Message!
+[logic] [13:25:19.757] [DEBUG] Update Classroom!
+[logic] [13:25:19.757] [INFO] Update state!
+[logic] [13:25:19.757] [DEBUG] Called GetFullMap
+[logic] [13:25:19.757] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.757] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.804] [DEBUG] Get message from server!
+[logic] [13:25:19.804] [DEBUG] Buffer cleared!
+[logic] [13:25:19.804] [DEBUG] Add Student!
+[logic] [13:25:19.804] [DEBUG] Unknown Message!
+[logic] [13:25:19.804] [DEBUG] Update Classroom!
+[logic] [13:25:19.804] [INFO] Update state!
+[logic] [13:25:19.804] [DEBUG] Called GetFullMap
+[logic] [13:25:19.804] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.804] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.851] [DEBUG] Get message from server!
+[logic] [13:25:19.851] [DEBUG] Buffer cleared!
+[logic] [13:25:19.851] [DEBUG] Add Student!
+[logic] [13:25:19.851] [DEBUG] Unknown Message!
+[logic] [13:25:19.851] [DEBUG] Update Classroom!
+[logic] [13:25:19.851] [INFO] Update state!
+[logic] [13:25:19.851] [DEBUG] Called GetFullMap
+[logic] [13:25:19.851] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.851] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.898] [DEBUG] Get message from server!
+[logic] [13:25:19.898] [DEBUG] Buffer cleared!
+[logic] [13:25:19.898] [DEBUG] Add Student!
+[logic] [13:25:19.898] [DEBUG] Unknown Message!
+[logic] [13:25:19.898] [DEBUG] Update Classroom!
+[logic] [13:25:19.898] [INFO] Update state!
+[logic] [13:25:19.898] [DEBUG] Called GetFullMap
+[logic] [13:25:19.898] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.898] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.961] [DEBUG] Get message from server!
+[logic] [13:25:19.961] [DEBUG] Buffer cleared!
+[logic] [13:25:19.961] [DEBUG] Add Student!
+[logic] [13:25:19.961] [DEBUG] Unknown Message!
+[logic] [13:25:19.961] [DEBUG] Update Classroom!
+[logic] [13:25:19.961] [INFO] Update state!
+[logic] [13:25:19.961] [DEBUG] Called GetFullMap
+[logic] [13:25:19.961] [DEBUG] Called GetSelfInfo
+[logic] [13:25:19.961] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.008] [DEBUG] Get message from server!
+[logic] [13:25:20.008] [DEBUG] Buffer cleared!
+[logic] [13:25:20.008] [DEBUG] Add Student!
+[logic] [13:25:20.008] [DEBUG] Unknown Message!
+[logic] [13:25:20.008] [DEBUG] Update Classroom!
+[logic] [13:25:20.008] [INFO] Update state!
+[logic] [13:25:20.011] [DEBUG] Called GetFullMap
+[logic] [13:25:20.011] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.011] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.055] [DEBUG] Get message from server!
+[logic] [13:25:20.055] [DEBUG] Buffer cleared!
+[logic] [13:25:20.055] [DEBUG] Add Student!
+[logic] [13:25:20.055] [DEBUG] Unknown Message!
+[logic] [13:25:20.055] [DEBUG] Update Classroom!
+[logic] [13:25:20.055] [INFO] Update state!
+[logic] [13:25:20.055] [DEBUG] Called GetFullMap
+[logic] [13:25:20.055] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.055] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.103] [DEBUG] Get message from server!
+[logic] [13:25:20.103] [DEBUG] Buffer cleared!
+[logic] [13:25:20.103] [DEBUG] Add Student!
+[logic] [13:25:20.103] [DEBUG] Unknown Message!
+[logic] [13:25:20.103] [DEBUG] Update Classroom!
+[logic] [13:25:20.103] [INFO] Update state!
+[logic] [13:25:20.103] [DEBUG] Called GetFullMap
+[logic] [13:25:20.103] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.103] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.150] [DEBUG] Get message from server!
+[logic] [13:25:20.150] [DEBUG] Buffer cleared!
+[logic] [13:25:20.150] [DEBUG] Add Student!
+[logic] [13:25:20.150] [DEBUG] Unknown Message!
+[logic] [13:25:20.150] [DEBUG] Update Classroom!
+[logic] [13:25:20.150] [INFO] Update state!
+[logic] [13:25:20.150] [DEBUG] Called GetFullMap
+[logic] [13:25:20.150] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.150] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.213] [DEBUG] Get message from server!
+[logic] [13:25:20.213] [DEBUG] Buffer cleared!
+[logic] [13:25:20.213] [DEBUG] Add Student!
+[logic] [13:25:20.213] [DEBUG] Unknown Message!
+[logic] [13:25:20.213] [DEBUG] Update Classroom!
+[logic] [13:25:20.213] [INFO] Update state!
+[logic] [13:25:20.213] [DEBUG] Called GetFullMap
+[logic] [13:25:20.213] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.213] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.260] [DEBUG] Get message from server!
+[logic] [13:25:20.260] [DEBUG] Buffer cleared!
+[logic] [13:25:20.260] [DEBUG] Add Student!
+[logic] [13:25:20.260] [DEBUG] Unknown Message!
+[logic] [13:25:20.260] [DEBUG] Update Classroom!
+[logic] [13:25:20.260] [INFO] Update state!
+[logic] [13:25:20.260] [DEBUG] Called GetFullMap
+[logic] [13:25:20.260] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.260] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.307] [DEBUG] Get message from server!
+[logic] [13:25:20.307] [DEBUG] Buffer cleared!
+[logic] [13:25:20.307] [DEBUG] Add Student!
+[logic] [13:25:20.307] [DEBUG] Unknown Message!
+[logic] [13:25:20.307] [DEBUG] Update Classroom!
+[logic] [13:25:20.307] [INFO] Update state!
+[logic] [13:25:20.312] [DEBUG] Called GetFullMap
+[logic] [13:25:20.312] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.312] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.355] [DEBUG] Get message from server!
+[logic] [13:25:20.355] [DEBUG] Buffer cleared!
+[logic] [13:25:20.355] [DEBUG] Add Student!
+[logic] [13:25:20.355] [DEBUG] Unknown Message!
+[logic] [13:25:20.355] [DEBUG] Update Classroom!
+[logic] [13:25:20.355] [INFO] Update state!
+[logic] [13:25:20.355] [DEBUG] Called GetFullMap
+[logic] [13:25:20.355] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.355] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.402] [DEBUG] Get message from server!
+[logic] [13:25:20.402] [DEBUG] Buffer cleared!
+[logic] [13:25:20.402] [DEBUG] Add Student!
+[logic] [13:25:20.402] [DEBUG] Unknown Message!
+[logic] [13:25:20.402] [DEBUG] Update Classroom!
+[logic] [13:25:20.402] [INFO] Update state!
+[logic] [13:25:20.402] [DEBUG] Called GetFullMap
+[logic] [13:25:20.402] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.402] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.465] [DEBUG] Get message from server!
+[logic] [13:25:20.465] [DEBUG] Buffer cleared!
+[logic] [13:25:20.465] [DEBUG] Add Student!
+[logic] [13:25:20.465] [DEBUG] Unknown Message!
+[logic] [13:25:20.465] [DEBUG] Update Classroom!
+[logic] [13:25:20.465] [INFO] Update state!
+[logic] [13:25:20.465] [DEBUG] Called GetFullMap
+[logic] [13:25:20.465] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.465] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.513] [DEBUG] Get message from server!
+[logic] [13:25:20.513] [DEBUG] Buffer cleared!
+[logic] [13:25:20.513] [DEBUG] Add Student!
+[logic] [13:25:20.513] [DEBUG] Unknown Message!
+[logic] [13:25:20.513] [DEBUG] Update Classroom!
+[logic] [13:25:20.513] [INFO] Update state!
+[logic] [13:25:20.513] [DEBUG] Called GetFullMap
+[logic] [13:25:20.513] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.513] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.560] [DEBUG] Get message from server!
+[logic] [13:25:20.560] [DEBUG] Buffer cleared!
+[logic] [13:25:20.560] [DEBUG] Add Student!
+[logic] [13:25:20.560] [DEBUG] Unknown Message!
+[logic] [13:25:20.560] [DEBUG] Update Classroom!
+[logic] [13:25:20.560] [INFO] Update state!
+[logic] [13:25:20.560] [DEBUG] Called GetFullMap
+[logic] [13:25:20.560] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.560] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.591] [DEBUG] Get message from server!
+[logic] [13:25:20.591] [DEBUG] Buffer cleared!
+[logic] [13:25:20.591] [DEBUG] Add Student!
+[logic] [13:25:20.591] [DEBUG] Unknown Message!
+[logic] [13:25:20.591] [DEBUG] Update Classroom!
+[logic] [13:25:20.591] [INFO] Update state!
+[logic] [13:25:20.591] [DEBUG] Called GetFullMap
+[logic] [13:25:20.591] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.591] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.647] [DEBUG] Get message from server!
+[logic] [13:25:20.647] [DEBUG] Buffer cleared!
+[logic] [13:25:20.647] [DEBUG] Add Student!
+[logic] [13:25:20.647] [DEBUG] Unknown Message!
+[logic] [13:25:20.647] [DEBUG] Update Classroom!
+[logic] [13:25:20.647] [INFO] Update state!
+[logic] [13:25:20.647] [DEBUG] Called GetFullMap
+[logic] [13:25:20.647] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.647] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.709] [DEBUG] Get message from server!
+[logic] [13:25:20.709] [DEBUG] Buffer cleared!
+[logic] [13:25:20.709] [DEBUG] Add Student!
+[logic] [13:25:20.709] [DEBUG] Unknown Message!
+[logic] [13:25:20.709] [DEBUG] Update Classroom!
+[logic] [13:25:20.709] [INFO] Update state!
+[logic] [13:25:20.713] [DEBUG] Called GetFullMap
+[logic] [13:25:20.713] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.713] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.757] [DEBUG] Get message from server!
+[logic] [13:25:20.757] [DEBUG] Buffer cleared!
+[logic] [13:25:20.757] [DEBUG] Add Student!
+[logic] [13:25:20.757] [DEBUG] Unknown Message!
+[logic] [13:25:20.757] [DEBUG] Update Classroom!
+[logic] [13:25:20.757] [INFO] Update state!
+[logic] [13:25:20.757] [DEBUG] Called GetFullMap
+[logic] [13:25:20.757] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.757] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.804] [DEBUG] Get message from server!
+[logic] [13:25:20.804] [DEBUG] Buffer cleared!
+[logic] [13:25:20.804] [DEBUG] Add Student!
+[logic] [13:25:20.804] [DEBUG] Unknown Message!
+[logic] [13:25:20.804] [DEBUG] Update Classroom!
+[logic] [13:25:20.804] [INFO] Update state!
+[logic] [13:25:20.804] [DEBUG] Called GetFullMap
+[logic] [13:25:20.804] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.804] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.851] [DEBUG] Get message from server!
+[logic] [13:25:20.851] [DEBUG] Buffer cleared!
+[logic] [13:25:20.851] [DEBUG] Add Student!
+[logic] [13:25:20.851] [DEBUG] Unknown Message!
+[logic] [13:25:20.851] [DEBUG] Update Classroom!
+[logic] [13:25:20.851] [INFO] Update state!
+[logic] [13:25:20.851] [DEBUG] Called GetFullMap
+[logic] [13:25:20.851] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.851] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.898] [DEBUG] Get message from server!
+[logic] [13:25:20.898] [DEBUG] Buffer cleared!
+[logic] [13:25:20.898] [DEBUG] Add Student!
+[logic] [13:25:20.898] [DEBUG] Unknown Message!
+[logic] [13:25:20.898] [DEBUG] Update Classroom!
+[logic] [13:25:20.898] [INFO] Update state!
+[logic] [13:25:20.898] [DEBUG] Called GetFullMap
+[logic] [13:25:20.898] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.898] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.961] [DEBUG] Get message from server!
+[logic] [13:25:20.961] [DEBUG] Buffer cleared!
+[logic] [13:25:20.961] [DEBUG] Add Student!
+[logic] [13:25:20.961] [DEBUG] Unknown Message!
+[logic] [13:25:20.961] [DEBUG] Update Classroom!
+[logic] [13:25:20.961] [INFO] Update state!
+[logic] [13:25:20.961] [DEBUG] Called GetFullMap
+[logic] [13:25:20.961] [DEBUG] Called GetSelfInfo
+[logic] [13:25:20.961] [DEBUG] Called GetSelfInfo
+[logic] [13:25:21.008] [DEBUG] Get message from server!
+[logic] [13:25:21.008] [DEBUG] Buffer cleared!
+[logic] [13:25:21.008] [DEBUG] Add Student!
+[logic] [13:25:21.008] [DEBUG] Unknown Message!
+[logic] [13:25:21.008] [DEBUG] Update Classroom!
+[logic] [13:25:21.008] [INFO] Update state!
+[logic] [13:25:21.008] [DEBUG] Called GetFullMap
+[logic] [13:25:21.014] [DEBUG] Called GetSelfInfo
+[logic] [13:25:21.014] [DEBUG] Called GetSelfInfo
+[logic] [13:25:21.055] [DEBUG] Get message from server!
+[logic] [13:25:21.055] [DEBUG] Buffer cleared!
+[logic] [13:25:21.055] [DEBUG] Add Student!
+[logic] [13:25:21.055] [DEBUG] Unknown Message!
+[logic] [13:25:21.055] [DEBUG] Update Classroom!
+[logic] [13:25:21.055] [INFO] Update state!
+[logic] [13:25:21.055] [DEBUG] Called GetFullMap
+[logic] [13:25:21.055] [DEBUG] Called GetSelfInfo
+[logic] [13:25:21.055] [DEBUG] Called GetSelfInfo
+[logic] [13:25:21.102] [DEBUG] Get message from server!
+[logic] [13:25:21.102] [DEBUG] Buffer cleared!
+[logic] [13:25:21.102] [DEBUG] Add Student!
+[logic] [13:25:21.102] [DEBUG] Unknown Message!
+[logic] [13:25:21.102] [DEBUG] Update Classroom!
+[logic] [13:25:21.102] [INFO] Update state!
+[logic] [13:25:21.102] [DEBUG] Called GetFullMap
+[logic] [13:25:21.102] [DEBUG] Called GetSelfInfo
+[logic] [13:25:21.102] [DEBUG] Called GetSelfInfo
+[logic] [13:25:21.150] [DEBUG] Get message from server!
+[logic] [13:25:21.150] [DEBUG] Buffer cleared!
+[logic] [13:25:21.150] [DEBUG] Add Student!
+[logic] [13:25:21.150] [DEBUG] Unknown Message!
+[logic] [13:25:21.150] [DEBUG] Update Classroom!
+[logic] [13:25:21.150] [INFO] Update state!
+[logic] [13:25:21.150] [DEBUG] Called GetFullMap
+[logic] [13:25:21.150] [DEBUG] Called GetSelfInfo
+[logic] [13:25:21.150] [DEBUG] Called GetSelfInfo
+[logic] [13:25:21.213] [DEBUG] Get message from server!
+[logic] [13:25:21.213] [ERROR] Unknown GameState!
+[logic] [13:25:21.214] [INFO] Game End!
+[logic] [13:25:21.214] [INFO] Message thread end!
