@@ -50,7 +50,8 @@ class AI(IAI):
         self.__playerID = pID
 
     def StudentPlay(self, api: IStudentAPI) -> None:
-        # 游玩主操作
+        
+        '''初始化部分'''
         global  GameInfo 
         GameTime = api.GetGameInfo().gameTime
         FrameCount = round(GameTime/50)
@@ -62,25 +63,28 @@ class AI(IAI):
             if not GameInfo.upgradeFrameCount(FrameCount):
                 return   #在同一帧则直接返回（可添加函数）
         
+        '''每个学生各自的代码'''
         if self.__playerID == 0:
-            global Route0
-            if 'Route0' not in globals().keys():
-                Route0 = Routing()
-                Route0.InitialRouteMap(api.GetFullMap())
-            StudentPosition = [AssistFunction.GridToCell(api.GetSelfInfo().x),AssistFunction.GridToCell(api.GetSelfInfo().y)]
-            Route0.SetBeginNode(StudentPosition[0], StudentPosition[1])
-            Route0.SetEndNotes()
-            Route0.FindRoute()
-            if Route0.RouteLenth:
-                NextNode = Route0.GetNextNote()
-                if NextNode.NodeType == THUAI6.PlaceType.Window :
-                    api.SkipWindow()
-                else :
-                    [NodeX,NodeY] = [AssistFunction.CellToGrid(NextNode.x),AssistFunction.CellToGrid(NextNode.y)]
-                    [Dis,Angle] = CalCulateMove([api.GetSelfInfo().x,api.GetSelfInfo().y],[NodeX,NodeY])
-                    api.Move(round(Dis/api.GetSelfInfo().speed*1000), Angle)
-            else: 
-                api.StartLearning()
+            # global Route0
+            # if 'Route0' not in globals().keys():
+            #     Route0 = Routing()
+            #     Route0.InitialRouteMap(api.GetFullMap())
+            # StudentPosition = [AssistFunction.GridToCell(api.GetSelfInfo().x),AssistFunction.GridToCell(api.GetSelfInfo().y)]
+            # Route0.SetBeginNode(StudentPosition[0], StudentPosition[1])
+            # Route0.SetEndNotes()
+            # Route0.FindRoute()
+            # if Route0.RouteLenth:
+            #     NextNode = Route0.GetNextNote()
+            #     if NextNode.NodeType == THUAI6.PlaceType.Window :
+            #         api.SkipWindow()
+            #     else :
+            #         [NodeX,NodeY] = [AssistFunction.CellToGrid(NextNode.x),AssistFunction.CellToGrid(NextNode.y)]
+            #         [Dis,Angle] = CalCulateMove([api.GetSelfInfo().x,api.GetSelfInfo().y],[NodeX,NodeY])
+            #         api.Move(round(Dis/api.GetSelfInfo().speed*1000), Angle)
+            # else: 
+            #     api.StartLearning()
+
+            api.GetStudents()
             api.Print("Current Root:")
             for i in range(0,Route0.RouteLenth):
                 api.Print([Route0.Routes[i].x,Route0.Routes[i].y])
