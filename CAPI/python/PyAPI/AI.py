@@ -52,6 +52,10 @@ class AI(IAI):
     def StudentPlay(self, api: IStudentAPI) -> None:
         
         '''初始化部分'''
+        global StudentInfo
+        if 'StudentInfo' not in globals().keys():
+            StudentInfo = InfoOfPlayers(api)
+
         global  GameInfo 
         GameTime = api.GetGameInfo().gameTime
         FrameCount = round(GameTime/50)
@@ -63,6 +67,11 @@ class AI(IAI):
             if not GameInfo.upgradeFrameCount(FrameCount):
                 return   #在同一帧则直接返回（可添加函数）
         
+        StudentInfo.UpgradeSelfView(api)
+        StudentInfo.SendSelfMessage(api)
+        StudentInfo.UpdateOthersInfo(api)
+        api.Print([StudentInfo.Tricker[0].x,StudentInfo.Tricker[0].y])
+
         '''每个学生各自的代码'''
         if self.__playerID == 0:
             # global Route0
@@ -71,7 +80,7 @@ class AI(IAI):
             #     Route0.InitialRouteMap(api.GetFullMap())
             # StudentPosition = [AssistFunction.GridToCell(api.GetSelfInfo().x),AssistFunction.GridToCell(api.GetSelfInfo().y)]
             # Route0.SetBeginNode(StudentPosition[0], StudentPosition[1])
-            # Route0.SetEndNotes()
+            # Route0.InitialEndNotes()
             # Route0.FindRoute()
             # if Route0.RouteLenth:
             #     NextNode = Route0.GetNextNote()
@@ -84,11 +93,10 @@ class AI(IAI):
             # else: 
             #     api.StartLearning()
 
-            api.GetStudents()
-            api.Print("Current Root:")
-            for i in range(0,Route0.RouteLenth):
-                api.Print([Route0.Routes[i].x,Route0.Routes[i].y])
-            api.Print("-----------------------------------")
+            # api.Print("Current Root:")
+            # for i in range(0,Route0.RouteLenth):
+            #     api.Print([Route0.Routes[i].x,Route0.Routes[i].y])
+            # api.Print("-----------------------------------")
             return
 
         elif self.__playerID == 1:
@@ -167,7 +175,6 @@ class RouteNode:
             raise AttributeError("The of other is incorrect!")
 
 
-
 # 用于寻路的类
 class Routing:
 
@@ -184,7 +191,7 @@ class Routing:
         '''用于获取下一个需要前往的路径点'''
         return self.Routes[-1]
         
-    def SetEndNotes(self) ->None:
+    def InitialEndNotes(self) ->None:
         '''用于初始化终点'''
         for i in range(0,50) :
             for j in range(0,50) :
@@ -316,4 +323,194 @@ class InformationOfGame:
                 self.Map = map
                 return True
 
+class InfoOfPlayers:
+    ''' Save the info of students including myself,and tricker(if can see)'''
+    def __init__(self,api: IStudentAPI):
+        self.Students : List[THUAI6.Student] = [None,None,None,None]
+        self.MyID :int = api.GetSelfInfo().playerID
+        self.Students[self.MyID] = api.GetSelfInfo()
+        self.AddStudentInfo(self.MyID)
+        StudentsViewed = api.GetStudents()
+        while len(StudentsViewed):
+            Student = StudentsViewed.pop()
+            self.Students[Student.playerID] = Student
+
+        if len(api.GetTrickers()):
+            self.Tricker = api.GetTrickers()
+            self.CanViewTricker = True
+        else:
+            self.Tricker: List[THUAI6.Tricker] = [THUAI6.Tricker(),]
+            #需要声明这些变量否则无法使用
+            self.Tricker[0].x = 0
+            self.Tricker[0].y = 0
+            self.Tricker[0].viewRange = 0 
+            self.Tricker[0].trickerType = THUAI6.TrickerType.NullTrickerType
+            self.CanViewTricker = False
         
+        self.Message: List[str] = ['','','','']
+        '''Message include self and others, self is for sending and others for receiving'''
+
+
+    def UpgradeSelfView(self,api:IStudentAPI)->None:
+        '''在接收消息前先自己看一眼，优先以自己看到的为准'''
+        Tricker = api.GetTrickers()
+        if len(Tricker):
+            self.Tricker = Tricker
+            self.CanViewTricker = True
+        else:
+            self.CanViewTricker = False
+
+    def SendSelfMessage(self,api: IStudentAPI) ->None:
+        self.MessageEncode(api)
+        for i in range(0,4):
+            if self.MyID != i:
+                api.SendMessage(i,self.Message[self.MyID])
+
+    def UpdateOthersInfo(self,api:IStudentAPI) ->bool:
+        '''if receive message will return true'''
+        if api.HaveMessage():
+            while api.HaveMessage():
+                [stuid,stustr] = api.GetMessage()
+                self.Message[stuid] = stustr
+                self.MessageDecode(stuid)
+            return True
+        else:
+            return False
+
+    def MessageDecode(self,playerID:int) ->None:
+        DecodedMessage = self.Message[playerID].split(sep='/')
+        while len(DecodedMessage):
+            MessageUnit :str = DecodedMessage.pop()
+            if len(MessageUnit) == 0: 
+                continue
+            elif MessageUnit[0] == 'T':
+                self.Students[playerID].studentType = int(MessageUnit[1:])
+            elif MessageUnit[0] == 'S':
+                self.Students[playerID].playerState = int(MessageUnit[1:])
+            elif MessageUnit[0] == 'X':
+                self.Students[playerID].x = int(MessageUnit[1:])
+            elif MessageUnit[0] == 'Y':
+                self.Students[playerID].y = int(MessageUnit[1:])
+            elif MessageUnit[0] == 'G':
+                self.Students[playerID].dangerAlert = float(MessageUnit[1:])
+            # elif MessageUnit[0] == 'U':
+            #     self.Students[playerID].timeUntilSkillAvailable = float(MessageUnit[1:])
+            elif MessageUnit[0] == 'A':
+                self.Students[playerID].addiction = int(MessageUnit[1:])
+            elif MessageUnit[0] == 'D':
+                self.Students[playerID].determination = int(MessageUnit[1:])
+            elif MessageUnit[0] == 'E':
+                self.Students[playerID].encourageProgress = int(MessageUnit[1:])
+            elif MessageUnit[0] == 'R':
+                self.Students[playerID].rouseProgress = int(MessageUnit[1:])
+            # elif MessageUnit[0] == 'B':
+            #     self.Students[playerID].determination = int(MessageUnit[1:])
+            # elif MessageUnit[0] == 'P':
+            #     self.Students[playerID].determination = int(MessageUnit[1:])
+
+            elif MessageUnit[0] == 'C' and  not self.CanViewTricker:
+                '''只有自己看不见的时候才会听别人的'''
+                if MessageUnit[1] == 'X':
+                    self.Tricker[0].x =  int(MessageUnit[2:])
+                elif MessageUnit[1] == 'Y':
+                    self.Tricker[0].y =  int(MessageUnit[2:])
+
+        
+        self.AddStudentInfo(playerID) 
+        # 添加类中不包含但是可能用到的学生信息
+
+        
+        
+        return
+
+    def MessageEncode(self,api:IStudentAPI) ->None:
+        '''Important Info In Messages'''
+        message = str()
+        message = message + 'T' + str(self.Students[self.MyID].studentType.value) + '/'
+        message = message + 'S' + str(self.Students[self.MyID].playerState.value) + '/'
+        message = message + 'X' + str(self.Students[self.MyID].x) + '/'
+        message = message + 'Y' + str(self.Students[self.MyID].y) + '/'
+        message = message + 'G' + str(self.Students[self.MyID].dangerAlert) + '/'
+        # message = message + 'U' + str(self.Students[self.MyID].timeUntilSkillAvailable) + '/'
+        message = message + 'A' + str(self.Students[self.MyID].addiction) + '/'
+        message = message + 'D' + str(self.Students[self.MyID].determination) + '/'
+        message = message + 'E' + str(self.Students[self.MyID].encourageProgress) + '/'
+        message = message + 'R' + str(self.Students[self.MyID].rouseProgress) + '/'
+        # message = message + 'B' + str(self.Me.buff) + '/'
+        # message = message + 'P' + str(self.Me.prop) + '/'
+
+        '''Tricker Info'''
+        if self.CanViewTricker:
+            '''能看见才发送，否则不发'''
+            message = message + 'CX'+ str(self.Tricker[0].x) + '/'
+            message = message + 'CY'+ str(self.Tricker[0].y) + '/'
+
+        self.Message[self.MyID] = message
+
+        return
+
+    def AddStudentInfo(self,playerID:int) -> None:
+        if self.Students[playerID].studentType == THUAI6.StudentType.Teacher:
+            self.Students[playerID].encourageSpeed = 80
+            self.Students[playerID].learningSpeed = 0
+            self.Students[playerID].radius = 400
+            self.Students[playerID].speed = 2700
+            self.Students[playerID].viewRange = 9000
+
+            self.Students[playerID].maxDetermination = 30000000
+            self.Students[playerID].maxAddition = 600000
+            self.Students[playerID].hiddingRate = 0.5
+            self.Students[playerID].dangerRange = 7500
+            self.Students[playerID].openDoorSpeed = 4000
+            self.Students[playerID].skipWindowSpeed = 1270
+            self.Students[playerID].skipBoxSpeed = 1000
+
+        elif self.Students[playerID].studentType== THUAI6.StudentType.Athlete :
+            self.Students[playerID].encourageSpeed = 90
+            self.Students[playerID].learningSpeed = 73
+            self.Students[playerID].radius = 400
+            self.Students[playerID].speed = 3150
+            self.Students[playerID].viewRange = 11000
+
+            self.Students[playerID].maxDetermination = 3000000
+            self.Students[playerID].maxAddition = 54000
+            self.Students[playerID].hiddingRate = 0.9
+            self.Students[playerID].dangerRange = 15000
+            self.Students[playerID].openDoorSpeed = 4000
+            self.Students[playerID].skipWindowSpeed = 3048
+            self.Students[playerID].skipBoxSpeed = 1000
+        
+        elif self.Students[playerID].studentType== THUAI6.StudentType.StraightAStudent:
+            self.Students[playerID].encourageSpeed = 100
+            self.Students[playerID].learningSpeed = 135
+            self.Students[playerID].radius = 400
+            self.Students[playerID].speed = 2880
+            self.Students[playerID].viewRange = 9000
+
+            self.Students[playerID].maxDetermination = 3300000
+            self.Students[playerID].maxAddition = 78000
+            self.Students[playerID].hiddingRate = 0.9
+            self.Students[playerID].dangerRange = 13500
+            self.Students[playerID].openDoorSpeed = 4000
+            self.Students[playerID].skipWindowSpeed = 2116
+            self.Students[playerID].skipBoxSpeed = 1000
+
+        elif self.Students[playerID].studentType== THUAI6.StudentType.Sunshine:
+            self.Students[playerID].encourageSpeed = 120
+            self.Students[playerID].learningSpeed = 123
+            self.Students[playerID].radius = 400
+            self.Students[playerID].speed = 3000
+            self.Students[playerID].viewRange = 10000
+
+            self.Students[playerID].maxDetermination = 3200000
+            self.Students[playerID].maxAddition = 66000
+            self.Students[playerID].hiddingRate = 0.8
+            self.Students[playerID].dangerRange = 15000
+            self.Students[playerID].openDoorSpeed = 2800
+            self.Students[playerID].skipWindowSpeed = 2540
+            self.Students[playerID].skipBoxSpeed = 900
+
+
+
+
+

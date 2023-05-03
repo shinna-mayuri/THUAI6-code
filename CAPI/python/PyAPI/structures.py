@@ -225,3 +225,4 @@ class GameInfo:
     studentQuited: int
     studentScore: int
     trickerScore: int
+
