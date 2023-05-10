@@ -51,83 +51,84 @@ class AI(IAI):
 
     def StudentPlay(self, api: IStudentAPI) -> None:
         
-        # '''初始化'''
-        # global StudentInfo
-        # if 'StudentInfo' not in globals().keys():
-        #     StudentInfo = InfoOfPlayers(api)
+        '''初始化'''
+        global StudentInfo
+        if 'StudentInfo' not in globals().keys():
+            StudentInfo = InfoOfPlayers(api)
 
-        # global  GameInfo 
-        # if 'GameInfo' not in globals().keys(): 
-        #     GameInfo = InfoOfGame(api)
+        global  GameInfo 
+        if 'GameInfo' not in globals().keys(): 
+            GameInfo = InfoOfGame(api)
 
-        # global Route0
-        # if 'Route0' not in globals().keys():
-        #     Route0 = Routing()
-        #     Route0.InitialRouteMap()
+        global Route0
+        if 'Route0' not in globals().keys():
+            Route0 = Routing()
+            Route0.InitialRouteMap()
         
-        # global Message
-        # if 'Message' not in globals().keys():
-        #     Message = MessageInfo()
+        global Message
+        if 'Message' not in globals().keys():
+            Message = MessageInfo()
 
-        # '''判断是否同帧部分'''
-        # if not GameInfo.upgradeFrameCount(api):
-        #     return   #在同一帧则直接返回（可添加函数）
-        # '''学生信息更新'''
-        # StudentInfo.UpgradeStudentInfo(api)
+        '''判断是否同帧部分'''
+        if not GameInfo.upgradeFrameCount(api):
+            return   #在同一帧则直接返回（可添加函数）
+        '''学生信息更新'''
+        StudentInfo.UpgradeStudentInfo(api)
         
 
         '''Tircker&Map信息更新'''
-        # StudentInfo.ViewTricker(api)
-        # finclassroom = []
-        # for [x,y] in GameInfo.UnFinClassRooms:
-        #     if api.GetClassroomProgress(x,y) == 10000000:
-        #         finclassroom.append([x,y])
-        # GameInfo.upgradeClassRooms(finclassroom)
+        StudentInfo.ViewTricker(api)
+        finclassroom = []
+        for [x,y] in GameInfo.UnFinClassRooms:
+            if api.GetClassroomProgress(x,y) == 10000000:
+                finclassroom.append([x,y])
+        GameInfo.upgradeClassRooms(finclassroom)
         
 
-        # '''信息发送及接收'''
-        # Message.SendMessageToOther(StudentInfo, GameInfo, api)
-        # Message.ReceiveMessageFromOther(StudentInfo, GameInfo,api)
+        '''信息发送及接收'''
+        Message.SendMessageToOther(StudentInfo, GameInfo, api)
+        Message.ReceiveMessageFromOther(StudentInfo, GameInfo,api)
 
-        # '''控制学生移动'''
+        '''控制学生移动'''
 
-        # StuPosCell = []
-        # for Student in StudentInfo.Students:
-        #     StuPosCell = [AssistFunction.GridToCell(Student.x),
-        #                 AssistFunction.GridToCell(Student.y)]
-        #     if Student.playerID == StudentInfo.MyID:
-        #         Route0.SetBeginNode(StuPosCell[0],StuPosCell[1])
-        #     else :
-        #         continue
-        #         # Route0.RouteMap[StuPosCell[0]][StuPosCell[1]].NodeType = THUAI6.PlaceType.NullPlaceType #标注其他人的位置，防止互相碰撞
+        StuPosCell = []
+        for Student in StudentInfo.Students:
+            StuPosCell = [AssistFunction.GridToCell(Student.x),
+                        AssistFunction.GridToCell(Student.y)]
+            if Student.playerID == StudentInfo.MyID:
+                Route0.SetBeginNode(StuPosCell[0],StuPosCell[1])
+            else :
+                continue
+                # Route0.RouteMap[StuPosCell[0]][StuPosCell[1]].NodeType = THUAI6.PlaceType.NullPlaceType #标注其他人的位置，防止互相碰撞
 
-        # Route0.SetEndNotes(GameInfo)
-        # Route0.FindRoute(GameInfo.Map)
+        Route0.SetEndNotes(GameInfo)
+        Route0.FindRoute(GameInfo.Map)
+        api.Print(Route0.RouteLenth)
 
-        # # '''学生能否重叠以及能否两人同时写作业会影响到以下代码的执行'''
-        # # for i in range(0,4):
-        # #     if not i == StudentInfo.MyID:
-        # #         StuPosCell = [AssistFunction.GridToCell(StudentInfo.Students[i].x),
-        # #                 AssistFunction.GridToCell(StudentInfo.Students[i].y)]
-        #         # Route0.RouteMap[StuPosCell[0]][StuPosCell[1]].NodeType = api.GetPlaceType(StuPosCell[0],StuPosCell[1]) #解除位置标注防止影响下一帧寻路
-        # # for i in range(0,Route0.RouteLenth):
-        # #     api.Print([Route0.Routes[i].x,Route0.Routes[i].y])
-        # #     api.Print("-----------------------------------")
-        # if Route0.RouteLenth:
-        #     NextNode = Route0.GetNextNote()
-        #     [NextX,NextY] = [NextNode.x,NextNode.y]
-        #     if GameInfo.Map[NextX][NextY] == THUAI6.PlaceType.Window and api.GetSelfInfo().playerState != THUAI6.PlayerState.Climbing:
-        #         api.SkipWindow()
-        #     else :
-        #         [NodeX,NodeY] = [AssistFunction.CellToGrid(NextNode.x),AssistFunction.CellToGrid(NextNode.y)]
-        #         [Dis,Angle] = CalCulateMove([api.GetSelfInfo().x,api.GetSelfInfo().y],[NodeX,NodeY])
-        #         MoveTime = round(Dis/api.GetSelfInfo().speed*1000)
-        #         api.Print(MoveTime)
-        #         if MoveTime < 5: 
-        #             MoveTime = 5
-        #         api.Move(MoveTime, Angle)
-        # elif api.GetSelfInfo().playerState != THUAI6.PlayerState.Learning: 
-        #     api.StartLearning()
+        # '''学生能否重叠以及能否两人同时写作业会影响到以下代码的执行'''
+        # for i in range(0,4):
+        #     if not i == StudentInfo.MyID:
+        #         StuPosCell = [AssistFunction.GridToCell(StudentInfo.Students[i].x),
+        #                 AssistFunction.GridToCell(StudentInfo.Students[i].y)]
+                # Route0.RouteMap[StuPosCell[0]][StuPosCell[1]].NodeType = api.GetPlaceType(StuPosCell[0],StuPosCell[1]) #解除位置标注防止影响下一帧寻路
+        # for i in range(0,Route0.RouteLenth):
+        #     api.Print([Route0.Routes[i].x,Route0.Routes[i].y])
+        #     api.Print("-----------------------------------")
+        if Route0.RouteLenth:
+            NextNode = Route0.GetNextNote()
+            [NextX,NextY] = [NextNode.x,NextNode.y]
+            if GameInfo.Map[NextX][NextY] == THUAI6.PlaceType.Window and api.GetSelfInfo().playerState != THUAI6.PlayerState.Climbing:
+                api.SkipWindow()
+            else :
+                [NodeX,NodeY] = [AssistFunction.CellToGrid(NextNode.x),AssistFunction.CellToGrid(NextNode.y)]
+                [Dis,Angle] = CalCulateMove([api.GetSelfInfo().x,api.GetSelfInfo().y],[NodeX,NodeY])
+                MoveTime = round(Dis/api.GetSelfInfo().speed*1000)
+                api.Print(MoveTime)
+                if MoveTime < 5: 
+                    MoveTime = 5
+                api.Move(MoveTime, Angle)
+        elif api.GetSelfInfo().playerState != THUAI6.PlayerState.Learning: 
+            api.StartLearning()
 
         '''每个学生各自的代码'''
         if self.__playerID == 0:
@@ -175,6 +176,7 @@ class InfoOfGame:
         self.GameInfo = api.GetGameInfo()
         self.UnFinClassRooms : List[[int,int]] = []
         self.FinClassRooms : List[[int,int]] = []
+        self.FinClassRoomNum : int = 0
         self.InitClassRooms()
 
     def upgradeFrameCount(self,api:IStudentAPI) -> bool:
@@ -227,6 +229,7 @@ class InfoOfGame:
                     self.FinClassRooms.append(ClassRoom)
                     self.upgradeMap([ClassRoom[0],ClassRoom[1],THUAI6.PlaceType.Wall]) #认为已完成的作业为wall
                     change = change +1 
+            self.FinClassRoomNum = len(self.FinClassRooms)
             return (change==0)
 
 class InfoOfPlayers:
