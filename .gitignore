@@ -1,8 +1,8 @@
-!/CAPI/python/PyAPI/AI.py
 CAPI/cpp/
 CAPI/proto/
 CAPI/python/proto/
-CAPI/python/PyAPI/__pycache__/
+CAPI/python/PyAPI/
+!CAPI/python/PyAPI/AI.py
 CAPI/python/logs/
 win64/
 video.thuaipb
