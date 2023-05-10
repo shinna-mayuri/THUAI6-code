@@ -1,7 +1,7 @@
 CAPI/cpp/
 CAPI/proto/
 CAPI/python/proto/
-CAPI/python/PyAPI/
+CAPI/python/PyAPI/*
 !CAPI/python/PyAPI/AI.py
 CAPI/python/logs/
 win64/
