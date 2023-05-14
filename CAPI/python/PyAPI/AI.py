@@ -82,7 +82,17 @@ class AI(IAI):
         for [x,y] in GameInfo.UnFinClassRooms:
             if api.GetClassroomProgress(x,y) == 10000000:
                 finclassroom.append([x,y])
-        GameInfo.upgradeClassRooms(finclassroom)
+        api.Print("View update classroom is")
+        api.Print(GameInfo.upgradeClassRooms(finclassroom))
+
+        openedgate = []
+        for i in range(0,len(GameInfo.Gates)):
+            if not GameInfo.IsGateOpen[i]:
+                [x,y] = GameInfo.Gates[i]     
+                if  api.GetGateProgress(x,y) == 18000:
+                    openedgate.append([x,y])
+        GameInfo.upgradeGates(openedgate)
+
         
 
         '''信息发送及接收'''
@@ -98,37 +108,54 @@ class AI(IAI):
             if Student.playerID == StudentInfo.MyID:
                 Route0.SetBeginNode(StuPosCell[0],StuPosCell[1])
             else :
-                continue
-                # Route0.RouteMap[StuPosCell[0]][StuPosCell[1]].NodeType = THUAI6.PlaceType.NullPlaceType #标注其他人的位置，防止互相碰撞
+                GameInfo.Map[StuPosCell[0]][StuPosCell[1]] = THUAI6.PlaceType.NullPlaceType #标注其他人的位置，防止互相碰撞
 
-        Route0.SetEndNotes(GameInfo)
+        '''设置寻路起点/终点并进行寻路'''
+        if GameInfo.FinClassRoomNum < 7:
+            Route0.SetGoalNodes(goalnodes=GameInfo.UnFinClassRooms,isgoalarrivabel=False)
+        elif GameInfo.FinClassRoomNum >= 7:
+            Route0.SetGoalNodes(goalnodes=GameInfo.Gates,isgoalarrivabel=False)
+        api.Print("goalnode num is")
         Route0.FindRoute(GameInfo.Map)
-        api.Print(Route0.RouteLenth)
+        api.Print(len(Route0.GoalNodes))
 
         # '''学生能否重叠以及能否两人同时写作业会影响到以下代码的执行'''
-        # for i in range(0,4):
-        #     if not i == StudentInfo.MyID:
-        #         StuPosCell = [AssistFunction.GridToCell(StudentInfo.Students[i].x),
-        #                 AssistFunction.GridToCell(StudentInfo.Students[i].y)]
-                # Route0.RouteMap[StuPosCell[0]][StuPosCell[1]].NodeType = api.GetPlaceType(StuPosCell[0],StuPosCell[1]) #解除位置标注防止影响下一帧寻路
+        for i in range(0,4):
+            if not StudentInfo.Students[i].playerID == StudentInfo.MyID:
+                StuPosCell = [AssistFunction.GridToCell(StudentInfo.Students[i].x),
+                        AssistFunction.GridToCell(StudentInfo.Students[i].y)]
+                GameInfo.Map[StuPosCell[0]][StuPosCell[1]] = api.GetPlaceType(StuPosCell[0],StuPosCell[1]) #解除位置标注防止影响下一帧寻路
         # for i in range(0,Route0.RouteLenth):
         #     api.Print([Route0.Routes[i].x,Route0.Routes[i].y])
         #     api.Print("-----------------------------------")
         if Route0.RouteLenth:
-            NextNode = Route0.GetNextNote()
+            NextNode = Route0.GetNextNode()
             [NextX,NextY] = [NextNode.x,NextNode.y]
             if GameInfo.Map[NextX][NextY] == THUAI6.PlaceType.Window and api.GetSelfInfo().playerState != THUAI6.PlayerState.Climbing:
                 api.SkipWindow()
-            else :
+            elif StudentInfo.IsStuck:   
+                api.Print("Get Stuck!!!!!!!!!!")
+                GetOffStuck(api)  #控制脱离卡死
+            else:
                 [NodeX,NodeY] = [AssistFunction.CellToGrid(NextNode.x),AssistFunction.CellToGrid(NextNode.y)]
                 [Dis,Angle] = CalCulateMove([api.GetSelfInfo().x,api.GetSelfInfo().y],[NodeX,NodeY])
                 MoveTime = round(Dis/api.GetSelfInfo().speed*1000)
-                api.Print(MoveTime)
                 if MoveTime < 5: 
                     MoveTime = 5
                 api.Move(MoveTime, Angle)
-        elif api.GetSelfInfo().playerState != THUAI6.PlayerState.Learning: 
+        
+        elif GameInfo.FinClassRoomNum < 7 and api.GetSelfInfo().playerState != THUAI6.PlayerState.Learning: 
             api.StartLearning()
+        elif GameInfo.FinClassRoomNum >=7:
+            NowGoal:RouteNode = Route0.GetGoalNode()
+            GoalNum = GameInfo.Gates.index([NowGoal.x,NowGoal.y])
+            if not GameInfo.IsGateOpen[GoalNum] and api.GetSelfInfo().playerState != THUAI6.PlayerState.OpeningAGate:   #门还没开就开门
+                api.StartOpenGate()
+            elif GameInfo.IsGateOpen[GoalNum]:
+                api.Graduate()
+        
+        '''记录信息以备下次使用'''
+        StudentInfo.RecordStudentInfo()
 
         '''每个学生各自的代码'''
         if self.__playerID == 0:
@@ -167,6 +194,19 @@ def CalCulateMove(Begin: List[int],Goal: List[int]) -> List:
             Angle = Angle + math.pi
     return [Dis,Angle]
 
+def GetOffStuck(api:IStudentAPI) -> None:
+    '''用于处理学生卡住时的情况'''
+    selfinfo:THUAI6.Student = api.GetSelfInfo()
+    [nowx,nowy] = [selfinfo.x,selfinfo.y]
+    [cellx,celly] = [AssistFunction.GridToCell(nowx),AssistFunction.GridToCell(nowy)]
+    [gridx,gridy] = [AssistFunction.CellToGrid(cellx),AssistFunction.CellToGrid(celly)]
+    [dis,angle] = CalCulateMove([nowx,nowy], [gridx,gridy])
+    MoveTime = round(dis/selfinfo.speed*1000)
+    if MoveTime < 5:
+        MoveTime = 5
+    api.Move(MoveTime, angle)
+    
+
 
 class InfoOfGame:
 
@@ -174,10 +214,19 @@ class InfoOfGame:
         self.FrameCount :int = 0
         self.Map :List[List[THUAI6.PlaceType]] = api.GetFullMap()
         self.GameInfo = api.GetGameInfo()
+
+
         self.UnFinClassRooms : List[[int,int]] = []
         self.FinClassRooms : List[[int,int]] = []
         self.FinClassRoomNum : int = 0
-        self.InitClassRooms()
+        self.Gates : List[[int,int]] = []
+        self.IsGateOpen: List[bool] = []  #由于Gate在开启之后仍然需要使用，因此需要记录其状态
+        self.HiddenGatesPlace: List[[int,int]] = []
+        '''只存刷新点'''
+        self.HiddenGates: List[[int,int]] = []
+        '''真正的隐藏门'''
+        
+        self.InitAllPlaceList()
 
     def upgradeFrameCount(self,api:IStudentAPI) -> bool:
         GameTime = api.GetGameInfo().gameTime
@@ -209,13 +258,19 @@ class InfoOfGame:
                 self.Map = map
                 return True
 
-    def InitClassRooms(self) ->None:
-        '''依据地图更新教室所在地点'''
+    def InitAllPlaceList(self) ->None:
+        '''依据地图更新教室/大门等所在地点'''
         for x in range(0,50):
             for y in range(0,50):
                 if self.Map[x][y] == THUAI6.PlaceType.ClassRoom:
                     self.UnFinClassRooms.append([x,y])
+                elif self.Map[x][y] == THUAI6.PlaceType.Gate:
+                    self.Gates.append([x,y])
+                    self.IsGateOpen.append(False)
+                elif self.Map[x][y] == THUAI6.PlaceType.HiddenGate:
+                    self.HiddenGatesPlace.append([x,y])
     
+
     def upgradeClassRooms(self,ClassRooms:[[int,int]]) ->bool:
         '''将传入列表中的教室设定为已完成并同时更改地图，有变化返回True'''
         if len(ClassRooms) == 0:
@@ -231,6 +286,21 @@ class InfoOfGame:
                     change = change +1 
             self.FinClassRoomNum = len(self.FinClassRooms)
             return (change==0)
+    
+    def upgradeGates(self,Gates:[[int,int]]) ->bool:
+        '''将传入列表中的校门设定为已开启，有变化返回True'''
+        if len(Gates) == 0:
+            return False
+        else:
+            change = 0
+            for Gate in Gates:
+                if self.Gates.count(Gate):
+                    i = self.Gates.index(Gate)
+                    if not self.IsGateOpen[i]:
+                        self.IsGateOpen[i] = True
+                        change = change +1 
+            return (change==0)
+
 
 class InfoOfPlayers:
     
@@ -239,6 +309,8 @@ class InfoOfPlayers:
         self.Students : List[THUAI6.Student] = api.GetStudents()
         '''注意顺序并不按照player排，是随机的'''
         self.MyID :int = api.GetSelfInfo().playerID
+        self.PreSelfPos: [int,int] = []
+        self.IsStuck:bool =False
 
         self.ViewTricker(api)
         if  self.CanViewTricker == True:
@@ -255,8 +327,19 @@ class InfoOfPlayers:
 
 
     def UpgradeStudentInfo(self,api:IStudentAPI) ->None:
+        '''在程序运行初更新学生信息'''
         self.Students = api.GetStudents()
-        
+        if api.GetSelfInfo().playerState == THUAI6.PlayerState.Idle and self.PreSelfPos == [api.GetSelfInfo().x,api.GetSelfInfo().y]:
+            self.IsStuck = True
+        else :
+            self.IsStuck = False
+
+    def RecordStudentInfo(self) ->None:
+        '''在程序最后记录学生信息以便下次对比'''
+        for i in range(0,4):
+            if self.Students[i].playerID == self.MyID:
+                self.PreSelfPos = [self.Students[i].x,self.Students[i].y]
+
     def ViewTricker(self,api:IStudentAPI)->None:
         '''函数会自动更新Tricker信息,该函数应当在每帧开头调用一次'''
         Tricker = api.GetTrickers()
@@ -290,10 +373,15 @@ class MessageInfo:
             message = message + 'T' + str(StudentInfo.Tricker[0].x) + '?' + str(StudentInfo.Tricker[0].y) + '/'
 
         '''Map Info'''
-        if len(GameInfo.FinClassRooms):
+        if len(GameInfo.FinClassRooms):  
             for ClassRoom in GameInfo.FinClassRooms:  #只发送已完成的教室
-                message = message + 'C'+ str(ClassRoom[0]) + '?' +  str(ClassRoom[1]) + '/'        
-
+                message = message + 'C'+ str(ClassRoom[0]) + '?' + str(ClassRoom[1]) + '/'   
+        
+        for Gate in GameInfo.Gates:
+            gatenum = GameInfo.Gates.index(Gate)
+            if GameInfo.IsGateOpen[gatenum]:   #只发送已完成的大门
+                message = message + 'G' + str(gatenum) + '/'
+        
         self.Message[StudentInfo.MyID] = message
 
     def ReceiveMessageFromOther(self,StudentInfo: InfoOfPlayers,GameInfo:InfoOfGame,api:IStudentAPI) ->None:
@@ -319,7 +407,10 @@ class MessageInfo:
                 '''Map Info'''
             elif MessageUnit[0] == 'C':
                 [x,y] = MessageUnit[1:].split(sep='?')
-                ClassRooms.append([x,y])
+                ClassRooms.append([int(x),int(y)])
+            elif MessageUnit[0] == 'G':
+                gatenum = int(MessageUnit[1:])
+                GameInfo.IsGateOpen[gatenum] = True
 
         GameInfo.upgradeClassRooms(ClassRooms)
 
@@ -366,7 +457,9 @@ class Routing:
     def __init__(self):
         self.RouteLenth = 114514
         self.BeginNode = RouteNode()
-        self.EndNotes :List[RouteNode] = []
+        self.GoalNode = RouteNode()  #用来记录最终的目标点，该目标点可能无法到达
+        self.GoalNodes : List[RouteNode] = []
+        self.IsGoalArrivabel = False  #用来确认是走九宫格还是直接走到目标点处
         self.Routes :List[RouteNode] = []
         self.RouteMap :List[List[RouteNode]]= []
 
@@ -378,76 +471,22 @@ class Routing:
                 Node = RouteNode(i,j)
                 self.RouteMap[i].append(Node)
 
-    def GetNextNote(self) -> RouteNode:
+    def GetNextNode(self) -> RouteNode:
         '''用于获取下一个需要前往的路径点'''
         return self.Routes[-1]
-        
-    # def SetClassRooms(self) ->None:
-    #     '''初始化教室列表'''
-    #     for i in range(0,50):
-    #         for j in range(0,50):
-    #             if self.RouteMap[i][j].NodeType == THUAI6.PlaceType.ClassRoom:
-    #                 self.UnfinClassroom.append(self.RouteMap[i][j])
-    #     self.UnfinClassroomNum = len(self.UnfinClassroom)
 
-    # def InitClassRoomss(self,api:IStudentAPI,ClassRooms:List[RouteNode] = []) ->None:
-    #     '''更新作业完成状态,同时也会自动更新终点信息,若输入classroom则会自动移除(不检查输入合法)'''
-    #     if len(ClassRooms):
-    #         for ClassRoom in ClassRooms:
-    #             if api.GetClassroomProgress(ClassRoom.x, ClassRoom.y) == 10000000:
-    #                 continue
-    #             for i in range(self.UnfinClassroomNum-1,-1,-1):  #从列表中删除需要使用倒序循环
-    #                 # api.Print(api.GetClassroomProgress(self.UnfinClassroom[i].x, self.UnfinClassroom[i].y))
-    #                 if self.UnfinClassroom[i].x == ClassRoom.x and self.UnfinClassroom[i].y == ClassRoom.y:
-    #                     FinishedClassroom = self.UnfinClassroom.pop(i)
-    #                     self.FinishedClassrooms.append(FinishedClassroom)
-    #                     self.RouteMap[FinishedClassroom.x][FinishedClassroom.y].NodeType = THUAI6.PlaceType.NullPlaceType #修改地图使该位置显示为不可越过
-    #                     for j in range(len(self.EndNotes)-1,-1,-1):
-    #                         if ((self.EndNotes[j].x - FinishedClassroom.x)**2 + (self.EndNotes[j].y - FinishedClassroom.y)**2) < 3:
-    #                             self.EndNotes.pop(j)
+    def GetGoalNode(self)->RouteNode:
+        '''用于获取寻路的最终目标点'''
+        return self.GoalNode
 
-    #     else:
-    #         for i in range(self.UnfinClassroomNum-1,-1,-1):  #从列表中删除需要使用倒序循环
-    #             api.Print(api.GetClassroomProgress(self.UnfinClassroom[i].x, self.UnfinClassroom[i].y))
-    #             if api.GetClassroomProgress(self.UnfinClassroom[i].x, self.UnfinClassroom[i].y) == 10000000:
-    #                 FinishedClassroom = self.UnfinClassroom.pop(i)
-    #                 self.FinishedClassrooms.append(FinishedClassroom)
-    #                 self.RouteMap[FinishedClassroom.x][FinishedClassroom.y].NodeType = THUAI6.PlaceType.NullPlaceType #修改地图使该位置显示为不可越过
-    #                 for j in range(len(self.EndNotes)-1,-1,-1):
-    #                     if ((self.EndNotes[j].x - FinishedClassroom.x)**2 + (self.EndNotes[j].y - FinishedClassroom.y)**2) < 3:
-    #                         self.EndNotes.pop(j)
-
-    #     api.Print('ClassRoom Num is ' + str(self.UnfinClassroomNum))
-    #     self.UnfinClassroomNum = len(self.UnfinClassroom)
-
-    def SetEndNotes(self,GameInfo:InfoOfGame,endnotes :List[RouteNode] = []) ->None:
-        '''用于设置终点，不输入参数则默认终点为ClassRoom周围'''
-        if not len(endnotes):
-            self.EndNotes = []
-            for [i,j] in GameInfo.UnFinClassRooms:
-                for [ii,jj] in [[i + 1,j],    #九宫格内即可
-                                [i + 1,j - 1],
-                                [i - 1,j + 1],
-                                [i - 1,j - 1],
-                                [i + 1,j + 1 ],
-                                [i - 1,j ],
-                                [i ,j + 1],
-                                [i ,j - 1]]:
-                    if 0 <= ii < 50 and  0 <= jj < 50:
-                        Node = RouteNode(ii,jj)
-                        self.EndNotes.append(Node)
-        else:
-            self.EndNotes = endnotes
-
-    
-    # def UpgradeRouteMap(self,mapnode: RouteNode) ->bool:
-    #     '''返回真表明有更新，否则没有'''
-    #     [x,y] = [mapnode.x,mapnode.y]
-    #     if self.RouteMap[x][y].NodeType == mapnode.NodeType:
-    #             return False
-    #     else :
-    #         self.RouteMap[x][y].NodeType = mapnode.NodeType
-    #         return True
+    def SetGoalNodes(self,goalnodes :[[int,int]] = [],isgoalarrivabel:bool = False) ->None:
+        '''设置终点为goalnotes，,isgoalarrivabel为假则将终点设置在周围'''
+        self.IsGoalArrivabel = isgoalarrivabel
+        self.GoalNodes = []
+        if len(goalnodes):
+            for [x,y] in goalnodes:
+                Node = RouteNode(x,y)
+                self.GoalNodes.append(Node)
 
     def SetBeginNode(self,x: int,y: int):
         self.BeginNode.x = x
@@ -493,15 +532,31 @@ class Routing:
                             # 只追求计算速度而忽略稳定性时可删除该部分
                         q.put(self.RouteMap[i][j])
         
-        # 用来确定去哪一个教室旁边
-        GoalNode = self.RouteMap[0][0] #肯定无法到达的点
-        for k in range(0,len(self.EndNotes)):
-            if  self.RouteMap[self.EndNotes[k].x][self.EndNotes[k].y].Distance < GoalNode.Distance:
-                GoalNode = self.RouteMap[self.EndNotes[k].x][self.EndNotes[k].y]
-        
+        # 用来确定去哪一个endnode和该endnode对应的goal
+        EndNode = self.RouteMap[0][0] #肯定无法到达的点
+        if self.IsGoalArrivabel:
+            for k in range(0,len(self.GoalNodes)):
+                if  self.RouteMap[self.GoalNotes[k].x][self.GoalNotes[k].y].Distance < EndNode.Distance:
+                    EndNode = self.RouteMap[self.GoalNotes[k].x][self.GoalNotes[k].y]
+                    self.GoalNode = EndNode
+        elif not self.IsGoalArrivabel:
+            for goalnode in self.GoalNodes:
+                [i,j] = [goalnode.x,goalnode.y]
+                for [ii,jj] in [[i + 1,j],    #九宫格内即可
+                                [i + 1,j - 1],
+                                [i - 1,j + 1],
+                                [i - 1,j - 1],
+                                [i + 1,j + 1 ],
+                                [i - 1,j ],
+                                [i ,j + 1],
+                                [i ,j - 1]]:
+                    if 0 <= ii < 50 and  0 <= jj < 50 and self.RouteMap[ii][jj].Distance < EndNode.Distance:
+                        EndNode = self.RouteMap[ii][jj]
+                        self.GoalNode = goalnode
+
         # 返回路径
         self.Routes = []
-        PreNode = GoalNode
+        PreNode = EndNode
         while PreNode.Distance :
             self.Routes.append(PreNode)
             PreNode = self.RouteMap[PreNode.prex][PreNode.prey]
@@ -510,41 +565,6 @@ class Routing:
 
                     
 
-                
-
-        
-        '''必须实现的功能'''
-
-        '''学生部分：
-        学生信息是完全透明的
-        场地信息和对手信息是不透明的，需要相互传递
-        对于每份代码应该只有具体的操作不同，所需实例化的对象数目相同，功能基本相同
-        尽量保证功能相似的变量不出现两个
-        目前重点：关于信息是否可视部分应该在哪个部分做
-        大约在学生信息更新后和message前
-
-        GameControl部分：
-        处理和控制帧数，并调用和控制其他模块执行
-
-        Message部分：(接收到的信息存在至少一帧的延时)
-        使用View函数观察并打包所有可视信息
-        接收队友传来的所有非可视信息（防止延时）
-        将这些信息（接收到的和自己看到的）解码并更新
-        理论上只要每帧执行一次该部分即可，并且是最先执行
-        
-        Route部分：
-        目前节点所需信息可以认为是最少的，唯一可能需要更新的部分是节点比较函数eq（定义节点相同）--》能简化工作量，先验证可行性
-        寻路的关键在于RouteMap，可能对其进行的操作有：
-        初始化整个map
-        修改map某个节点状态
-        寻路过程中记录找到的路径等
-        ***此外附加的终点设定应该交给其他函数完成***
-        信息的记录与修改应该外包给其他函数
-        理论上寻路也只需要每帧执行一次，除非寻路不存在结果（目标不存在或被卡死）
-
-        
-        Move部分：
-        应当基于Message和Route的共同信息控制Route的寻路方向，并决定具体调用何种函数
-        '''
+            
 
 
